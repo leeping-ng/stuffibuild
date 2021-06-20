@@ -1,10 +1,13 @@
-import './App.css';
+import React from 'react';
+import ProductHero from './components/ProductHero';
 
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <React.Fragment>
+      <ProductHero />
+    </React.Fragment>
+
   );
 }
 
