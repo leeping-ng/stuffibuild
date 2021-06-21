@@ -1,13 +1,14 @@
 import React from 'react';
 import ProductHero from './components/ProductHero';
-import ProductValues from './components/ProductValues';
+import Hero from './components/Hero';
+import Montage from './components/Montage';
 
 
 function App() {
   return (
     <React.Fragment>
-      <ProductHero />
-      <ProductValues />
+      <Hero />
+      <Montage />
     </React.Fragment>
 
   );
