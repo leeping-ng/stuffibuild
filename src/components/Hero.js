@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import ReactPlayer from 'react-player';
-import backgroundImage from '../images/bg-terrex.mp4';
+// import backgroundImage from '../images/bg-terrex.mp4';
+import backgroundImage from '../images/bg-terrex-compressed.mp4';
 import Container from '@material-ui/core/Container';
 
 

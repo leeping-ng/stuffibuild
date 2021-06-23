@@ -5,15 +5,22 @@ import ButtonBase from '@material-ui/core/ButtonBase';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 
-import facialRecognitionBox from '../images/facial-recognition-box.jpg';
-import terrex from '../images/terrex.jpeg';
-import mindstormsRobotank from '../images/mindstorms-robotank.JPG';
-import trackedTransmission from '../images/tracked-transmission.JPG';
-import porsche911 from '../images/porsche-911.JPG';
-import droneTransporter from '../images/drone-transporter.JPG';
-import tukTuk from '../images/tuk-tuk.JPG';
-import walkingCrab from '../images/walking-crab.JPG';
-import lsv2 from '../images/LSV-2.JPG';
+import firstMoc from '../images/1-first-moc.jpg';
+import hondaCivic from '../images/2-honda-civic.jpg';
+import walkingCrab from '../images/3-walking-crab.jpg';
+import crawler from '../images/4-4x4-crawler.jpg';
+import tukTuk from '../images/5-tuk-tuk.jpg';
+import lsv1 from '../images/6-LSV-1.jpg';
+import gatlingGun from '../images/7-gatling-gun.jpg';
+import lsv2 from '../images/8-LSV-2.jpg';
+import namePlate from '../images/9-name-plate.jpg';
+import towerCrane from '../images/10-tower-crane.jpg';
+import droneTransporter from '../images/11-drone-transporter.jpg';
+import trackedTransmission from '../images/12-tracked-transmission.jpg';
+import porsche911 from '../images/13-porsche-911.jpg';
+import terrex from '../images/14-terrex.jpg';
+import mindstormsRobotank from '../images/15-mindstorms-robotank.jpg';
+import facialRecognitionBox from '../images/16-facial-recognition-box.jpg';
 
 
 const styles = (theme) => ({
@@ -31,11 +38,18 @@ const styles = (theme) => ({
     display: 'block',
     padding: 0,
     borderRadius: 0,
-    height: '40vh',
-    // [theme.breakpoints.down('sm')]: {
-    //   width: '100% !important',
-    //   height: 100,
-    // },
+    [theme.breakpoints.down('xs')]: {
+      width: '50%',
+      height: 200,
+    },
+    [theme.breakpoints.up('sm')]: {
+      width: '50%',
+      height: 250,
+    },
+    [theme.breakpoints.up('md')]: {
+      width: '25%',
+      minHeight: 250,
+    },
     '&:hover': {
       zIndex: 1,
     },
@@ -100,64 +114,84 @@ function ProductCategories(props) {
   const images = [
     {
       url: facialRecognitionBox,
-      title: 'Facial Recognition Box',
-      width: '33%',
-    },
-    {
-      url: terrex,
-      title: '8x8 Terrex',
-      width: '33%',
+      title: 'Facial Recognition Box'
     },
     {
       url: mindstormsRobotank,
-      title: 'Robotank',
-      width: '33%',
+      title: 'Robotank'
     },
     {
-      url: trackedTransmission,
-      title: 'Tracked Vehicle Transmission',
-      width: '33%',
+      url: terrex,
+      title: '8x8 Terrex'
     },
     {
       url: porsche911,
-      title: 'Porsche 911',
-      width: '33%',
+      title: 'Porsche 911'
+    },
+    {
+      url: trackedTransmission,
+      title: 'Tracked Vehicle Transmission'
     },
     {
       url: droneTransporter,
-      title: 'Drone Transporter',
-      width: '33%',
+      title: 'Drone Transporter'
     },
     {
-      url: tukTuk,
-      title: 'Tuk Tuk',
-      width: '33%',
+      url: towerCrane,
+      title: 'Tower Crane'
     },
     {
-      url: walkingCrab,
-      title: 'Walking Crab',
-      width: '33%',
+      url: namePlate,
+      title: 'Name Plate'
     },
     {
       url: lsv2,
-      title: 'Light Strike Vehicle II',
-      width: '33%',
+      title: 'Light Strike Vehicle II'
     },
+    {
+      url: gatlingGun,
+      title: 'Gatling Gun'
+    },
+    {
+      url: lsv1,
+      title: 'Light Strike Vehicle I'
+    },
+    {
+      url: tukTuk,
+      title: 'Tuk Tuk'
+    },
+    {
+      url: crawler,
+      title: '4x4 Crawler'
+    },
+    {
+      url: walkingCrab,
+      title: 'Walking Crab'
+    },
+    {
+      url: hondaCivic,
+      title: 'Honda Civic'
+    },
+    {
+      url: firstMoc,
+      title: 'Sports Car'
+    },
+
   ];
 
   return (
     <Container className={classes.root} component="section">
       <Typography variant="h4" marked="center" align="center" component="h2">
-        For all tastes and all desires
+        stuff i build
       </Typography>
       <div className={classes.images}>
         {images.map((image) => (
           <ButtonBase
             key={image.title}
             className={classes.imageWrapper}
-            style={{
-              width: image.width,
-            }}
+            // style={{
+            //   width: image.width,
+            // }}
           >
             <div
               className={classes.imageSrc}

@@ -1,5 +1,4 @@
 import React from 'react';
-import ProductHero from './components/ProductHero';
 import Hero from './components/Hero';
 import Montage from './components/Montage';
 
