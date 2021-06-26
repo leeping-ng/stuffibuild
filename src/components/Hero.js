@@ -6,6 +6,9 @@ import ReactPlayer from 'react-player';
 // import backgroundImage from '../images/bg-terrex.mp4';
 import backgroundImage from '../images/bg-terrex-compressed.mp4';
 import Container from '@material-ui/core/Container';
+import clsx from 'clsx';
+import Box from '@material-ui/core/Box';
+import Button from '@material-ui/core/Button';
 
 
 const styles = (theme) => ({
@@ -18,10 +21,10 @@ const styles = (theme) => ({
 			objectFit: 'cover',
 		},
 		[theme.breakpoints.up('sm')]: {
-      height: '80vh',
-      minHeight: 500,
-      maxHeight: 1300,
-    },
+			height: '80vh',
+			minHeight: 500,
+			maxHeight: 1300,
+			},
 	},
 	overlay: {
 		position: 'absolute',
@@ -54,9 +57,21 @@ function Hero(props) {
 					height="100%"
 				/>
 				<div className={classes.overlay}>
-					{/* <Typography color="inherit" align="center" variant="h2" marked="center">
-						Upgrade your Sundays
-					</Typography> */}
+					<Box
+						height="100%"
+						display="flex"
+						flexDirection="column"
+						justifyContent="center"
+						alignItems="center"
+						color="#fff"
+					>
+						<Typography variant="h3" component="h1" className={classes.title}>
+							Hi, I'm Lee Ping.
+						</Typography>
+						<Typography variant="h5" component="h1" className={classes.title}>
+							This is a showcase of stuff I build.
+						</Typography>
+					</Box>
 				</div>
       </section>
     );
