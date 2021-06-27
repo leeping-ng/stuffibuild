@@ -1,15 +1,18 @@
 import React from 'react';
 import AppBar from './components/AppBar';
 import Hero from './components/Hero';
+import DesignPhilosophy from './components/DesignPhilosophy';
 import Montage from './components/Montage';
 import Footer from './components/Footer';
 
 
 function App() {
+
   return (
     <React.Fragment>
       <AppBar />
       <Hero />
+      <DesignPhilosophy />
       <Montage />
       <Footer />
     </React.Fragment>
