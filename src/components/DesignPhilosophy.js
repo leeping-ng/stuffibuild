@@ -11,15 +11,33 @@ const styles = (theme) => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
+    backgroundImage: `url(${isoPaper})`,
+    [theme.breakpoints.up('sm')]: {
+			height: '80vh',
+			minHeight: 500,
+			maxHeight: 1300,
+			},
+    alignItems: 'center',
+    justifyContent: 'center',
     position: 'relative',
     // overflow: 'hidden',
-    // backgroundColor: theme.palette.secondary.light,
+    backgroundColor: 'white',
   },
+  overlay: {
+		position: 'absolute',
+		top: 0,
+		left: 0,
+		width: '100%',
+		height: '100%',
+		backgroundColor: 'rgba(255, 255, 255, 0.5)',
+	},
   container: {
     marginTop: theme.spacing(15),
     marginBottom: theme.spacing(30),
     display: 'flex',
-    position: 'absolute',
+    flexDirection: 'column',
+    position: 'relative',
+    
   },
   item: {
     display: 'flex',
@@ -34,17 +52,6 @@ const styles = (theme) => ({
     marginTop: theme.spacing(5),
     marginBottom: theme.spacing(5),
   },
-  isoPaper: {
-    pointerEvents: 'none',
-    position: 'relative',
-    opacity: 0.5,
-    top: 100,
-    // backgroundImage: `url(${isoPaper})`,
-    backgroundSize: 'contain'
-    // top: -180,
-    // width: '100%',
-    // zIndex: 0,
-  },
 });
 
 function DesignPhilosophy(props) {
@@ -52,10 +59,9 @@ function DesignPhilosophy(props) {
 
   return (
     
-    <section className={classes.root}>
+    <section className={classes.root} >
+      {/* <div className={classes.overlay} /> */}
       
-      <div style = {{ height: 800, backgroundImage: `url(${isoPaper})` }} />
-  
       <Container className={classes.container}>
         
         <Grid container spacing={5}>
@@ -109,6 +115,7 @@ function DesignPhilosophy(props) {
           </Grid>
         </Grid>
       </Container>
+
  </section>
   );
 }

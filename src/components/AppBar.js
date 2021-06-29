@@ -1,11 +1,7 @@
 import React from "react";
-// import clsx from "clsx";
-// @material-ui/core components
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import Link from '@material-ui/core/Link';
-import { makeStyles } from "@material-ui/core/styles";
-import { useTheme } from "@material-ui/core/styles";
 import MuiAppBar from "@material-ui/core/AppBar";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
@@ -16,18 +12,17 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Menu from "@material-ui/core/Menu";
 import Toolbar from "@material-ui/core/Toolbar";
-// @material-ui/icons components
 import Clear from "@material-ui/icons/Clear";
 import MenuIcon from "@material-ui/icons/Menu";
 
-// core components
-// import componentStyles from "assets/theme/components/navbar.js";
 
 
 const styles = (theme) => ({
   muiAppBar: {
     color: theme.palette.common.white,
-    background: 'black'
+    background: 'black',
+    position: 'fixed',
+    elevation: 0,
   },
   title: {
     fontSize: 24,
@@ -42,9 +37,6 @@ const styles = (theme) => ({
     color: theme.palette.common.white,
     marginLeft: theme.spacing(3),
   },
-  spacer: {
-    height: 64
-  }
 });
 
 function AppBar(props) {
@@ -81,8 +73,7 @@ function AppBar(props) {
       <div className={classes.spacer} />
       <MuiAppBar
         className={classes.muiAppBar}
-        position="fixed"
-        elevation={0}
+        
       >
         <Toolbar>
           <Container

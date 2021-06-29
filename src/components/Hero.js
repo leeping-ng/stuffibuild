@@ -3,23 +3,23 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import ReactPlayer from 'react-player';
-// import backgroundImage from '../images/bg-terrex.mp4';
 import backgroundImage from '../images/bg-terrex-compressed.mp4';
 import Container from '@material-ui/core/Container';
-import clsx from 'clsx';
 import Box from '@material-ui/core/Box';
-import Button from '@material-ui/core/Button';
 
 
 const styles = (theme) => ({
 	root: {
 		color: theme.palette.common.white,
-		display: 'flex',
+		// display: 'flex',
     alignItems: 'center',
 		position: 'relative',
 		'& video': {
 			objectFit: 'cover',
 		},
+    [theme.breakpoints.down('xs')]: {
+			height: '50vh',
+			},
 		[theme.breakpoints.up('sm')]: {
 			height: '80vh',
 			minHeight: 500,
@@ -56,6 +56,7 @@ function Hero(props) {
 					width="100%"
 					height="100%"
 				/>
+				<Container className={classes.container}>
 				<div className={classes.overlay}>
 					<Box
 						height="100%"
@@ -73,6 +74,7 @@ function Hero(props) {
 						</Typography>
 					</Box>
 				</div>
+				</Container>
       </section>
     );
 }
