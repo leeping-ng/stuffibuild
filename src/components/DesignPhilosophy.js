@@ -5,22 +5,19 @@ import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import isoPaper from '../images/isometric-paper.png';
+import legoBrick from '../images/lego-brick.png';
+import wrench from '../images/wrench.png';
+import zenCircle from '../images/zen-circle.png';
 
 
 const styles = (theme) => ({
   root: {
-    display: 'flex',
-    flexDirection: 'column',
+    display: 'block',
+    overflow: 'hidden',
     backgroundImage: `url(${isoPaper})`,
-    [theme.breakpoints.up('sm')]: {
-			height: '80vh',
-			minHeight: 500,
-			maxHeight: 1300,
-			},
     alignItems: 'center',
     justifyContent: 'center',
     position: 'relative',
-    // overflow: 'hidden',
     backgroundColor: 'white',
   },
   overlay: {
@@ -32,8 +29,8 @@ const styles = (theme) => ({
 		backgroundColor: 'rgba(255, 255, 255, 0.5)',
 	},
   container: {
-    marginTop: theme.spacing(15),
-    marginBottom: theme.spacing(30),
+    marginTop: theme.spacing(8),
+    marginBottom: theme.spacing(8),
     display: 'flex',
     flexDirection: 'column',
     position: 'relative',
@@ -60,7 +57,7 @@ function DesignPhilosophy(props) {
   return (
     
     <section className={classes.root} >
-      {/* <div className={classes.overlay} /> */}
+      <div className={classes.overlay} />
       
       <Container className={classes.container}>
         
@@ -69,11 +66,11 @@ function DesignPhilosophy(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src="/static/themes/onepirate/productValues1.svg"
+                src={legoBrick}
                 alt="suitcase"
               />
               <Typography variant="h6" className={classes.title}>
-                The best luxury hotels
+                LEGO
               </Typography>
               <Typography variant="h5">
                 {'From the latest trendy boutique hotel to the iconic palace with XXL pool'}
@@ -85,11 +82,11 @@ function DesignPhilosophy(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src="/static/themes/onepirate/productValues2.svg"
+                src={wrench}
                 alt="graph"
               />
               <Typography variant="h6" className={classes.title}>
-                New experiences
+                Functional Designs
               </Typography>
               <Typography variant="h5">
                 {'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '}
@@ -101,11 +98,11 @@ function DesignPhilosophy(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src="/static/themes/onepirate/productValues3.svg"
+                src={zenCircle}
                 alt="clock"
               />
               <Typography variant="h6" className={classes.title}>
-                Exclusive rates
+                Minimalism
               </Typography>
               <Typography variant="h5">
                 {'By registering, you will access specially negotiated rates '}
