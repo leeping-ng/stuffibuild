@@ -49,6 +49,9 @@ const styles = (theme) => ({
     marginTop: theme.spacing(5),
     marginBottom: theme.spacing(5),
   },
+  text: {
+    textAlign: 'center',
+  }
 });
 
 function DesignPhilosophy(props) {
@@ -69,12 +72,12 @@ function DesignPhilosophy(props) {
                 src={legoBrick}
                 alt="suitcase"
               />
-              <Typography variant="h6" className={classes.title}>
+              <Typography variant="h5" className={classes.title}>
                 LEGO
               </Typography>
-              <Typography variant="h5">
-                {'From the latest trendy boutique hotel to the iconic palace with XXL pool'}
-                {', go for a mini-vacation just a few subway stops away from your home.'}
+              <Typography variant="h6" className={classes.text}>
+                LEGO bricks are my paintbrush and canvas. I get inspiration from my daily life,
+                and use LEGO to design and build prototypes quickly.
               </Typography>
             </div>
           </Grid>
@@ -85,12 +88,12 @@ function DesignPhilosophy(props) {
                 src={wrench}
                 alt="graph"
               />
-              <Typography variant="h6" className={classes.title}>
-                Functional Designs
+              <Typography variant="h5" className={classes.title}>
+                Functional
               </Typography>
-              <Typography variant="h5">
-                {'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '}
-                {'your Sundays will not be alike.'}
+              <Typography variant="h6" className={classes.text}>
+                I design vehicles, robots, and machines. Some are remote controlled,
+                some even have an encased Raspberry Pi computer. All of them are functional.
               </Typography>
             </div>
           </Grid>
@@ -101,12 +104,12 @@ function DesignPhilosophy(props) {
                 src={zenCircle}
                 alt="clock"
               />
-              <Typography variant="h6" className={classes.title}>
-                Minimalism
+              <Typography variant="h5" className={classes.title}>
+                Minimalist
               </Typography>
-              <Typography variant="h5">
-                {'By registering, you will access specially negotiated rates '}
-                {'that you will not find anywhere else.'}
+              <Typography variant="h6" className={classes.text}>
+                I follow the KISS (Keep It Simple, Stupid) principle in my builds, favouring
+                compact, clean designs over unnecessary complexity.
               </Typography>
             </div>
           </Grid>
