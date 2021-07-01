@@ -2,6 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+import portrait from '../images/portrait.png';
 import isoPaper from '../images/isometric-paper.png';
 
 
@@ -39,7 +43,11 @@ const styles = (theme) => ({
     padding: theme.spacing(0, 5),
   },
   image: {
-    height: 55,
+    height: 200,
+    marginRight: theme.spacing(4),
+    [theme.breakpoints.down('xs')]: {
+			height: 150,
+			},
   },
   title: {
     marginTop: theme.spacing(5),
@@ -47,7 +55,10 @@ const styles = (theme) => ({
   },
   text: {
     textAlign: 'center',
-  }
+  },
+  button: {
+    marginTop: theme.spacing(8),
+  },
 });
 
 function About(props) {
@@ -59,10 +70,39 @@ function About(props) {
       <div className={classes.overlay} />
       
       <Container className={classes.container}>
-        
+        <Grid container spacing={5}>
+          <Grid item xs={12} md={8}>
+            <div className={classes.item}>
+              <Typography variant="h6" className={classes.text}>
+                Building stuff with LEGO is my hobby. Professionally, I am an AI engineer
+                specialising in computer vision. Formerly, I was a mechanical engineer designing
+                military vehicles, transmissions and robots. So yes - I build stuff at work too!
+              </Typography>
+              <Button
+                color="primary"
+                size="large"
+                variant="contained"
+                className={classes.button}
+                component="a"
+                href="/premium-themes/onepirate/sign-up/"
+              >
+                About Me
+              </Button>
+            </div>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <div className={classes.item}>
+              <img
+                className={classes.image}
+                src={portrait}
+                alt="suitcase"
+              />
+            </div>
+          </Grid>
+        </Grid>
       </Container>
 
- </section>
+    </section>
   );
 }
 
