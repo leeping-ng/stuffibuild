@@ -1,21 +1,13 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import Box from "@material-ui/core/Box";
 
-function Copyright() {
-  return (
-    <React.Fragment>
-      {'© '}
-      <Link color="white" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-    </React.Fragment>
-  );
-}
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,26 +15,30 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'black',
   },
   container: {
-    marginTop: theme.spacing(8),
-    marginBottom: theme.spacing(8),
+    marginTop: theme.spacing(5),
+    marginBottom: theme.spacing(3),
+    justifyContent: 'center',
+    alignItems: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  copyright: {
     display: 'flex',
   },
-  iconsWrapper: {
-    height: 120,
-  },
-  icons: {
+  iconWrapper: {
+    marginBottom: theme.spacing(3),
     display: 'flex',
   },
   icon: {
-    width: 48,
-    height: 48,
+    width: 36,
+    height: 36,
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: theme.palette.warning.main,
-    marginRight: theme.spacing(1),
+    color: "white",
+    marginRight: theme.spacing(2),
     '&:hover': {
-      backgroundColor: theme.palette.warning.dark,
+      color: "grey"
     },
   },
   list: {
@@ -54,6 +50,9 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: theme.spacing(0.5),
     paddingBottom: theme.spacing(0.5),
   },
+  text: {
+    color: "white"
+  }
 }));
 
 
@@ -61,50 +60,38 @@ export default function AppFooter() {
   const classes = useStyles();
 
   return (
-    <Typography component="footer" className={classes.root}>
+    <section className={classes.root}>
       <Container className={classes.container}>
-        <Grid container spacing={5}>
-          <Grid item xs={6} sm={4} md={3}>
-            <Grid
-              container
-              direction="column"
-              justify="flex-end"
-              className={classes.iconsWrapper}
-              spacing={2}
-            >
-              {/* <Grid item className={classes.icons}>
-                <a href="https://material-ui.com/" className={classes.icon}>
-                  <img src="/static/themes/onepirate/appFooterFacebook.png" alt="Facebook" />
-                </a>
-                <a href="https://twitter.com/MaterialUI" className={classes.icon}>
-                  <img src="/static/themes/onepirate/appFooterTwitter.png" alt="Twitter" />
-                </a>
-              </Grid> */}
-              <Grid item>
-                <Copyright />
-              </Grid>
-            </Grid>
-          </Grid>
-          <Grid item xs={6} sm={4} md={2}>
-            <Typography variant="h6" marked="left" gutterBottom>
-              Legal
-            </Typography>
-            <ul className={classes.list}>
-              <li className={classes.listItem}>
-                <Link href="/premium-themes/onepirate/terms/">Terms</Link>
-              </li>
-              <li className={classes.listItem}>
-                <Link href="/premium-themes/onepirate/privacy/">Privacy</Link>
-              </li>
-            </ul>
-          </Grid>
-          <Grid item xs={6} sm={8} md={4}>
-            <Typography variant="h6" marked="left" gutterBottom>
-              Language
-            </Typography>
-          </Grid>
-        </Grid>
+        <div className={classes.iconWrapper}>
+          <Link href="https://www.youtube.com/channel/UC8LFt8UC7rqnKA0NiF0IBjw/videos" target="_blank">
+            <Box
+              component={YouTubeIcon}
+              className={classes.icon}
+            />
+          </Link>
+          <Link href="https://github.com/leeping-ng" target="_blank">
+            <Box
+              component={GitHubIcon}
+              className={classes.icon}
+            />
+          </Link>
+          <Link href="https://www.linkedin.com/in/lee-ping-ng/" target="_blank">
+            <Box
+              component={LinkedInIcon}
+              className={classes.icon}
+            />
+          </Link>
+
+        </div>
+        <div className={classes.copyright}>
+      <Typography className={classes.text}>
+          © 2021, Lee Ping Ng
+        </Typography>
+
+        </div>
+
       </Container>
-    </Typography>
+
+    </section>
   );
 }
