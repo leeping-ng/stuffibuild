@@ -41,7 +41,7 @@ const styles = (theme) => ({
     marginLeft: theme.spacing(1),
     marginBottom: theme.spacing(1),
     [theme.breakpoints.down('xs')]: {
-      width: '48%',
+      width: '47%',
       height: 200,
     },
     [theme.breakpoints.up('sm')]: {

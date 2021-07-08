@@ -45,10 +45,12 @@ const styles = (theme) => ({
   },
   image: {
     height: 200,
-    marginRight: theme.spacing(4),
     [theme.breakpoints.down('xs')]: {
 			height: 150,
 			},
+    [theme.breakpoints.up('s')]: {
+      marginRight: theme.spacing(4),
+      },
   },
   title: {
     marginTop: theme.spacing(5),
