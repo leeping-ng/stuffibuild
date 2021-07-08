@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+// import Typography from './Typography';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import portrait from '../images/portrait.png';
@@ -55,6 +56,7 @@ const styles = (theme) => ({
   },
   text: {
     textAlign: 'center',
+    fontWeight: 400
   },
   button: {
     marginTop: theme.spacing(8),
@@ -76,7 +78,7 @@ function About(props) {
               <Typography variant="h6" className={classes.text}>
                 Building stuff with LEGO is my hobby. Professionally, I am an AI engineer
                 specialising in computer vision. Formerly, I was a mechanical engineer designing
-                military vehicles, transmissions and robots. So yes - I build stuff at work too!
+                vehicles, transmissions and robots. So, I build stuff at work too!
               </Typography>
               <Button
                 color="primary"

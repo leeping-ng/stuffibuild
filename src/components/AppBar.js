@@ -26,6 +26,7 @@ const styles = (theme) => ({
   },
   title: {
     fontSize: 24,
+    fontWeight: 500
   },
   right: {
     flex: 1,
@@ -58,11 +59,11 @@ function AppBar(props) {
   const listItems = [
     {
       title: "Timeline",
-      url: "https://www.youtube.com/watch?v=9VBkYQ4imDo&ab_channel=LeePingNg"
+      url: "#"
     },
     {
       title: "About Me",
-      url: "https://www.youtube.com/watch?v=9VBkYQ4imDo&ab_channel=LeePingNg"
+      url: "#"
     }
   ];
 

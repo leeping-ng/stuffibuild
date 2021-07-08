@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
+// import Typography from './Typography';
 import ReactPlayer from 'react-player';
 import backgroundImage from '../images/bg-terrex-compressed.mp4';
 import Container from '@material-ui/core/Container';
@@ -41,6 +42,9 @@ const styles = (theme) => ({
 		flexDirection: 'column',
 		alignItems: 'center',
 	},
+	title: {
+		color: 'white'
+	}
 });
 
 function Hero(props) {
@@ -66,10 +70,10 @@ function Hero(props) {
 						alignItems="center"
 						color="#fff"
 					>
-						<Typography variant="h3" component="h1" className={classes.title}>
+						<Typography variant="h3" className={classes.title}>
 							Hi, I'm Lee Ping.
 						</Typography>
-						<Typography variant="h5" component="h1" className={classes.title}>
+						<Typography variant="h5" className={classes.title}>
 							This is a showcase of stuff I build.
 						</Typography>
 					</Box>

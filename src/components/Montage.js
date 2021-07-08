@@ -38,16 +38,18 @@ const styles = (theme) => ({
     display: 'block',
     padding: 0,
     borderRadius: 0,
+    marginLeft: theme.spacing(1),
+    marginBottom: theme.spacing(1),
     [theme.breakpoints.down('xs')]: {
-      width: '50%',
+      width: '48%',
       height: 200,
     },
     [theme.breakpoints.up('sm')]: {
-      width: '50%',
+      width: '48%',
       height: 250,
     },
     [theme.breakpoints.up('md')]: {
-      width: '25%',
+      width: '24%',
       minHeight: 250,
     },
     '&:hover': {
@@ -61,6 +63,7 @@ const styles = (theme) => ({
     },
     '&:hover $imageTitle': {
       border: '4px solid currentColor',
+      borderRadius: 8
     },
   },
   imageButton: {
@@ -80,6 +83,7 @@ const styles = (theme) => ({
     right: 0,
     top: 0,
     bottom: 0,
+    borderRadius: 8,
     backgroundSize: 'cover',
     backgroundPosition: 'center 40%',
   },
@@ -90,6 +94,7 @@ const styles = (theme) => ({
     top: 0,
     bottom: 0,
     background: theme.palette.common.black,
+    borderRadius: 8,
     opacity: 0.5,
     transition: theme.transitions.create('opacity'),
   },
@@ -181,17 +186,11 @@ function ProductCategories(props) {
 
   return (
     <Container className={classes.root} component="section">
-      <Typography variant="h4" marked="center" align="center" component="h2">
-        Presenting... stuff I build.
-      </Typography>
       <div className={classes.images}>
         {images.map((image) => (
           <ButtonBase
             key={image.title}
             className={classes.imageWrapper}
-            // style={{
-            //   width: image.width,
-            // }}
           >
             <div
               className={classes.imageSrc}
@@ -202,7 +201,6 @@ function ProductCategories(props) {
             <div className={classes.imageBackdrop} />
             <div className={classes.imageButton}>
               <Typography
-                component="h3"
                 variant="h6"
                 color="inherit"
                 className={classes.imageTitle}

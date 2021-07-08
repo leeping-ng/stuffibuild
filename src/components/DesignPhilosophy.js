@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
+// import Typography from './Typography';
 import isoPaper from '../images/isometric-paper.png';
 import legoBrick from '../images/lego-brick.png';
 import wrench from '../images/wrench.png';
@@ -51,6 +52,7 @@ const styles = (theme) => ({
   },
   text: {
     textAlign: 'center',
+    fontWeight: 400,
   }
 });
 
@@ -72,7 +74,7 @@ function DesignPhilosophy(props) {
                 src={legoBrick}
                 alt="suitcase"
               />
-              <Typography variant="h5" className={classes.title}>
+              <Typography variant="h4" className={classes.title}>
                 LEGO
               </Typography>
               <Typography variant="h6" className={classes.text}>
@@ -88,7 +90,7 @@ function DesignPhilosophy(props) {
                 src={wrench}
                 alt="graph"
               />
-              <Typography variant="h5" className={classes.title}>
+              <Typography variant="h4" className={classes.title}>
                 Functional
               </Typography>
               <Typography variant="h6" className={classes.text}>
@@ -104,7 +106,7 @@ function DesignPhilosophy(props) {
                 src={zenCircle}
                 alt="clock"
               />
-              <Typography variant="h5" className={classes.title}>
+              <Typography variant="h4" className={classes.title}>
                 Minimalist
               </Typography>
               <Typography variant="h6" className={classes.text}>

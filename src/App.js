@@ -1,4 +1,6 @@
 import React from 'react';
+  
+import withRoot from './components/withRoot';
 import AppBar from './components/AppBar';
 import Hero from './components/Hero';
 import DesignPhilosophy from './components/DesignPhilosophy';
@@ -22,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default withRoot(App);
