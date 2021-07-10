@@ -25,7 +25,7 @@ import facialRecognitionBox from '../images/16-facial-recognition-box.jpg';
 
 const styles = (theme) => ({
   root: {
-    marginTop: theme.spacing(8),
+    marginTop: theme.spacing(4),
     marginBottom: theme.spacing(4),
   },
   images: {
@@ -42,13 +42,17 @@ const styles = (theme) => ({
     marginBottom: theme.spacing(1),
     [theme.breakpoints.down('xs')]: {
       width: '47%',
-      height: 200,
+      height: 150,
     },
     [theme.breakpoints.up('sm')]: {
       width: '48%',
       height: 250,
     },
     [theme.breakpoints.up('md')]: {
+      width: '31%',
+      minHeight: 250,
+    },
+    [theme.breakpoints.up('lg')]: {
       width: '24%',
       minHeight: 250,
     },

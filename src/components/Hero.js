@@ -43,7 +43,8 @@ const styles = (theme) => ({
 		alignItems: 'center',
 	},
 	title: {
-		color: 'white'
+		color: 'white',
+		textAlign: 'center'
 	}
 });
 

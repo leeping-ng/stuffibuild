@@ -30,8 +30,8 @@ const styles = (theme) => ({
 		backgroundColor: 'rgba(255, 255, 255, 0.5)',
 	},
   container: {
-    marginTop: theme.spacing(8),
-    marginBottom: theme.spacing(8),
+    marginTop: theme.spacing(6),
+    marginBottom: theme.spacing(6),
     display: 'flex',
     flexDirection: 'column',
     position: 'relative',
@@ -61,7 +61,7 @@ const styles = (theme) => ({
     fontWeight: 400
   },
   button: {
-    marginTop: theme.spacing(8),
+    marginTop: theme.spacing(4),
   },
 });
 
@@ -78,9 +78,9 @@ function About(props) {
           <Grid item xs={12} md={8}>
             <div className={classes.item}>
               <Typography variant="h6" className={classes.text}>
-                Building stuff with LEGO is my hobby. Professionally, I am an AI engineer
-                specialising in computer vision. Formerly, I was a mechanical engineer designing
-                vehicles, transmissions and robots. So, I build stuff at work too!
+                Building stuff with LEGO is my hobby. Professionally, I am currently an AI engineer
+                specialising in computer vision. I used to design vehicles, transmissions and robots 
+                as a mechanical engineer. So, I build stuff at work too!
               </Typography>
               <Button
                 color="primary"

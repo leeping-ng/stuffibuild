@@ -4,7 +4,6 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
-// import Typography from './Typography';
 import isoPaper from '../images/isometric-paper.png';
 import legoBrick from '../images/lego-brick.png';
 import wrench from '../images/wrench.png';
@@ -30,8 +29,8 @@ const styles = (theme) => ({
 		backgroundColor: 'rgba(255, 255, 255, 0.5)',
 	},
   container: {
-    marginTop: theme.spacing(8),
-    marginBottom: theme.spacing(8),
+    marginTop: theme.spacing(6),
+    marginBottom: theme.spacing(6),
     display: 'flex',
     flexDirection: 'column',
     position: 'relative',
@@ -47,8 +46,8 @@ const styles = (theme) => ({
     height: 55,
   },
   title: {
-    marginTop: theme.spacing(5),
-    marginBottom: theme.spacing(5),
+    marginTop: theme.spacing(4),
+    marginBottom: theme.spacing(2),
   },
   text: {
     textAlign: 'center',

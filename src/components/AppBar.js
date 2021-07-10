@@ -139,7 +139,7 @@ function AppBar(props) {
                     alignItems="center"
                     paddingLeft="1.25rem"
                     paddingRight="1.25rem"
-                    paddingBottom="1rem"
+                    // paddingBottom="1rem"
                     className={classes.appBarOutlineNone}
                   >
                     <IconButton
@@ -151,14 +151,14 @@ function AppBar(props) {
                     >
                       <Box
                         component={Clear}
-                        width="2rem!important"
-                        height="2rem!important"
+                        // width="2rem!important"
+                        // height="2rem!important"
                       />
                     </IconButton>
                   </Box>
                   <Box
                     component={Divider}
-                    marginBottom="1rem!important"
+                    // marginBottom="1rem!important"
                     marginLeft="1.25rem!important"
                     marginRight="1.25rem!important"
                   />
