@@ -65,10 +65,11 @@ const styles = (theme) => ({
     '&:hover $imageMarked': {
       opacity: 0,
     },
-    '&:hover $imageTitle': {
-      border: '4px solid currentColor',
-      borderRadius: 8
-    },
+    // '&:hover $imageTitle': {
+    //   border: '4px solid currentColor',
+      
+    //   borderRadius: 8
+    // },
   },
   imageButton: {
     position: 'absolute',
@@ -107,14 +108,15 @@ const styles = (theme) => ({
     padding: `${theme.spacing(2)}px ${theme.spacing(4)}px 14px`,
   },
   imageMarked: {
-    height: 3,
-    width: 18,
+    height: 2,
+    width: 50,
     background: theme.palette.common.white,
     position: 'absolute',
-    bottom: -2,
-    left: 'calc(50% - 9px)',
+    bottom: 10,
+    left: 'calc(50% - 25px)',
     transition: theme.transitions.create('opacity'),
   },
+
 });
 
 function ProductCategories(props) {
