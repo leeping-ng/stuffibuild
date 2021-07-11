@@ -1,27 +1,24 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
   
+import Home from './components/Home';
+import AboutMe from './components/AboutMe';
+import Overview from './components/Overview';
 import withRoot from './components/withRoot';
-import AppBar from './components/AppBar';
-import Hero from './components/Hero';
-import DesignPhilosophy from './components/DesignPhilosophy';
-import Montage from './components/Montage';
-import About from './components/About';
-import Footer from './components/Footer';
-
 
 function App() {
 
   return (
-    <React.Fragment>
-      <AppBar />
-      <Hero />
-      <DesignPhilosophy />
-      <Montage />
-      <About />
-      <Footer />
-    </React.Fragment>
-
+    <Router>
+      <Switch>
+        <Route exact path="/" component={ Home } />
+        <Route exact path="/overview" component={ Overview } />
+        <Route exact path="/about" component={ AboutMe } />
+      </Switch>
+    </Router>
   );
 }
+
+
 
 export default withRoot(App);

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
@@ -87,8 +88,8 @@ function About(props) {
                 size="large"
                 variant="contained"
                 className={classes.button}
-                component="a"
-                href="/premium-themes/onepirate/sign-up/"
+                component={ Link } 
+                to="/about"
               >
                 About Me
               </Button>

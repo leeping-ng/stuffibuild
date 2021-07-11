@@ -1,7 +1,7 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
-import Link from '@material-ui/core/Link';
 import MuiAppBar from "@material-ui/core/AppBar";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
@@ -26,7 +26,8 @@ const styles = (theme) => ({
   },
   title: {
     fontSize: 24,
-    fontWeight: 500
+    fontWeight: 500,
+    textDecoration: 'none',
   },
   right: {
     flex: 1,
@@ -37,6 +38,7 @@ const styles = (theme) => ({
     fontSize: 16,
     color: theme.palette.common.white,
     marginLeft: theme.spacing(3),
+    textDecoration: 'none',
   },
 });
 
@@ -58,12 +60,12 @@ function AppBar(props) {
 
   const listItems = [
     {
-      title: "Timeline",
-      url: "#"
+      title: "Overview",
+      url: "/overview"
     },
     {
       title: "About Me",
-      url: "#"
+      url: "/about"
     }
   ];
 
@@ -90,21 +92,25 @@ function AppBar(props) {
               alignItems="center"
               width="100%"
             >
-              <Box component="a" className={classes.title}>
-                stuffibuild
+              <Box component={ Link } to="/" className={classes.title} color="white">
+                {/* <Link to="/" underline="none"> */}
+                  stuffibuild
+                {/* </Link> */}
               </Box>
               <Hidden mdDown implementation="js">
                 <div className={classes.right}>
                   {listItems.map((listItem) => (
-                    <Link
+                    <Box
+                      component={ Link }  
                       color="inherit"
                       variant="h6"
                       underline="none"
                       className={classes.rightLink}
-                      href={listItem.url}
+                      to={listItem.url}
                     >
                       {listItem.title}
-                    </Link>
+                    </Box>
+
                   )) }
                 </div>
               </Hidden>
@@ -164,13 +170,8 @@ function AppBar(props) {
                   />
                   <List>
                     {listItems.map((listItem) => (
-                      <ListItem>
-                        <Link
-                          href={listItem.url}
-                        >
-                          {listItem.title}
-                        </Link>
-                        
+                      <ListItem component={Link} to={listItem.url} underline="none">
+                        {listItem.title}
                       </ListItem>
                     )) }
                   </List>
