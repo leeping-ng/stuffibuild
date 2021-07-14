@@ -12,56 +12,116 @@ import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 import DesignsInfo from './DesignsInfo';
+import isoPaper from '../images/isometric-paper.png';
 
 const styles = (theme) => ({
+  root: {
+    marginTop: theme.spacing(7),
+    marginBottom: theme.spacing(0),
+    backgroundImage: `url(${isoPaper})`,
+  },
+  overlay: {
+		position: 'absolute',
+		top: 0,
+		left: 0,
+		width: '100%',
+		height: '100%',
+		backgroundColor: 'rgba(255, 255, 255, 0.5)',
+	},
+  oppositeContent: {
+    marginBottom: theme.spacing(2)
+  },
   paper: {
-    padding: '6px 16px',
+    display: 'inline-block',
+    padding: '6px 10px',
+    maxWidth: 300,
+    textAlign: 'left',
+    marginTop: theme.spacing(0.5)
   },
   secondaryTail: {
     backgroundColor: theme.palette.secondary.main,
   },
+  title: {
+    [theme.breakpoints.down('xs')]: {
+      fontSize: '0.75rem'
+    },
+    [theme.breakpoints.up('sm')]: {
+      fontSize: '1.5rem'
+    },
+  },
+  descr: {
+    [theme.breakpoints.down('xs')]: {
+      fontSize: '0.75rem'
+    },
+    [theme.breakpoints.up('sm')]: {
+      fontSize: '1.25rem'
+    },
+  },
+  text: {
+    textAlign: 'center',
+    fontWeight: 500,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: '1.0rem',
+      marginTop: theme.spacing(1),
+      marginBottom: theme.spacing(2)
+    },
+    [theme.breakpoints.up('sm')]: {
+      marginTop: theme.spacing(5),
+      marginBottom: theme.spacing(5),
+      fontSize: '1.25rem'
+    },
+  },
+  
+
 });
 
 
 
-function Gallery(props) {
+function Overview(props) {
     const { classes } = props;
 
   return (
     <React.Fragment>
       <AppBar />
-      <div>
-          <h2>Hello</h2>
-      </div>
-      <Timeline align="alternate">
+      <Timeline className={classes.root} >
+        <div className={classes.overlay} />
+        <Container className={classes.container}>
+          <Typography variant="h6" className={classes.text}>
+            Many of my builds were inspired from encounters in my daily life. Here is the story of my journey since 2011.
+          </Typography>
+        </Container>
         {DesignsInfo.map((design) => (
-            <TimelineItem>
-            <TimelineOppositeContent>
-            <Typography variant="body2" color="textSecondary">
+          <TimelineItem>
+            <TimelineOppositeContent className={classes.oppositeContent}>
+              <Typography variant="body2" color="textSecondary">
                 {design.date}
-            </Typography>
+              </Typography>
+
+              <Paper elevation={3} className={classes.paper}>
+                <Typography variant="h6" className={classes.title}>
+                  {design.name}
+                </Typography>
+                <img src={design.image} alt={design.name} width='100%'/>
+              </Paper>
             </TimelineOppositeContent>
             <TimelineSeparator>
-            <TimelineDot>
-                {/* {<FastfoodIcon />} */}
+              <TimelineDot>
                 {design.icon}
-            </TimelineDot>
-            <TimelineConnector />
+              </TimelineDot>
+              <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
-                <Typography variant="h6" component="h1">
-                    {design.name}
-                </Typography>
-                <Typography>
+            <TimelineContent align='left'>
+              <Paper elevation={3} className={classes.paper}>
+
+                <Typography className={classes.descr}>
                     {design.descr}
                 </Typography>
-                <img src={design.image} alt={design.name} />
-            </Paper>
+              </Paper>
             </TimelineContent>
-        </TimelineItem>
-        ))};
+          </TimelineItem>
+        ))}
         </Timeline>
       <Footer />
     </React.Fragment>
@@ -69,4 +129,4 @@ function Gallery(props) {
   );
 }
 
-export default withStyles(styles)(Gallery);
+export default withStyles(styles)(Overview);

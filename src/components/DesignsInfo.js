@@ -31,87 +31,114 @@ const designsInfo = [
       name: 'Facial Recognition Box',
       image: facialRecognitionBox,
       date: 'Jun 2020',
-      descr: 'Learnt about AI and wanted to propose to my girlfriend. Designed a box that hides the engagement ring and only opens upon detecting her face.',
+      descr: 'Proposed to girlfriend with a LEGO box hiding a ring and a mini computer running facial recognition code.',
       icon: <FaceIcon/>
+    },
+    {
+      name: '8x8 Terrex',
+      image: terrex,
+      date: 'Dec 2018',
+      descr: 'Fulfilled a long-lived goal to build this 8-wheel drive beast, since first seeing it in 2012.',
+      icon: <DriveEtaIcon/>
     },
     {
       name: 'Robotank',
       image: mindstormsRobotank,
       date: 'Jun 2018',
-      descr: "Taught classes in Robotics using LEGO Mindstorms and organised a competition for students. Built a working prototype to test the competition's obstacle course.",
+      descr: 'Organised a Mindstorms contest requiring robots to shoot targets and navigate an obstacle course.',
       icon: <AndroidIcon/>
-    },
-    {
-      name: '8x8 Terrex',
-      image: terrex,
-      icon: <DriveEtaIcon/>
     },
     {
       name: 'Porsche 911',
       image: porsche911,
+      date: 'Jul 2016',
+      descr: 'Achieved top 20 placing in a Porsche-themed LEGO contest with this small, RC 911 Carrera Cabrio replica.',
       icon: <DriveEtaIcon/>
     },
     {
       name: 'Tracked Vehicle Transmission',
       image: trackedTransmission,
+      date: 'May 2016',
+      descr: 'Garnered nearly 200,000 YouTube views to date, with this complex yet compact system of gears and motors.',
       icon: <SettingsIcon/>
     },
     {
       name: 'Drone Transporter',
       image: droneTransporter,
+      date: 'Sep 2015',
+      descr: 'Participated in a LEGO contest with the objective of designing a Mercedes-Benz truck of the future.',
       icon: <DriveEtaIcon/>
     },
     {
       name: 'Tower Crane',
       image: towerCrane,
+      date: 'Feb 2014',
+      descr: 'First foray into designing gearboxes and using a single motor to execute multiple tasks.',
       icon: <SettingsIcon/>
     },
     {
       name: 'Name Plate',
       image: namePlate,
+      date: 'Jan 2014',
+      descr: 'Created a name plate to place on my office desk, which rotates open to reveal a hidden message.',
       icon: <BusinessCenterIcon/>
     },
     {
       name: 'Light Strike Vehicle II',
       image: lsv2,
+      date: 'Aug 2013',
+      descr: 'Experimented with styling using Technic panels to replicate the aggressive look of this very cool vehicle.',
       icon: <DriveEtaIcon/> 
     },
     {
       name: 'Gatling Gun',
       image: gatlingGun,
+      date: 'Aug 2013',
+      descr: "Challenged a colleague to build LEGO weapons and 'attack' each other's cubicles.",
       icon: <GpsFixedIcon />
     },
     {
       name: 'Light Strike Vehicle I',
       image: lsv1,
+      date: 'May 2013',
+      descr: 'Liked this since serving as an army mechanic back in 2007 - finally got around to building it.',
       icon: <DriveEtaIcon/>
     },
     {
-      name: 'Tuk Tuk',
+      name: 'Tuk-Tuk',
       image: tukTuk,
+      date: 'Feb 2013',
+      descr: 'Holidayed in Thailand and got inspired by the many Tuk-Tuks on its roads.',
       icon: <DirectionsBikeIcon/>
     },
     {
       name: '4x4 Crawler',
       image: crawler,
+      date: 'Dec 2012',
+      descr: 'Won a LEGO set in my first LEGO contest by submitting this Crawler design.',
       icon: <DriveEtaIcon/>
     },
     {
       name: 'Walking Crab',
       image: walkingCrab,
+      date: 'Aug 2012',
+      descr: "Visited Theo Jansen's Strandbeest exhibition, and got interested in walking mechanisms.",
       icon: <PetsIcon/>
     },
     {
       name: 'Honda Civic',
       image: hondaCivic,
+      date: 'May 2012',
+      descr: 'Built my first RC, scale model car with Power Functions elements.',
       icon: <DriveEtaIcon/>
     },
     {
       name: 'Sports Car',
       image: firstMoc,
+      date: 'Dec 2011',
+      descr: 'Hello world! After a LEGO-less decade, I started building my own creations again.',
       icon: <DriveEtaIcon/>
     },
-
   ]
 
 

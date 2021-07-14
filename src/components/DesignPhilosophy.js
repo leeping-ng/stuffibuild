@@ -48,10 +48,22 @@ const styles = (theme) => ({
   title: {
     marginTop: theme.spacing(4),
     marginBottom: theme.spacing(2),
+    [theme.breakpoints.down('xs')]: {
+      fontSize: '1.25rem'
+    },
+    [theme.breakpoints.up('sm')]: {
+      fontSize: '2.0rem'
+    },
   },
   text: {
     textAlign: 'center',
     fontWeight: 400,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: '1.0rem'
+    },
+    [theme.breakpoints.up('sm')]: {
+      fontSize: '1.25rem'
+    },
   }
 });
 
