@@ -25,9 +25,12 @@ import terrex from '../images/14-terrex.jpg';
 import mindstormsRobotank from '../images/15-mindstorms-robotank.jpg';
 import facialRecognitionBox from '../images/16-facial-recognition-box.jpg';
 
+import Moc from './Moc';
 
 const designsInfo = [
     {
+      path: '/gallery/facialrecognitionbox',
+      page: Moc,
       name: 'Facial Recognition Box',
       image: facialRecognitionBox,
       date: 'Jun 2020',
@@ -35,6 +38,8 @@ const designsInfo = [
       icon: <FaceIcon/>
     },
     {
+      path: '/gallery/8x8terrex',
+      page: Moc,
       name: '8x8 Terrex',
       image: terrex,
       date: 'Dec 2018',
@@ -42,6 +47,8 @@ const designsInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      path: '/gallery/robotank',
+      page: Moc,
       name: 'Robotank',
       image: mindstormsRobotank,
       date: 'Jun 2018',
@@ -49,6 +56,8 @@ const designsInfo = [
       icon: <AndroidIcon/>
     },
     {
+      path: '/gallery/porsche911',
+      page: Moc,
       name: 'Porsche 911',
       image: porsche911,
       date: 'Jul 2016',
@@ -56,6 +65,8 @@ const designsInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      path: '/gallery/trackedvehicletransmission',
+      page: Moc,
       name: 'Tracked Vehicle Transmission',
       image: trackedTransmission,
       date: 'May 2016',
@@ -63,6 +74,8 @@ const designsInfo = [
       icon: <SettingsIcon/>
     },
     {
+      path: '/gallery/dronetransporter',
+      page: Moc,
       name: 'Drone Transporter',
       image: droneTransporter,
       date: 'Sep 2015',
@@ -70,6 +83,8 @@ const designsInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      path: '/gallery/towercrane',
+      page: Moc,
       name: 'Tower Crane',
       image: towerCrane,
       date: 'Feb 2014',
@@ -77,6 +92,8 @@ const designsInfo = [
       icon: <SettingsIcon/>
     },
     {
+      path: '/gallery/nameplate',
+      page: Moc,
       name: 'Name Plate',
       image: namePlate,
       date: 'Jan 2014',
@@ -84,6 +101,8 @@ const designsInfo = [
       icon: <BusinessCenterIcon/>
     },
     {
+      path: '/gallery/lightstrikevehicleii',
+      page: Moc,
       name: 'Light Strike Vehicle II',
       image: lsv2,
       date: 'Aug 2013',
@@ -91,6 +110,8 @@ const designsInfo = [
       icon: <DriveEtaIcon/> 
     },
     {
+      path: '/gallery/gatlinggun',
+      page: Moc,
       name: 'Gatling Gun',
       image: gatlingGun,
       date: 'Aug 2013',
@@ -98,6 +119,8 @@ const designsInfo = [
       icon: <GpsFixedIcon />
     },
     {
+      path: '/gallery/lightstrikevehiclei',
+      page: Moc,
       name: 'Light Strike Vehicle I',
       image: lsv1,
       date: 'May 2013',
@@ -105,6 +128,8 @@ const designsInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      path: '/gallery/tuk-tuk',
+      page: Moc,
       name: 'Tuk-Tuk',
       image: tukTuk,
       date: 'Feb 2013',
@@ -112,13 +137,17 @@ const designsInfo = [
       icon: <DirectionsBikeIcon/>
     },
     {
+      path: '/gallery/4x4crawler',
+      page: Moc,
       name: '4x4 Crawler',
       image: crawler,
       date: 'Dec 2012',
       descr: 'Won a LEGO set in my first LEGO contest by submitting this Crawler design.',
       icon: <DriveEtaIcon/>
     },
-    {
+    { 
+      path: '/gallery/walkingcrab',
+      page: Moc,
       name: 'Walking Crab',
       image: walkingCrab,
       date: 'Aug 2012',
@@ -126,6 +155,8 @@ const designsInfo = [
       icon: <PetsIcon/>
     },
     {
+      path: '/gallery/hondacivic',
+      page: Moc,
       name: 'Honda Civic',
       image: hondaCivic,
       date: 'May 2012',
@@ -133,6 +164,8 @@ const designsInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      path: '/gallery/sportscar',
+      page: Moc,
       name: 'Sports Car',
       image: firstMoc,
       date: 'Dec 2011',

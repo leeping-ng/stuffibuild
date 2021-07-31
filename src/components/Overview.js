@@ -3,6 +3,7 @@ import React from 'react';
 import AppBar from './AppBar';
 import Footer from './Footer';
 import { withStyles } from '@material-ui/core/styles';
+import { Link } from "react-router-dom";
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
@@ -100,9 +101,11 @@ function Overview(props) {
               </Typography>
 
               <Paper elevation={3} className={classes.paper}>
-                <Typography variant="h6" className={classes.title}>
-                  {design.name}
-                </Typography>
+                <Link to={design.path}>
+                  <Typography variant="h6" className={classes.title}>
+                    {design.name}
+                  </Typography>
+                </Link>
                 <img src={design.image} alt={design.name} width='100%'/>
               </Paper>
             </TimelineOppositeContent>
