@@ -1,7 +1,7 @@
 import React from 'react';
 
-import AppBar from './AppBar';
-import Footer from './Footer';
+import AppBar from '../components/AppBar';
+import Footer from '../components/Footer';
 import { withStyles } from '@material-ui/core/styles';
 import { Link } from "react-router-dom";
 import Timeline from '@material-ui/lab/Timeline';
@@ -14,7 +14,7 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import DesignsInfo from './DesignsInfo';
+import DesignInfo from '../components/DesignInfo';
 import isoPaper from '../images/isometric-paper.png';
 
 const styles = (theme) => ({
@@ -93,21 +93,22 @@ function Overview(props) {
             Many of my builds were inspired from encounters in my daily life. Here is the story of my journey since 2011.
           </Typography>
         </Container>
-        {DesignsInfo.map((design) => (
+        {DesignInfo.map((design) => (
           <TimelineItem>
             <TimelineOppositeContent className={classes.oppositeContent}>
               <Typography variant="body2" color="textSecondary">
                 {design.date}
               </Typography>
-
+              <Link to={design.path}>
               <Paper elevation={3} className={classes.paper}>
-                <Link to={design.path}>
+                
                   <Typography variant="h6" className={classes.title}>
                     {design.name}
                   </Typography>
-                </Link>
+                
                 <img src={design.image} alt={design.name} width='100%'/>
               </Paper>
+              </Link>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot>

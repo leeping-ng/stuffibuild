@@ -2,8 +2,8 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import AppBar from './AppBar';
-import Footer from './Footer';
+import AppBar from '../components/AppBar';
+import Footer from '../components/Footer';
 import isoPaper from '../images/isometric-paper.png';
 
 
@@ -35,7 +35,14 @@ function AboutMe(props) {
       <AppBar />
       
       <Container className={classes.root}>
-        <Typography variant="h6" className={classes.text}><br />Moc One</Typography>
+        <Typography variant="h6" className={classes.text}><br />Under construction</Typography>
+{/*         
+        Did this because MocPages went down. I rewriting descrs in 2021, trip down memory lane
+        Although it's about stuff i build, this is almost like a blog about my personal life
+        Photo resolution and quality
+        The thing that hasn't changed is my interest in engineering
+        Isometric paper for engineering used in background
+        As a reminder to the future myself, halcyon days, continue to build stuff. */}
       </Container>
       <Footer />
     </React.Fragment>

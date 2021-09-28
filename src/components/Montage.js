@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
+import { Link } from "react-router-dom";
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 
-import DesignsInfo from './DesignsInfo';
+import DesignInfo from './DesignInfo';
 
 
 const styles = (theme) => ({
@@ -110,7 +111,8 @@ function ProductCategories(props) {
   return (
     <Container className={classes.root} component="section">
       <div className={classes.images}>
-        {DesignsInfo.map((design) => (
+        {DesignInfo.map((design) => (
+          
           <ButtonBase
             key={design.name}
             className={classes.imageWrapper}
@@ -122,16 +124,18 @@ function ProductCategories(props) {
               }}
             />
             <div className={classes.imageBackdrop} />
-            <div className={classes.imageButton}>
-              <Typography
-                variant="h6"
-                color="inherit"
-                className={classes.imageTitle}
-              >
-                {design.name}
-                <div className={classes.imageMarked} />
-              </Typography>
-            </div>
+            <Link to={design.path}>
+              <div className={classes.imageButton}>
+                <Typography
+                  variant="h6"
+                  color="inherit"
+                  className={classes.imageTitle}
+                >
+                  {design.name}
+                  <div className={classes.imageMarked} />
+                </Typography>
+              </div>
+            </Link>
           </ButtonBase>
         ))}
       </div>

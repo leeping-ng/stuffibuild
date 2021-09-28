@@ -2,8 +2,8 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import AppBar from './AppBar';
-import Footer from './Footer';
+import AppBar from '../components/AppBar';
+import Footer from '../components/Footer';
 import isoPaper from '../images/isometric-paper.png';
 
 
@@ -35,7 +35,9 @@ function AboutMe(props) {
       <AppBar />
       
       <Container className={classes.root}>
-        <Typography variant="h6" className={classes.text}><br />Under construction</Typography>
+        <Typography variant="h6" className={classes.text}><br />Moc One</Typography>
+        {/* <img src="https://1drv.ms/u/s!ApTRF6X05fmIsTpcVX_U1xKah3Yz?e=W5ywOJ" /> */}
+        <img src="https://dm2304files.storage.live.com/y4m9dYXCxdTTjxQWgk4HACsMvVBpUYDj2a5Fq29wtnJtePkLvz0OSxWjgVJYCUYmnzexw6m_luLmdXnIY7yBWNeGUE6XtUiFjJwJ9Ez7g0h6syEFAV8GT96o5dwsXTdBGv7_Sz-C3kLXDU7IKMQ3IHfCO9ogboMuJR2GZZVsRciIG1dEEeUkNevKS6mKMwqKO8b?width=4928&height=3264&cropmode=none" />
       </Container>
       <Footer />
     </React.Fragment>

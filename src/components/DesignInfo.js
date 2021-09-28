@@ -1,3 +1,4 @@
+// import icons
 import FaceIcon from '@material-ui/icons/Face';
 import DriveEtaIcon from '@material-ui/icons/DriveEta';
 import DirectionsBikeIcon from '@material-ui/icons/DirectionsBike';
@@ -7,32 +8,37 @@ import PetsIcon from '@material-ui/icons/Pets';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import AndroidIcon from '@material-ui/icons/Android';
 
+// import images
+import sportsCarImg from '../images/1-sports-car.jpg';
+import hondaCivicImg from '../images/2-honda-civic.jpg';
+import walkingCrabImg from '../images/3-walking-crab.jpg';
+import crawlerImg from '../images/4-4x4-crawler.jpg';
+import tukTukImg from '../images/5-tuk-tuk.jpg';
+import lightStrikeVehicle1Img from '../images/6-light-strike-vehicle-1.jpg';
+import gatlingGunImg from '../images/7-gatling-gun.jpg';
+import lightStrikeVehicle2Img from '../images/8-light-strike-vehicle-2.jpg';
+import namePlateImg from '../images/9-name-plate.jpg';
+import towerCraneImg from '../images/10-tower-crane.jpg';
+import droneTransporterImg from '../images/11-drone-transporter.jpg';
+import trackedVehicleTransmissionImg from '../images/12-tracked-vehicle-transmission.jpg';
+import porsche911Img from '../images/13-porsche-911.jpg';
+import terrexImg from '../images/14-terrex.jpg';
+import robotankImg from '../images/15-robotank.jpg';
+import facialRecognitionBoxImg from '../images/16-facial-recognition-box.jpg';
 
-import firstMoc from '../images/1-first-moc.jpg';
-import hondaCivic from '../images/2-honda-civic.jpg';
-import walkingCrab from '../images/3-walking-crab.jpg';
-import crawler from '../images/4-4x4-crawler.jpg';
-import tukTuk from '../images/5-tuk-tuk.jpg';
-import lsv1 from '../images/6-LSV-1.jpg';
-import gatlingGun from '../images/7-gatling-gun.jpg';
-import lsv2 from '../images/8-LSV-2.jpg';
-import namePlate from '../images/9-name-plate.jpg';
-import towerCrane from '../images/10-tower-crane.jpg';
-import droneTransporter from '../images/11-drone-transporter.jpg';
-import trackedTransmission from '../images/12-tracked-transmission.jpg';
-import porsche911 from '../images/13-porsche-911.jpg';
-import terrex from '../images/14-terrex.jpg';
-import mindstormsRobotank from '../images/15-mindstorms-robotank.jpg';
-import facialRecognitionBox from '../images/16-facial-recognition-box.jpg';
+// import pages
+import sportsCarPage from '../pages/sportsCarPage';
+import hondaCivicPage from '../pages/hondaCivicPage';
+import walkingCrabPage from '../pages/walkingCrabPage';
+import Moc from '../pages/Moc';
 
-import Moc from './Moc';
 
-const designsInfo = [
+const designInfo = [
     {
       path: '/gallery/facialrecognitionbox',
       page: Moc,
       name: 'Facial Recognition Box',
-      image: facialRecognitionBox,
+      image: facialRecognitionBoxImg,
       date: 'Jun 2020',
       descr: 'Proposed to girlfriend with a LEGO box hiding a ring and a mini computer running facial recognition code.',
       icon: <FaceIcon/>
@@ -41,7 +47,7 @@ const designsInfo = [
       path: '/gallery/8x8terrex',
       page: Moc,
       name: '8x8 Terrex',
-      image: terrex,
+      image: terrexImg,
       date: 'Dec 2018',
       descr: 'Fulfilled a long-lived goal to build this 8-wheel drive beast, since first seeing it in 2012.',
       icon: <DriveEtaIcon/>
@@ -50,7 +56,7 @@ const designsInfo = [
       path: '/gallery/robotank',
       page: Moc,
       name: 'Robotank',
-      image: mindstormsRobotank,
+      image: robotankImg,
       date: 'Jun 2018',
       descr: 'Organised a Mindstorms contest requiring robots to shoot targets and navigate an obstacle course.',
       icon: <AndroidIcon/>
@@ -59,7 +65,7 @@ const designsInfo = [
       path: '/gallery/porsche911',
       page: Moc,
       name: 'Porsche 911',
-      image: porsche911,
+      image: porsche911Img,
       date: 'Jul 2016',
       descr: 'Achieved top 20 placing in a Porsche-themed LEGO contest with this small, RC 911 Carrera Cabrio replica.',
       icon: <DriveEtaIcon/>
@@ -68,7 +74,7 @@ const designsInfo = [
       path: '/gallery/trackedvehicletransmission',
       page: Moc,
       name: 'Tracked Vehicle Transmission',
-      image: trackedTransmission,
+      image: trackedVehicleTransmissionImg,
       date: 'May 2016',
       descr: 'Garnered nearly 200,000 YouTube views to date, with this complex yet compact system of gears and motors.',
       icon: <SettingsIcon/>
@@ -77,7 +83,7 @@ const designsInfo = [
       path: '/gallery/dronetransporter',
       page: Moc,
       name: 'Drone Transporter',
-      image: droneTransporter,
+      image: droneTransporterImg,
       date: 'Sep 2015',
       descr: 'Participated in a LEGO contest with the objective of designing a Mercedes-Benz truck of the future.',
       icon: <DriveEtaIcon/>
@@ -86,7 +92,7 @@ const designsInfo = [
       path: '/gallery/towercrane',
       page: Moc,
       name: 'Tower Crane',
-      image: towerCrane,
+      image: towerCraneImg,
       date: 'Feb 2014',
       descr: 'First foray into designing gearboxes and using a single motor to execute multiple tasks.',
       icon: <SettingsIcon/>
@@ -95,16 +101,16 @@ const designsInfo = [
       path: '/gallery/nameplate',
       page: Moc,
       name: 'Name Plate',
-      image: namePlate,
+      image: namePlateImg,
       date: 'Jan 2014',
       descr: 'Created a name plate to place on my office desk, which rotates open to reveal a hidden message.',
       icon: <BusinessCenterIcon/>
     },
     {
-      path: '/gallery/lightstrikevehicleii',
+      path: '/gallery/lightstrikevehicle2',
       page: Moc,
       name: 'Light Strike Vehicle II',
-      image: lsv2,
+      image: lightStrikeVehicle2Img,
       date: 'Aug 2013',
       descr: 'Experimented with styling using Technic panels to replicate the aggressive look of this very cool vehicle.',
       icon: <DriveEtaIcon/> 
@@ -113,16 +119,16 @@ const designsInfo = [
       path: '/gallery/gatlinggun',
       page: Moc,
       name: 'Gatling Gun',
-      image: gatlingGun,
+      image: gatlingGunImg,
       date: 'Aug 2013',
       descr: "Challenged a colleague to build LEGO weapons and 'attack' each other's cubicles.",
       icon: <GpsFixedIcon />
     },
     {
-      path: '/gallery/lightstrikevehiclei',
+      path: '/gallery/lightstrikevehicle1',
       page: Moc,
       name: 'Light Strike Vehicle I',
-      image: lsv1,
+      image: lightStrikeVehicle1Img,
       date: 'May 2013',
       descr: 'Liked this since serving as an army mechanic back in 2007 - finally got around to building it.',
       icon: <DriveEtaIcon/>
@@ -131,7 +137,7 @@ const designsInfo = [
       path: '/gallery/tuk-tuk',
       page: Moc,
       name: 'Tuk-Tuk',
-      image: tukTuk,
+      image: tukTukImg,
       date: 'Feb 2013',
       descr: 'Holidayed in Thailand and got inspired by the many Tuk-Tuks on its roads.',
       icon: <DirectionsBikeIcon/>
@@ -140,34 +146,34 @@ const designsInfo = [
       path: '/gallery/4x4crawler',
       page: Moc,
       name: '4x4 Crawler',
-      image: crawler,
+      image: crawlerImg,
       date: 'Dec 2012',
       descr: 'Won a LEGO set in my first LEGO contest by submitting this Crawler design.',
       icon: <DriveEtaIcon/>
     },
     { 
       path: '/gallery/walkingcrab',
-      page: Moc,
+      page: walkingCrabPage,
       name: 'Walking Crab',
-      image: walkingCrab,
+      image: walkingCrabImg,
       date: 'Aug 2012',
       descr: "Visited Theo Jansen's Strandbeest exhibition, and got interested in walking mechanisms.",
       icon: <PetsIcon/>
     },
     {
       path: '/gallery/hondacivic',
-      page: Moc,
+      page: hondaCivicPage,
       name: 'Honda Civic',
-      image: hondaCivic,
+      image: hondaCivicImg,
       date: 'May 2012',
       descr: 'Built my first RC, scale model car with Power Functions elements.',
       icon: <DriveEtaIcon/>
     },
     {
       path: '/gallery/sportscar',
-      page: Moc,
+      page: sportsCarPage,
       name: 'Sports Car',
-      image: firstMoc,
+      image: sportsCarImg,
       date: 'Dec 2011',
       descr: 'Hello world! After a LEGO-less decade, I started building my own creations again.',
       icon: <DriveEtaIcon/>
@@ -175,4 +181,4 @@ const designsInfo = [
   ]
 
 
-export default designsInfo;
+export default designInfo;
