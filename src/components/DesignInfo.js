@@ -30,6 +30,7 @@ import facialRecognitionBoxImg from '../images/16-facial-recognition-box.jpg';
 import sportsCarPage from '../pages/sportsCarPage';
 import hondaCivicPage from '../pages/hondaCivicPage';
 import walkingCrabPage from '../pages/walkingCrabPage';
+import crawlerPage from '../pages/crawlerPage';
 import Moc from '../pages/Moc';
 
 
@@ -144,7 +145,7 @@ const designInfo = [
     },
     {
       path: '/gallery/4x4crawler',
-      page: Moc,
+      page: crawlerPage,
       name: '4x4 Crawler',
       image: crawlerImg,
       date: 'Dec 2012',
