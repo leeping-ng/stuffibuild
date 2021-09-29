@@ -159,6 +159,7 @@ function templatePage(props) {
 								:
 									(<div className={classes.iframeContainer}>
 										<iframe 
+											title={info.name}
 											className={classes.iframeResponsive} 
 											src={info.url} 
 											frameborder="0" 

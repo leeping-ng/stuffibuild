@@ -46,7 +46,7 @@ const info = [
 	{
 		name: "Lego Technic figures",
 		type: "Photo",
-		url: "https://dm2304files.storage.live.com/y4mQsBbx19U9BmA3PGuv6KRjlmqwWB5jAf6hGHJP_ga1bqtunqu6qffNgeaRoOgD_D7YNn5Cufcb_wK8ncSsRU6Hk9xyaNNSqTTai2Rcqdl1yd-Vem0mMXCQ66VaKsAR0ymIG0lxEfI5NfD3zBO_tR9nrJvvSejEiGWwx0FgnFHevN5O8NnXY2rvHkddlCKEQIf?width=2816&height=2112&cropmode=none",
+		url: "https://dm2304files.storage.live.com/y4mWIFffTnFCvubYmFOspaIAXMqP1jQ0RbRdSh7mV2Sz9vuGsWSLa5tW1xWImomyput8NWOye1sDnvHlIANDf-hFPXAXYWo7CTmd4WekHDftDHsTueLV53T4qjTc93YEcGNtlZrklWXIwhYeaLSZPyXCN6b-45SHmrd1FpX1CEX-pxnH_cHIdTcBqtvAf_V8bI4?width=2816&height=2112&cropmode=none",
 		descr: "The car was designed to fit the standard LEGO Technic human figures."
 	},
 	{

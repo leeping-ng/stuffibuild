@@ -34,7 +34,7 @@ const info = [
 	{
 		name: "Strandbeest",
 		type: "Photo",
-		url: "https://wx2nbg.dm.files.1drv.com/y4po1riENx5RAmjwcC8g0ffkJvKL6_GqTwPT9U7LiSf6sxyLhzq0It_lDhSVOTHLdzzjNpC0PXa_6MJ8oz2wtMY40TVBBIFTrmE9oIGefF3Y7PvYXQ4VcD-XvaPBqH2fCGbiDhDLO_jEt7Hv61Uscwgr0kMHUkVGB78PCbB1mZqYQBY-A4nn_wytr0XxeXkw1P6rv3QTghzoLKYVINvrpjPHFAYSW4wLd1RDpCtlwKydsU/strandbeest.gif?psid=1",
+		url: "https://external-preview.redd.it/7JhSvOsKdMcBde-izkEYCS0rouAGzV8CfS27yZTlMFY.gif?s=505ea577bbaef5ae7dfec322a688d7ecd6babc80",
 		descr: <div>The inspiration for my design: Theo Jansen's majestic Strandbeest in action on a beach, powered solely by wind energy (GIF credits <a href="https://www.reddit.com/r/gifs/comments/238vot/strandbeest_wind_power/" target="_blank" rel="noreferrer">Reddit</a>).</div>
 	},
 	{
