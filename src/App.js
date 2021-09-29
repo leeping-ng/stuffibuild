@@ -1,5 +1,6 @@
 import React from 'react';
-import { HashRouter as Router, Switch, Route} from 'react-router-dom';
+import { useEffect } from 'react';
+import { HashRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
   
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route exact path="/" component={ Home } />
         <Route exact path="/overview" component={ Overview } />
@@ -23,6 +25,15 @@ function App() {
   );
 }
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 
 export default withRoot(App);

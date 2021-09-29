@@ -31,6 +31,7 @@ import sportsCarPage from '../pages/sportsCarPage';
 import hondaCivicPage from '../pages/hondaCivicPage';
 import walkingCrabPage from '../pages/walkingCrabPage';
 import crawlerPage from '../pages/crawlerPage';
+import tukTukPage from '../pages/tukTukPage';
 import Moc from '../pages/Moc';
 
 
@@ -136,7 +137,7 @@ const designInfo = [
     },
     {
       path: '/gallery/tuk-tuk',
-      page: Moc,
+      page: tukTukPage,
       name: 'Tuk-Tuk',
       image: tukTukImg,
       date: 'Feb 2013',
