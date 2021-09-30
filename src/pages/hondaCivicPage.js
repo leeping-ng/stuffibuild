@@ -10,7 +10,8 @@ function hondaCivicPage() {
 			<TemplatePage 
 				pageName={pageName} 
 				creationDate={creationDate} 
-				creationDescr={creationDescr} 
+				creationDescr={creationDescr}
+				creationChips={creationChips} 
 				info={info} 
 				icon={<Icon fontSize="large"/>} />
 		</React.Fragment>
@@ -23,6 +24,7 @@ export default hondaCivicPage;
 const pageName = "Honda Civic";
 const creationDate = "May 2012";
 const creationDescr = <div>After building the <a href="#/gallery/sportscar" target="_blank" rel="noreferrer">sports car</a> a few months ago, I was keen to design another one – this time with remote-controlled functionality using LEGO Power Functions. I decided to model it after the Honda Civic EG6 hatchback, as I grew fond of Civics from learning to drive in one, and from playing Need For Speed Underground. I had just finished my final exams in college, and had a few weeks to spare before my grad trip, and so I started building…</div>;
+const creationChips = ["Remote Control", "Power Functions"];
 const info = [
 	{
 		name: "Front LEGO",

@@ -7,6 +7,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Divider from '@material-ui/core/Divider';
 import Box from '@material-ui/core/Box';
+import Chip from '@material-ui/core/Chip';
 
 
 import AppBar from '../components/AppBar';
@@ -23,7 +24,7 @@ const styles = (theme) => ({
 	root: {
     display: 'block',
     overflow: 'hidden',
-		marginTop: theme.spacing(1),
+		marginTop: theme.spacing(2),
 		marginBottom: theme.spacing(0),
     backgroundImage: `url(${isoPaper})`,
     alignItems: 'center',
@@ -102,7 +103,7 @@ const styles = (theme) => ({
 	},
 	creationDescr: {
 		fontWeight: 400,
-		marginBottom: theme.spacing(4),
+		marginBottom: theme.spacing(2),
 		[theme.breakpoints.down('xs')]: {
       fontSize: '1.0rem'
     },
@@ -123,10 +124,14 @@ const styles = (theme) => ({
 		boxShadow: 10,
 		display: "block"
 	},
+	chip: {
+		marginRight: theme.spacing(1),
+		fontWeight: 550
+	}
 })
 
 function templatePage(props) {
-  const { classes, pageName, creationDate, creationDescr, info, icon } = props;
+  const { classes, pageName, creationDate, creationDescr, creationChips, info, icon } = props;
   return (
     <React.Fragment>
       <AppBar />
@@ -142,6 +147,7 @@ function templatePage(props) {
 					<Divider />
 					<Typography variant="h6" className={classes.creationDate}>{creationDate}</Typography>
 					<Typography variant="h6" className={classes.creationDescr}>{creationDescr}</Typography>
+					{creationChips.map((chip) => <Chip className={classes.chip} label={chip} />)}
 			</Container>
       <section className={classes.root} >
 				

@@ -10,7 +10,8 @@ function crawlerPage() {
 			<TemplatePage 
 				pageName={pageName} 
 				creationDate={creationDate} 
-				creationDescr={creationDescr} 
+				creationDescr={creationDescr}
+				creationChips={creationChips}  
 				info={info} 
 				icon={<Icon fontSize="large"/>} />
 		</React.Fragment>
@@ -23,6 +24,7 @@ export default crawlerPage;
 const pageName = "4x4 Crawler";
 const creationDate = "Dec 2012";
 const creationDescr = <div>I initially bought the <a href="https://www.lego.com/en-us/service/buildinginstructions/9398" target="_blank" rel="noreferrer">9398 4x4 Crawler</a> set to get more Technic and Power Functions bricks. LEGO then announced a competition for this set - the rules were to keep the frame and mechanics, and change the look and body. The winning design would be released as a limited edition LEGO set. Not having taken part in any LEGO competitions before, and fantasizing about being a real LEGO designer, I decided to give it a shot. To my pleasant surprise, my submission was amongst the top 100, and I won a free limited edition set!</div>;
+const creationChips = ["Remote Control", "Power Functions", "Contest Submission"];
 const info = [
 	{
 		name: "9398 4x4 Crawler",

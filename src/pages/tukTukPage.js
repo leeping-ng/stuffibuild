@@ -10,7 +10,8 @@ function tukTukPage() {
 			<TemplatePage 
 				pageName={pageName} 
 				creationDate={creationDate} 
-				creationDescr={creationDescr} 
+				creationDescr={creationDescr}
+				creationChips={creationChips}  
 				info={info} 
 				icon={<Icon fontSize="large"/>} />
 		</React.Fragment>
@@ -23,6 +24,7 @@ export default tukTukPage;
 const pageName = "Tuk-Tuk";
 const creationDate = "Feb 2013";
 const creationDescr = "I went for a short holiday in Bangkok, Thailand, and saw tuk-tuks everywhere. Tuk-tuks are a common mode of transport there, and the name is apparently derived from the sound of small, 2-stroke engines. I started thinking about building a LEGO version during the trip, and when I reached home, I got to work right away...";
+const creationChips = [];
 const info = [
 	{
 		name: "Front",

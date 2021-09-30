@@ -10,7 +10,8 @@ function sportsCarPage() {
 			<TemplatePage 
 				pageName={pageName} 
 				creationDate={creationDate} 
-				creationDescr={creationDescr} 
+				creationDescr={creationDescr}
+				creationChips={creationChips} 
 				info={info} 
 				icon={<Icon fontSize="large"/>} />
 		</React.Fragment>
@@ -24,6 +25,7 @@ export default sportsCarPage;
 const pageName = "Sports Car";
 const creationDate = "Dec 2011";
 const creationDescr = "This was my first LEGO design as an adult - designed in Dec 2011, during my final year in college. When I was a kid, I enjoyed building small, functional car models, using rubber bands for suspensions. As I grew up, I went through a decade of LEGO “Dark Ages” where I stopped touching LEGO bricks. My interest in LEGO was piqued again as an adult, when I started noticing high quality LEGO Technic sets coming out in the late 2000s. I decided to design this black sports car with the limited bricks I had at that time, to see how much better I got at designing as an adult, and with some training as a vehicle mechanic and from studying mechanical engineering.";
+const creationChips = [];
 const info = [
 	{
 		name: "Front",
