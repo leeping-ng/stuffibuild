@@ -32,6 +32,7 @@ import hondaCivicPage from '../pages/hondaCivicPage';
 import walkingCrabPage from '../pages/walkingCrabPage';
 import crawlerPage from '../pages/crawlerPage';
 import tukTukPage from '../pages/tukTukPage';
+import lightStrikeVehicle1Page from '../pages/lightStrikeVehicle1Page';
 import Moc from '../pages/Moc';
 
 
@@ -128,7 +129,7 @@ const designInfo = [
     },
     {
       path: '/gallery/lightstrikevehicle1',
-      page: Moc,
+      page: lightStrikeVehicle1Page,
       name: 'Light Strike Vehicle I',
       image: lightStrikeVehicle1Img,
       date: 'May 2013',
