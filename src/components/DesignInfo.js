@@ -33,6 +33,7 @@ import walkingCrabPage from '../pages/walkingCrabPage';
 import crawlerPage from '../pages/crawlerPage';
 import tukTukPage from '../pages/tukTukPage';
 import lightStrikeVehicle1Page from '../pages/lightStrikeVehicle1Page';
+import twinGatlingGunsPage from '../pages/twinGatlingGunsPage';
 import Moc from '../pages/Moc';
 
 
@@ -119,9 +120,9 @@ const designInfo = [
       icon: <DriveEtaIcon/> 
     },
     {
-      path: '/gallery/gatlinggun',
-      page: Moc,
-      name: 'Gatling Gun',
+      path: '/gallery/twingatlingguns',
+      page: twinGatlingGunsPage,
+      name: 'Twin Gatling Guns',
       image: gatlingGunImg,
       date: 'Aug 2013',
       descr: "Challenged a colleague to build LEGO weapons and 'attack' each other's cubicles.",

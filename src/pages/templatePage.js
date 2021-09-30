@@ -126,6 +126,7 @@ const styles = (theme) => ({
 	},
 	chip: {
 		marginRight: theme.spacing(1),
+		marginBottom: theme.spacing(1),
 		fontWeight: 550
 	}
 })
