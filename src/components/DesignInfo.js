@@ -34,6 +34,7 @@ import crawlerPage from '../pages/crawlerPage';
 import tukTukPage from '../pages/tukTukPage';
 import lightStrikeVehicle1Page from '../pages/lightStrikeVehicle1Page';
 import twinGatlingGunsPage from '../pages/twinGatlingGunsPage';
+import lightStrikeVehicle2Page from '../pages/lightStrikeVehicle2Page';
 import Moc from '../pages/Moc';
 
 
@@ -112,7 +113,7 @@ const designInfo = [
     },
     {
       path: '/gallery/lightstrikevehicle2',
-      page: Moc,
+      page: lightStrikeVehicle2Page,
       name: 'Light Strike Vehicle II',
       image: lightStrikeVehicle2Img,
       date: 'Aug 2013',

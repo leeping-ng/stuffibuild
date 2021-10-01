@@ -91,6 +91,12 @@ const info = [
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mfMZvDNU8GZ8xy9fX41lk-vuf8To8ysLwHFDkM-DYokfpAfmz2F8jUfJVJR2hLvu0X2OTwO6_Mu_9PhHYxGvugdZQ3S3XH5fZCACeO8vhljk8o086MR5iaLSArrSrjdqbOGwiqZs8TxLyFGW8UNWZfQ-f-GV5KI1NEd0RAiVkMa2U7U6yqhNEc9B5-C3v-gU8?width=4000&height=3000&cropmode=none",
 		descr: "With the remote control - the stick on the left is for drive, while the large gear on the right is for steering."
+	},
+	{
+		name: "Light Strike Vehicle II",
+		type: "Photo",
+		url: "https://dm2304files.storage.live.com/y4mYTjUHhH1XOW9swqMppvs6wJUfQDW6lkFtvWg5EH_6x8NIMr3SM0Q63blq2wIDMtc42URo70eEtGhmBW1jQJ6EyHX-R047T9GAW0ixD2F2-GXLpwtf79LkH1Sx96U2bVIUWTnyquu6B042eMiFQ5pGZaIQyS6q6-WmDt62saHpICTfSHDL6xoQ5i4BFkQmijc?width=4000&height=3000&cropmode=none",
+		descr: <div>UPDATE: 3 months later, I went on to design an improved Mk II. Apart from the obvious changes in styling, I completely re-designed the chassis as well. You can read more about it <a href="#/gallery/lightstrikevehicle1" target="_blank" rel="noreferrer">here</a>!</div>
 	}
 
 ];
