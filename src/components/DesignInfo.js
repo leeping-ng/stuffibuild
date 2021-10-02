@@ -35,6 +35,7 @@ import tukTukPage from '../pages/tukTukPage';
 import lightStrikeVehicle1Page from '../pages/lightStrikeVehicle1Page';
 import twinGatlingGunsPage from '../pages/twinGatlingGunsPage';
 import lightStrikeVehicle2Page from '../pages/lightStrikeVehicle2Page';
+import namePlatePage from '../pages/namePlatePage';
 import Moc from '../pages/Moc';
 
 
@@ -104,7 +105,7 @@ const designInfo = [
     },
     {
       path: '/gallery/nameplate',
-      page: Moc,
+      page: namePlatePage,
       name: 'Name Plate',
       image: namePlateImg,
       date: 'Jan 2014',
