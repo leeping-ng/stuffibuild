@@ -36,6 +36,7 @@ import lightStrikeVehicle1Page from '../pages/lightStrikeVehicle1Page';
 import twinGatlingGunsPage from '../pages/twinGatlingGunsPage';
 import lightStrikeVehicle2Page from '../pages/lightStrikeVehicle2Page';
 import namePlatePage from '../pages/namePlatePage';
+import towerCranePage from '../pages/towerCranePage';
 import Moc from '../pages/Moc';
 
 
@@ -96,7 +97,7 @@ const designInfo = [
     },
     {
       path: '/gallery/towercrane',
-      page: Moc,
+      page: towerCranePage,
       name: 'Tower Crane',
       image: towerCraneImg,
       date: 'Feb 2014',
