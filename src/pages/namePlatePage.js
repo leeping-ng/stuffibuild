@@ -23,7 +23,7 @@ export default namePlatePage;
 
 const pageName = "Name Plate";
 const creationDate = "Jan 2014";
-const creationDescr = <div>I bought a LEGO <a href="https://brickset.com/sets/850425-1/Desk-Business-Card-Holder" target="_blank" rel="noreferrer">business card holder</a> set to put on my office desk, but soon got bored with how it looked. I decided to re-use the alphabet tiles, and design my own name plate with a touch of mechanical engineering. This ended up being on of my more popular creations, and I made a few more variations for family, friends and colleagues.</div>;
+const creationDescr = <div>I bought a LEGO <a href="https://brickset.com/sets/850425-1/Desk-Business-Card-Holder" target="_blank" rel="noreferrer">business card holder</a> set to put on my office desk, but soon got bored with how it looked. I decided to re-use the alphabet tiles, and design my own name plate with a touch of mechanical engineering. This ended up being one of my more popular creations, and I made a few more variations for family, friends and colleagues.</div>;
 const creationChips = [];
 const info = [
 	{
@@ -54,25 +54,25 @@ const info = [
 		name: "Side View",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mAucd9_qmrjP2MUZtM9WUNpUpCt8xEzXnwwt2AthsNi7H5oryqeC-oZca2GFhuoUa8RbtgBAb5i6cmHZC9MzoOdKAtQFYnmqqFx3Bye6dHpzGzhKO3o_HmSlpWF0vVzOPW4a9gQGFfZUE2J9dz0Sjc6H3Lfy77MQKTaJg8Ski1WBtLB_yRnD44wCcOAQYRh3E?width=4000&height=3000&cropmode=none",
-		descr: "In a pair of mated gears, if one gear turns clockwise, the other turns counter-clockwise. The opening of the name plate works because of this engineering principle."
+		descr: "In a pair of mated gears, if one gear turns clockwise, the other turns counter-clockwise. The name plate is able to open because of this engineering principle."
 	},
 	{
 		name: "4 Colours",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mL22-3zaL2uMlEfyuejjmWla0vbiQL0toGlakEObvdzuANMKRSSmyT_tCnS4rxrYUoiFu9yPK33DtZGIGoi2T3_QuVtD8kVmq9rDKMcda7Rh3MuBCzS7zXTmJilYWLCSDbH0HYC-VcbafaTFF7gJ43TmYCJ0teWYCE9flji6NkYvIcF0qgkNQt0j-E-GiP-Hg?width=4000&height=3000&cropmode=none",
-		descr: "I made name plates in different colours for my friends and colleagues (I removed the letters in this photo). Personally, I still prefer it in red!"
+		descr: "I made name plates in different colours for my friends and colleagues (I digitally removed the letters in this photo). Personally, I still prefer it in red!"
 	},
 	{
 		name: "Pink Front",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mqU_CbSl6cKDV8aaYA-GHFlGZEVs8Q07Bfk47-HACCg98M83qbc1LvdpCUAxpDzrt6ICjQ2GueUBUqh95Ox6ozJx22jbRHbZGvCDPgoapOXz-Jrc5QWzIzHDHKotXTSt8qpK9Bweh0Lc7s9X0FMtoWh_cSXsEh0056eYyvjtTKQW1e2CrBz_SVtkDjCzh-V45?width=1080&height=810&cropmode=none",
-		descr: "I made a special version for my girlfriend (now wife), using her preferred colours (letters are removed here)."
+		descr: "I made a special version for my girlfriend (now wife), using her preferred colours. Instead of using the standard black letter tiles like the above designs, I used a marker to write over the pink tiles (letters were digitally removed here)."
 	},
 	{
 		name: "Pink Opened",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mPGHn8n5hcPEbAlaaAFPFUr467OrJgiVTnERynQYFEmgg2Ycw0uFwJimkfLLCbxgUpcHWL4Ymv_VdrAOlBjc2KM2Y22A3D1jc7F0qqSSFODHFVOb6gKcjO8SQLCGAlzqni-nv_eLgRohLOKIRaP5JQj_7Ilcyu00yVkoMM6lMK63wpUB113vbATx-ISji_zZK?width=1080&height=810&cropmode=none",
-		descr: "Opening up the name plate reveals a colourful assortment of flowers, and 2 tan-coloured rows for the message (letters are removed here)."
+		descr: "Opening up the name plate reveals a colourful assortment of flowers, and 2 tan-coloured rows for the message (letters were digitally removed here). This name plate now sits on my wife's office desk (:"
 	},
 
 ];
