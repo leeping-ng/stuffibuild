@@ -37,6 +37,7 @@ import twinGatlingGunsPage from '../pages/twinGatlingGunsPage';
 import lightStrikeVehicle2Page from '../pages/lightStrikeVehicle2Page';
 import namePlatePage from '../pages/namePlatePage';
 import towerCranePage from '../pages/towerCranePage';
+import droneTransporterPage from '../pages/droneTransporterPage';
 import Moc from '../pages/Moc';
 
 
@@ -88,7 +89,7 @@ const designInfo = [
     },
     {
       path: '/gallery/dronetransporter',
-      page: Moc,
+      page: droneTransporterPage,
       name: 'Drone Transporter',
       image: droneTransporterImg,
       date: 'Sep 2015',
