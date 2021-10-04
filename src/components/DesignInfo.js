@@ -38,6 +38,7 @@ import lightStrikeVehicle2Page from '../pages/lightStrikeVehicle2Page';
 import namePlatePage from '../pages/namePlatePage';
 import towerCranePage from '../pages/towerCranePage';
 import droneTransporterPage from '../pages/droneTransporterPage';
+import trackedVehicleTransmissionPage from '../pages/trackedVehicleTransmissionPage';
 import Moc from '../pages/Moc';
 
 
@@ -80,7 +81,7 @@ const designInfo = [
     },
     {
       path: '/gallery/trackedvehicletransmission',
-      page: Moc,
+      page: trackedVehicleTransmissionPage,
       name: 'Tracked Vehicle Transmission',
       image: trackedVehicleTransmissionImg,
       date: 'May 2016',

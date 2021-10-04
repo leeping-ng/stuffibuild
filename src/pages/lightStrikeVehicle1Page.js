@@ -24,7 +24,7 @@ export default lightStrikeVehicle1Page;
 const pageName = "Light Strike Vehicle I";
 const creationDate = "May 2013";
 const creationDescr = <div>I served in the Singapore Army from 2006-2007 as a mechanic, repairing vehicles such as Land Rovers and MAN trucks. I didn't get a chance to work on the <a href="https://www.army-technology.com/projects/spider_light_strike/" target="_blank" rel="noreferrer">Light Strike Vehicle 1</a> which was used for hit-and-run raids and scouting missions, but I've always liked how aggressive it looked. This would be the first of my military vehicle builds, and it even got featured on the <a href="https://thelegocarblog.com/2013/05/21/gun-rack/" target="_blank" rel="noreferrer">LEGO Car Blog</a> where they called it a 'ridiculously fun looking buggy'!</div>;
-const creationChips = ["Remote Control", "Power Functions", "Military"];
+const creationChips = ["Remote Control", "Power Functions", "Military", "Gearbox"];
 const info = [
 	{
 		name: "Front",
