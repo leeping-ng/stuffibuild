@@ -40,6 +40,7 @@ import towerCranePage from '../pages/towerCranePage';
 import droneTransporterPage from '../pages/droneTransporterPage';
 import trackedVehicleTransmissionPage from '../pages/trackedVehicleTransmissionPage';
 import porsche911Page from '../pages/porsche911Page';
+import robotankPage from '../pages/robotankPage';
 import Moc from '../pages/Moc';
 
 
@@ -64,7 +65,7 @@ const designInfo = [
     },
     {
       path: '/gallery/robotank',
-      page: Moc,
+      page: robotankPage,
       name: 'Robotank',
       image: robotankImg,
       date: 'Jun 2018',

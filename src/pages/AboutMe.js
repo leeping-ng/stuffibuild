@@ -42,7 +42,8 @@ function AboutMe(props) {
         Photo resolution and quality
         The thing that hasn't changed is my interest in engineering
         Isometric paper for engineering used in background
-        As a reminder to the future myself, halcyon days, continue to build stuff. */}
+        As a reminder to the future myself, halcyon days, continue to build stuff. 
+        Picture of LEGO room in Canada*/}
       </Container>
       <Footer />
     </React.Fragment>

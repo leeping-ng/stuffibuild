@@ -29,7 +29,7 @@ const info = [
 		name: "YouTube",
 		type: "Video",
 		url: "https://www.youtube.com/embed/MtCz02s1YNU",
-		descr: "Check out this video of the Porsche being driven by remote."
+		descr: "Check out this YouTube video of the Porsche being driven around by remote."
 	},
 	{
 		name: "Display",
