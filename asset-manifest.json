@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.013f4eba.chunk.js",
-    "main.js.map": "/static/js/main.013f4eba.chunk.js.map",
+    "main.js": "/static/js/main.16be5e04.chunk.js",
+    "main.js.map": "/static/js/main.16be5e04.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.834f5d8f.js",
     "runtime-main.js.map": "/static/js/runtime-main.834f5d8f.js.map",
-    "static/js/2.b838c138.chunk.js": "/static/js/2.b838c138.chunk.js",
-    "static/js/2.b838c138.chunk.js.map": "/static/js/2.b838c138.chunk.js.map",
+    "static/js/2.1b0a09d0.chunk.js": "/static/js/2.1b0a09d0.chunk.js",
+    "static/js/2.1b0a09d0.chunk.js.map": "/static/js/2.1b0a09d0.chunk.js.map",
     "static/js/3.9c391a72.chunk.js": "/static/js/3.9c391a72.chunk.js",
     "static/js/3.9c391a72.chunk.js.map": "/static/js/3.9c391a72.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.b838c138.chunk.js.LICENSE.txt": "/static/js/2.b838c138.chunk.js.LICENSE.txt",
+    "static/js/2.1b0a09d0.chunk.js.LICENSE.txt": "/static/js/2.1b0a09d0.chunk.js.LICENSE.txt",
     "static/media/1-sports-car.4b9e4fe4.jpg": "/static/media/1-sports-car.4b9e4fe4.jpg",
     "static/media/10-tower-crane.ad2a8a07.jpg": "/static/media/10-tower-crane.ad2a8a07.jpg",
     "static/media/11-drone-transporter.a6ce5ed8.jpg": "/static/media/11-drone-transporter.a6ce5ed8.jpg",
     "static/media/12-tracked-vehicle-transmission.d92626e6.jpg": "/static/media/12-tracked-vehicle-transmission.d92626e6.jpg",
-    "static/media/13-porsche-911.0e94e862.jpg": "/static/media/13-porsche-911.0e94e862.jpg",
+    "static/media/13-porsche-911.c8e2af0b.jpg": "/static/media/13-porsche-911.c8e2af0b.jpg",
     "static/media/14-terrex.74855d01.jpg": "/static/media/14-terrex.74855d01.jpg",
     "static/media/15-robotank.1e82e325.jpg": "/static/media/15-robotank.1e82e325.jpg",
     "static/media/16-facial-recognition-box.2a3bca13.jpg": "/static/media/16-facial-recognition-box.2a3bca13.jpg",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.834f5d8f.js",
-    "static/js/2.b838c138.chunk.js",
+    "static/js/2.1b0a09d0.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.013f4eba.chunk.js"
+    "static/js/main.16be5e04.chunk.js"
   ]
 }
