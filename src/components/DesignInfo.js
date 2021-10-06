@@ -39,6 +39,7 @@ import namePlatePage from '../pages/namePlatePage';
 import towerCranePage from '../pages/towerCranePage';
 import droneTransporterPage from '../pages/droneTransporterPage';
 import trackedVehicleTransmissionPage from '../pages/trackedVehicleTransmissionPage';
+import porsche911Page from '../pages/porsche911Page';
 import Moc from '../pages/Moc';
 
 
@@ -72,7 +73,7 @@ const designInfo = [
     },
     {
       path: '/gallery/porsche911',
-      page: Moc,
+      page: porsche911Page,
       name: 'Porsche 911',
       image: porsche911Img,
       date: 'Jul 2016',
