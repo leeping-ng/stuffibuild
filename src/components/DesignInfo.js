@@ -41,6 +41,7 @@ import droneTransporterPage from '../pages/droneTransporterPage';
 import trackedVehicleTransmissionPage from '../pages/trackedVehicleTransmissionPage';
 import porsche911Page from '../pages/porsche911Page';
 import robotankPage from '../pages/robotankPage';
+import terrexPage from '../pages/terrexPage';
 import Moc from '../pages/Moc';
 
 
@@ -56,7 +57,7 @@ const designInfo = [
     },
     {
       path: '/gallery/8x8terrex',
-      page: Moc,
+      page: terrexPage,
       name: '8x8 Terrex',
       image: terrexImg,
       date: 'Dec 2018',
