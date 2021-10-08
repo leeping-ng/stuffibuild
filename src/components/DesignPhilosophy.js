@@ -29,11 +29,18 @@ const styles = (theme) => ({
 		backgroundColor: 'rgba(255, 255, 255, 0.5)',
 	},
   container: {
-    marginTop: theme.spacing(6),
-    marginBottom: theme.spacing(6),
+    
     display: 'flex',
     flexDirection: 'column',
     position: 'relative',
+    [theme.breakpoints.down('xs')]: {
+      marginTop: theme.spacing(3),
+    marginBottom: theme.spacing(3),
+    },
+    [theme.breakpoints.up('sm')]: {
+      marginTop: theme.spacing(6),
+      marginBottom: theme.spacing(6),
+    },
     
   },
   item: {
@@ -43,15 +50,22 @@ const styles = (theme) => ({
     padding: theme.spacing(0, 5),
   },
   image: {
-    height: 55,
+    [theme.breakpoints.down('xs')]: {
+      height: 40,
+    },
+    [theme.breakpoints.up('sm')]: {
+      height: 55,
+    },
   },
   title: {
-    marginTop: theme.spacing(4),
-    marginBottom: theme.spacing(2),
     [theme.breakpoints.down('xs')]: {
+      marginTop: theme.spacing(2),
+      marginBottom: theme.spacing(1),
       fontSize: '1.25rem'
     },
     [theme.breakpoints.up('sm')]: {
+      marginTop: theme.spacing(4),
+      marginBottom: theme.spacing(2),
       fontSize: '2.0rem'
     },
   },

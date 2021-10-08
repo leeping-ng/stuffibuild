@@ -18,10 +18,21 @@ import DesignInfo from '../components/DesignInfo';
 import isoPaper from '../images/isometric-paper.png';
 
 const styles = (theme) => ({
-  root: {
-    marginTop: theme.spacing(7),
-    marginBottom: theme.spacing(0),
+	root: {
+    display: 'block',
+    overflow: 'hidden',
+		marginTop: theme.spacing(0),
+		marginBottom: theme.spacing(0),
     backgroundImage: `url(${isoPaper})`,
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'relative',
+    backgroundColor: 'white',
+  },
+  heading: {
+    display: 'block',
+    overflow: 'hidden',
+		marginTop: theme.spacing(8),
   },
   overlay: {
 		position: 'absolute',
@@ -62,7 +73,8 @@ const styles = (theme) => ({
   },
   text: {
     textAlign: 'center',
-    fontWeight: 500,
+    color: '#000000',
+    fontWeight: 400,
     [theme.breakpoints.down('xs')]: {
       fontSize: '1.0rem',
       marginTop: theme.spacing(1),
@@ -86,13 +98,16 @@ function Overview(props) {
   return (
     <React.Fragment>
       <AppBar />
-      <Timeline className={classes.root} >
-        <div className={classes.overlay} />
-        <Container className={classes.container}>
+      <Container className={classes.heading}>
           <Typography variant="h6" className={classes.text}>
             Many of my builds were inspired from encounters in my daily life. Here is the story of my journey since 2011.
           </Typography>
-        </Container>
+      </Container>
+      <section className={classes.root} >
+      <div className={classes.overlay} />
+      <Timeline >
+
+
         {DesignInfo.map((design) => (
           <TimelineItem>
             <TimelineOppositeContent className={classes.oppositeContent}>
@@ -127,6 +142,7 @@ function Overview(props) {
           </TimelineItem>
         ))}
         </Timeline>
+        </section>
       <Footer />
     </React.Fragment>
 
