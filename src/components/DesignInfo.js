@@ -42,13 +42,13 @@ import trackedVehicleTransmissionPage from '../pages/trackedVehicleTransmissionP
 import porsche911Page from '../pages/porsche911Page';
 import robotankPage from '../pages/robotankPage';
 import terrexPage from '../pages/terrexPage';
-import Moc from '../pages/Moc';
+import facialRecognitionBoxPage from '../pages/facialRecognitionBoxPage';
 
 
 const designInfo = [
     {
       path: '/gallery/facialrecognitionbox',
-      page: Moc,
+      page: facialRecognitionBoxPage,
       name: 'Facial Recognition Box',
       image: facialRecognitionBoxImg,
       date: 'Jun 2020',
