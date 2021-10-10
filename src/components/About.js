@@ -31,11 +31,19 @@ const styles = (theme) => ({
 		backgroundColor: 'rgba(255, 255, 255, 0.5)',
 	},
   container: {
-    marginTop: theme.spacing(6),
-    marginBottom: theme.spacing(6),
     display: 'flex',
     flexDirection: 'column',
     position: 'relative',
+    [theme.breakpoints.down('xs')]: {
+      marginTop: theme.spacing(2),
+      marginBottom: theme.spacing(2),
+      fontSize: '1.25rem'
+    },
+    [theme.breakpoints.up('sm')]: {
+      marginTop: theme.spacing(6),
+      marginBottom: theme.spacing(6),
+      fontSize: '2.0rem'
+    },
     
   },
   item: {
@@ -49,14 +57,11 @@ const styles = (theme) => ({
     [theme.breakpoints.down('xs')]: {
 			height: 150,
 			},
-    [theme.breakpoints.up('s')]: {
+    [theme.breakpoints.up('sm')]: {
       marginRight: theme.spacing(4),
       },
   },
-  title: {
-    marginTop: theme.spacing(5),
-    marginBottom: theme.spacing(5),
-  },
+
   text: {
     textAlign: 'center',
     fontWeight: 400,
@@ -68,7 +73,13 @@ const styles = (theme) => ({
     },
   },
   button: {
-    marginTop: theme.spacing(4),
+    [theme.breakpoints.down('xs')]: {
+      marginTop: theme.spacing(2),
+    },
+    [theme.breakpoints.up('sm')]: {
+      marginTop: theme.spacing(4),
+    },
+    
   },
 });
 
@@ -106,7 +117,7 @@ function About(props) {
               <img
                 className={classes.image}
                 src={portrait}
-                alt="suitcase"
+                alt="Me"
               />
             </div>
           </Grid>
