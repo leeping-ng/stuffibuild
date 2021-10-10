@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from "react-ga4";
 import { useEffect } from 'react';
 import { HashRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
   
@@ -24,6 +25,9 @@ function App() {
     </Router>
   );
 }
+
+ReactGA.initialize('G-QDLJZWGBZS');
+ReactGA.send("pageview");
 
 function ScrollToTop() {
   const { pathname } = useLocation();
