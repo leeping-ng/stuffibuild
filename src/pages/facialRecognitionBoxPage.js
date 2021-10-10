@@ -22,7 +22,7 @@ export default facialRecognitionBoxPage;
 
 const pageName = "Facial Recognition Box";
 const creationDate = "Jun 2020";
-const creationDescr = <div>2 major events happened since I designed the <a href="#/gallery/8x8terrex" target="_blank" rel="noreferrer">8x8 Terrex</a> in 2018: 1) I was ready to propose to my girlfriend; 2) I did a career pivot from mechanical engineering to AI. I decided to combine these by creating a LEGO box with facial recognition software for the proposal, which would open up to reveal the engagement ring when my girlfriend's face was detected. Wait a minute - LEGO has facial recognition?? Well, not really - I concealed a camera and a tiny Raspberry Pi computer running open-source facial recognition software within the LEGO box. The code for this project and details about the software can be found at my <a href="#/gallery/8x8terrex" target="_blank" rel="noreferrer">GitHub repo</a>. Did she say YES? Read on to find out (:</div>;
+const creationDescr = <div>2 major events happened since I designed the <a href="#/gallery/8x8terrex">8x8 Terrex</a> in 2018: 1) I was ready to propose to my girlfriend; 2) I did a career pivot from mechanical engineering to AI. I decided to combine these by creating a LEGO box with facial recognition software for the proposal, which would open up to reveal the engagement ring when my girlfriend's face was detected. Wait a minute - LEGO has facial recognition?? Well, not really - I concealed a camera and a tiny Raspberry Pi computer running open-source facial recognition software within the LEGO box. The code for this project and details about the software can be found at my <a href="https://github.com/leeping-ng/LEGO-Facial-Recognition-Box" target="_blank" rel="noreferrer">GitHub repo</a>. Did she say YES? Read on to find out (:</div>;
 const creationChips = ["AI", "Computer Vision", "Raspberry Pi"];
 const info = [
 	{
@@ -89,7 +89,7 @@ const info = [
 		name: "Electronics",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mYxAz5zlDo4AfgJ1WuiOBRXdtJAs9-6IDLSc6h6WanKKBOuyOOvbmr8Hj0pqOSSEYXagf1Scxvyjz2B9wC1l9V1CJmxcnWlT-9zYqB99ylfFO3NKhw_sPzd0ZfoHiLQz_DXCCrjtBsp8Y8OXWdMHvREWGugB2zTbSJ989YSmxGA8bEkJkl6Piv9QZDdFW-gFg?width=4128&height=2322&cropmode=none",
-		descr: <div>I chose a Raspberry Pi 3A+ computer because it has a square cross-section, and designed the box around it. Other electronics include a LOBOT servomotor with a LEGO output spline, a camera, battery HAT on top of the Pi with rechargeable battery, and a USB adaptor. More details can be found on my <a href="#/gallery/8x8terrex" target="_blank" rel="noreferrer">GitHub page</a>.</div>
+		descr: <div>I chose a Raspberry Pi 3A+ computer because it has a square cross-section, and designed the box around it. Other electronics include a LOBOT servomotor with a LEGO output spline, a camera, battery HAT on top of the Pi with rechargeable battery, and a USB adaptor. More details can be found on my <a href="https://github.com/leeping-ng/LEGO-Facial-Recognition-Box" target="_blank" rel="noreferrer">GitHub page</a>.</div>
 	},
 	{
 		name: "Calibration",

@@ -23,7 +23,7 @@ export default lightStrikeVehicle2Page;
 
 const pageName = "Light Strike Vehicle II";
 const creationDate = "Aug 2013";
-const creationDescr = <div>In May 2013, I finished designing the <a href="#/gallery/lightstrikevehicle1" target="_blank" rel="noreferrer">Light Strike Vehicle I</a> (Mk I) in black, which was in service with the Singapore Army since 1998. It would be replaced by the new <a href="https://en.wikipedia.org/wiki/Light_Strike_Vehicle_(Singapore)" target="_blank" rel="noreferrer">Light Strike Vehicle II</a> (Mk II) in 2013, which in my opinion, looked even more fun and aggressive. I could not resist the temptation to style the new vehicle, thus I tore down my Mk I design and started building Mk II...</div>;
+const creationDescr = <div>In May 2013, I finished designing the <a href="#/gallery/lightstrikevehicle1">Light Strike Vehicle I</a> (Mk I) in black, which was in service with the Singapore Army since 1998. It would be replaced by the new <a href="https://en.wikipedia.org/wiki/Light_Strike_Vehicle_(Singapore)" target="_blank" rel="noreferrer">Light Strike Vehicle II</a> (Mk II) in 2013, which in my opinion, looked even more fun and aggressive. I could not resist the temptation to style the new vehicle, thus I tore down my Mk I design and started building Mk II...</div>;
 const creationChips = ["Remote Control", "Power Functions", "Military"];
 const info = [
 	{
@@ -48,7 +48,7 @@ const info = [
 		name: "LEGO LSV I versus LSV II",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mjkS-AjnBUeuI5qFlcBjJAFgSn29sT20M4G6KBwMu1h55lSRMAYCFL-fKiCIeFR9p_YmYJOCOeKDP9e279ZY0tvlJ2Y3zD8Ji62886TGnPzCRXEd7b-6UZun1l34jgBFLGMnK_5Xi5NudWVbRropnvonBbl-flfqKqCll9TCpEQoUYMYth4ouhYCcZiu-yjyd?width=960&height=720&cropmode=none",
-		descr: <div>A comparison of my Mk I (left) and Mk II (right) designs. Check out more details of my LEGO Mk I <a href="#/gallery/lightstrikevehicle1" target="_blank" rel="noreferrer">here</a>.</div>
+		descr: <div>A comparison of my Mk I (left) and Mk II (right) designs. Check out more details of my LEGO Mk I <a href="#/gallery/lightstrikevehicle1">here</a>.</div>
 	},
 	{
 		name: "Front",

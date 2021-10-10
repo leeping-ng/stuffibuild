@@ -36,7 +36,7 @@ const info = [
 		name: "850425 Business Card Holder",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mgmzs12kXJbxGqFAJTzcseDboBGakxdL_1TM-F7e8mmqymTmwf5M5d1x9cvQ8apILU3_qegO1hNlB3JPmu9A650Q9ZHE-rHxXFt7aw6kOxtP9B_1eIxFR-05vdFZknCl9qV3YX9e6RIQhdjv_i-N5wb78GfvgQjeyV5yIajifmw4UnlRLZ86iDpA2pUrnY3rX?width=1999&height=1228&cropmode=none",
-		descr: <div>The original LEGO 850425 business card holder (photo credits <a href="https://www.9tro.com/media/cars/honda-civic-eg6-hope-for-honda?page={{pg.value}}" target="_blank" rel="noreferrer">BrickLink</a>).</div>
+		descr: <div>The original LEGO 850425 business card holder (photo credits <a href="https://brickset.com/sets/850425-1/Desk-Business-Card-Holder" target="_blank" rel="noreferrer">BrickLink</a>).</div>
 	},
     {
 		name: "Half-Opened",

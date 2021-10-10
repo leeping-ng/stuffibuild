@@ -22,7 +22,7 @@ export default porsche911Page;
 
 const pageName = "Porsche 911";
 const creationDate = "Jul 2016";
-const creationDescr = <div>LEGO Technic released the <a href="https://www.lego.com/en-us/service/buildinginstructions/42056" target="_blank" rel="noreferrer">Porsche 911 GT3 RS</a> set in 2016, which was the first 'supercar' set in a while. Along with the launch, LEGO announced another competition - build your own Porsche. I didn't have much time to design a large, complex model, but really wanted to join the contest. Thus, I decided to build a small remote-controlled replica of a 911 Carrera Cabriolet, improving on my earlier <a href="#/gallery/hondacivic" target="_blank" rel="noreferrer">Honda Civic</a> design. I managed to get into top 20 - not enough to win a prize, but it still feels good to be recognised!</div>;
+const creationDescr = <div>LEGO Technic released the <a href="https://www.lego.com/en-us/service/buildinginstructions/42056" target="_blank" rel="noreferrer">Porsche 911 GT3 RS</a> set in 2016, which was the first 'supercar' set in a while. Along with the launch, LEGO announced another competition - build your own Porsche. I didn't have much time to design a large, complex model, but really wanted to join the contest. Thus, I decided to build a small remote-controlled replica of a 911 Carrera Cabriolet, improving on my earlier <a href="#/gallery/hondacivic">Honda Civic</a> design. I managed to get into top 20 - not enough to win a prize, but it still feels good to be recognised!</div>;
 const creationChips = ["Remote Control", "Power Functions", "Contest Submission"];
 const info = [
 	{

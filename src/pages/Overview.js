@@ -73,7 +73,6 @@ const styles = (theme) => ({
   },
   text: {
     textAlign: 'center',
-    color: '#000000',
     fontWeight: 400,
     [theme.breakpoints.down('xs')]: {
       fontSize: '1.0rem',

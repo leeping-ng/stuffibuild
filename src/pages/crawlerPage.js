@@ -42,7 +42,7 @@ const info = [
 		name: "Front",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mnEQlx5P7dNkVo5O6eFlO2bwgRKQsbImqWYcuM91z9Ck4GRkaS0gzHDazMGIOPEVcjHCUB1Ele5KEK2zniNppVzMctT0hB7XDQXCwJzTOmwtnibyqyzWEBR9vnYKPGNsPjuDmXX6NnRRAKPJBkf48fykb9te9ssC46VmqfDPvmB00RwBYH5AzTb8khnnw63rD?width=4000&height=3000&cropmode=none",
-		descr: <div>The crawler is 21 studs wide, compared to my previous car designs such as the <a href="#/gallery/hondacivic" target="_blank" rel="noreferrer">Honda Civic</a> which was 13 studs wide. This made it significantly easier to style the car, and the result turned out better than my previous builds.</div>
+		descr: <div>The crawler is 21 studs wide, compared to my previous car designs such as the <a href="#/gallery/hondacivic">Honda Civic</a> which was 13 studs wide. This made it significantly easier to style the car, and the result turned out better than my previous builds.</div>
 	},
 	{
 		name: "Rear",

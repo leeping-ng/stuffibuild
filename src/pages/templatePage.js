@@ -52,12 +52,6 @@ const styles = (theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     padding: theme.spacing(0, 2),
-		// [theme.breakpoints.down('sm')]: {
-    //   marginBottom: theme.spacing(1),
-    // },
-    // [theme.breakpoints.up('md')]: {
-    //   marginBottom: theme.spacing(1),
-    // },
   },
 	iframeContainer: {
 		position: 'relative',
@@ -84,9 +78,7 @@ const styles = (theme) => ({
 	title: {
 		display: 'flex',
     flexDirection: 'column',
-    // alignItems: 'center',
 		fontWeight: 700,
-    // marginTop: theme.spacing(2),
     [theme.breakpoints.down('xs')]: {
       fontSize: '2.0rem'
     },
@@ -97,7 +89,6 @@ const styles = (theme) => ({
 	creationDate: {
 		display: 'flex',
     flexDirection: 'column',
-    // alignItems: 'center',
 		fontWeight: 400,
 		marginBottom: theme.spacing(4)
 	},
