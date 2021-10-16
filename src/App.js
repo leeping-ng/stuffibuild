@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactGA from "react-ga4";
 import { useEffect } from 'react';
-import { HashRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
   
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
@@ -12,7 +12,7 @@ import withRoot from './components/withRoot';
 function App() {
 
   return (
-    <Router>
+    <Router basename="/stuffibuild">
       <ScrollToTop />
       <Switch>
         <Route exact path="/" component={ Home } />
