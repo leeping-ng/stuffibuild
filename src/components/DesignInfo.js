@@ -47,6 +47,7 @@ import facialRecognitionBoxPage from '../pages/facialRecognitionBoxPage';
 
 const designInfo = [
     {
+      id: 16,
       path: '/gallery/facialrecognitionbox',
       page: facialRecognitionBoxPage,
       name: 'Facial Recognition Box',
@@ -56,6 +57,7 @@ const designInfo = [
       icon: <FaceIcon/>
     },
     {
+      id: 15, 
       path: '/gallery/8x8terrex',
       page: terrexPage,
       name: '8x8 Terrex',
@@ -65,15 +67,17 @@ const designInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      id: 14,
       path: '/gallery/robotank',
       page: robotankPage,
-      name: 'Robotank',
+      name: 'RoboTank',
       image: robotankImg,
       date: 'Jun 2018',
       descr: 'Organised a Mindstorms contest requiring robots to shoot targets and navigate an obstacle course.',
       icon: <AndroidIcon/>
     },
     {
+      id: 13,
       path: '/gallery/porsche911',
       page: porsche911Page,
       name: 'Porsche 911',
@@ -83,6 +87,7 @@ const designInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      id: 12,
       path: '/gallery/trackedvehicletransmission',
       page: trackedVehicleTransmissionPage,
       name: 'Tracked Vehicle Transmission',
@@ -92,6 +97,7 @@ const designInfo = [
       icon: <SettingsIcon/>
     },
     {
+      id: 11,
       path: '/gallery/dronetransporter',
       page: droneTransporterPage,
       name: 'Drone Transporter',
@@ -101,6 +107,7 @@ const designInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      id: 10,
       path: '/gallery/towercrane',
       page: towerCranePage,
       name: 'Tower Crane',
@@ -110,6 +117,7 @@ const designInfo = [
       icon: <SettingsIcon/>
     },
     {
+      id: 9,
       path: '/gallery/nameplate',
       page: namePlatePage,
       name: 'Name Plate',
@@ -119,6 +127,7 @@ const designInfo = [
       icon: <BusinessCenterIcon/>
     },
     {
+      id: 8,
       path: '/gallery/lightstrikevehicle2',
       page: lightStrikeVehicle2Page,
       name: 'Light Strike Vehicle II',
@@ -128,6 +137,7 @@ const designInfo = [
       icon: <DriveEtaIcon/> 
     },
     {
+      id: 7,
       path: '/gallery/twingatlingguns',
       page: twinGatlingGunsPage,
       name: 'Twin Gatling Guns',
@@ -137,6 +147,7 @@ const designInfo = [
       icon: <GpsFixedIcon />
     },
     {
+      id: 6,
       path: '/gallery/lightstrikevehicle1',
       page: lightStrikeVehicle1Page,
       name: 'Light Strike Vehicle I',
@@ -146,6 +157,7 @@ const designInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      id: 5,
       path: '/gallery/tuk-tuk',
       page: tukTukPage,
       name: 'Tuk-Tuk',
@@ -155,6 +167,7 @@ const designInfo = [
       icon: <DirectionsBikeIcon/>
     },
     {
+      id: 4,
       path: '/gallery/4x4crawler',
       page: crawlerPage,
       name: '4x4 Crawler',
@@ -164,6 +177,7 @@ const designInfo = [
       icon: <DriveEtaIcon/>
     },
     { 
+      id: 3,
       path: '/gallery/walkingcrab',
       page: walkingCrabPage,
       name: 'Walking Crab',
@@ -173,6 +187,7 @@ const designInfo = [
       icon: <PetsIcon/>
     },
     {
+      id: 2,
       path: '/gallery/hondacivic',
       page: hondaCivicPage,
       name: 'Honda Civic',
@@ -182,6 +197,7 @@ const designInfo = [
       icon: <DriveEtaIcon/>
     },
     {
+      id: 1,
       path: '/gallery/sportscar',
       page: sportsCarPage,
       name: 'Sports Car',

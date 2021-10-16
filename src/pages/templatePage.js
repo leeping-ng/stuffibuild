@@ -8,31 +8,34 @@ import CardContent from '@material-ui/core/CardContent';
 import Divider from '@material-ui/core/Divider';
 import Box from '@material-ui/core/Box';
 import Chip from '@material-ui/core/Chip';
-
+import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 
 import AppBar from '../components/AppBar';
 import Footer from '../components/Footer';
 import isoPaper from '../images/isometric-paper.png';
+import DesignInfoArray from '../components/DesignInfo';
 
+ /* 16:9 Aspect Ratio for iFrame container (divide 9 by 16 = 0.5625) */
 
 const styles = (theme) => ({
 	heading: {
 		display: 'block',
-    overflow: 'hidden',
+		overflow: 'hidden',
 		marginTop: theme.spacing(12),
 	},
 	root: {
-    display: 'block',
-    overflow: 'hidden',
+		display: 'block',
+		overflow: 'hidden',
 		marginTop: theme.spacing(2),
 		marginBottom: theme.spacing(0),
-    backgroundImage: `url(${isoPaper})`,
-    alignItems: 'center',
-    justifyContent: 'center',
-    position: 'relative',
-    backgroundColor: 'white',
-  },
-  overlay: {
+		backgroundImage: `url(${isoPaper})`,
+		alignItems: 'center',
+		justifyContent: 'center',
+		position: 'relative',
+		backgroundColor: 'white',
+	},
+	overlay: {
 		position: 'absolute',
 		top: 0,
 		left: 0,
@@ -41,23 +44,23 @@ const styles = (theme) => ({
 		backgroundColor: 'rgba(255, 255, 255, 0.5)',
 	},
 	container: {
-    marginTop: theme.spacing(2),
-    marginBottom: theme.spacing(2),
-    display: 'flex',
-    flexDirection: 'column',
-    position: 'relative',
-  },
+		marginTop: theme.spacing(2),
+		marginBottom: theme.spacing(2),
+		display: 'flex',
+		flexDirection: 'column',
+		position: 'relative',
+	},
 	image: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    padding: theme.spacing(0, 2),
-  },
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
+		padding: theme.spacing(0, 2),
+	},
 	iframeContainer: {
 		position: 'relative',
 		overflow: 'hidden',
 		width: '100%',
-		paddingTop: '56.25%', /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+		paddingTop: '56.25%',
 	},
 	iframeResponsive: {
 		position: 'absolute',
@@ -69,26 +72,26 @@ const styles = (theme) => ({
 		height: '100%'
 	},
 	card: {
-    display: 'flex',
-    flexDirection: 'column',
+		display: 'flex',
+		flexDirection: 'column',
 		backgroundColor: 'rgba(255, 255, 255, 0.7)',
-    padding: theme.spacing(0, 0),
+		padding: theme.spacing(0, 0),
 		marginBottom: theme.spacing(2),
-  },
+	},
 	title: {
 		display: 'flex',
-    flexDirection: 'column',
+		flexDirection: 'column',
 		fontWeight: 700,
-    [theme.breakpoints.down('xs')]: {
-      fontSize: '2.0rem'
-    },
-    [theme.breakpoints.up('sm')]: {
-      fontSize: '2.5rem'
-    },
-  },
+		[theme.breakpoints.down('xs')]: {
+			fontSize: '2.0rem'
+		},
+		[theme.breakpoints.up('sm')]: {
+			fontSize: '2.5rem'
+		},
+	},
 	creationDate: {
 		display: 'flex',
-    flexDirection: 'column',
+		flexDirection: 'column',
 		fontWeight: 400,
 		marginBottom: theme.spacing(4)
 	},
@@ -96,21 +99,21 @@ const styles = (theme) => ({
 		fontWeight: 400,
 		marginBottom: theme.spacing(2),
 		[theme.breakpoints.down('xs')]: {
-      fontSize: '1.0rem'
-    },
-    [theme.breakpoints.up('sm')]: {
-      fontSize: '1.1rem'
-    },
+		fontSize: '1.0rem'
+		},
+		[theme.breakpoints.up('sm')]: {
+			fontSize: '1.1rem'
+		},
 	},
-  text: {
-    fontWeight: 400,
-    [theme.breakpoints.down('xs')]: {
-      fontSize: '1.0rem'
-    },
-    [theme.breakpoints.up('sm')]: {
-      fontSize: '1.1rem'
-    },
-  },
+	text: {
+		fontWeight: 400,
+		[theme.breakpoints.down('xs')]: {
+			fontSize: '1.0rem'
+		},
+		[theme.breakpoints.up('sm')]: {
+			fontSize: '1.1rem'
+		},
+	},
 	shadow: {
 		boxShadow: 10,
 		display: "block"
@@ -119,14 +122,34 @@ const styles = (theme) => ({
 		marginRight: theme.spacing(1),
 		marginBottom: theme.spacing(1),
 		fontWeight: 550
-	}
+	},
+	buttonContainer: {
+		marginBottom: theme.spacing(2),
+		display: 'flex',
+		flexDirection: 'column',
+		position: 'relative',
+		alignItems: 'center',
+		justifyContent: 'center',
+	},
+	button: {
+		[theme.breakpoints.down('xs')]: {
+			marginRight: theme.spacing(1),
+			marginLeft: theme.spacing(1)
+		},
+		[theme.breakpoints.up('sm')]: {
+			marginRight: theme.spacing(2),
+			marginLeft: theme.spacing(2)
+		},	
+	},
 })
 
 function templatePage(props) {
-  const { classes, pageName, creationDate, creationDescr, creationChips, info, icon } = props;
-  return (
-    <React.Fragment>
-      <AppBar />
+	const { classes, pageName, creationDate, creationDescr, creationChips, info, icon } = props;
+	const numDesigns = DesignInfoArray.length;
+
+	return (
+	<React.Fragment>
+		<AppBar />
 			<Container className={classes.heading}>
 				<Grid container direction="row" alignItems="center" spacing={1}>
 					<Grid item>
@@ -141,7 +164,7 @@ function templatePage(props) {
 					<Typography variant="h6" className={classes.creationDescr}>{creationDescr}</Typography>
 					{creationChips.map((chip) => <Chip className={classes.chip} label={chip} />)}
 			</Container>
-      <section className={classes.root} >
+		<section className={classes.root} >
 				
 				<div className={classes.overlay} />
 				<Container className={classes.container}>
@@ -180,11 +203,79 @@ function templatePage(props) {
 					</Grid>
 					
 				</Container>
+				<Container className={classes.buttonContainer}>
+				{DesignInfoArray.map((DesignInfoElem) => (
+					<Box>
+					 {pageName===DesignInfoElem.name
+					?	
+						( <div>
+							{/* Condition for Previous button */}
+							{ DesignInfoElem.id > 1
+								?
+								( 
+									<Button
+									color="primary"
+									size="large"
+									variant="contained"
+									className={classes.button}
+									component={ Link } 
+									to={DesignInfoArray[Math.abs(DesignInfoElem.id-numDesigns)+1].path}
+									>
+									{"<< Prev"}
+									</Button>
+								)
+								:
+								( 
+									<Button
+									disabled="true"
+									size="large"
+									variant="contained"
+									className={classes.button}
+									>
+									{"<< Prev"}
+									</Button>
+								)
+							}
+							{/* Condition for Next button */}
+							{ DesignInfoElem.id < numDesigns
+								?
+								( 
+									<Button
+									color="primary"
+									size="large"
+									variant="contained"
+									className={classes.button}
+									component={ Link } 
+									to={DesignInfoArray[Math.abs(DesignInfoElem.id-numDesigns)-1].path}
+									>
+									{"Next >>"}
+									</Button>
+								)
+								:
+								( 
+									<Button
+									disabled="true"
+									size="large"
+									variant="contained"
+									className={classes.button}
+									>
+									{"Next >>"}
+									</Button>
+								)
+							}
+							</div>
+						)
+					:
+						''
+						}
+					</Box>
+				))}
+				</Container>
 			</section>
-      <Footer />
-    </React.Fragment>
+		<Footer />
+	</React.Fragment>
 
-  );
+	);
 }
 
 
