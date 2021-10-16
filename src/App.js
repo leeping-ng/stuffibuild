@@ -12,7 +12,7 @@ import withRoot from './components/withRoot';
 function App() {
 
   return (
-    <Router basename="/stuffibuild">
+    <Router>
       <ScrollToTop />
       <Switch>
         <Route exact path="/" component={ Home } />
