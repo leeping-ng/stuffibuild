@@ -22,7 +22,7 @@ export default porsche911Page;
 
 const pageName = "Porsche 911";
 const creationDate = "Jul 2016";
-const creationDescr = <div>LEGO Technic released the <a href="https://www.lego.com/en-us/service/buildinginstructions/42056" target="_blank" rel="noreferrer">Porsche 911 GT3 RS</a> set in 2016, which was the first 'supercar' set in a while. Along with the launch, LEGO announced another competition - build your own Porsche. I didn't have much time to design a large, complex model, but really wanted to join the contest. Thus, I decided to build a small remote-controlled replica of a 911 Carrera Cabriolet, improving on my earlier <a href="#/gallery/hondacivic">Honda Civic</a> design. I managed to get into top 20 - not enough to win a prize, but it still feels good to be recognised!</div>;
+const creationDescr = <div>LEGO Technic released the <a href="https://www.lego.com/en-us/service/buildinginstructions/42056" target="_blank" rel="noreferrer">Porsche 911 GT3 RS</a> set in 2016, which was the first 'supercar' set in a while. Along with the launch, LEGO announced another competition - build your own Porsche. I didn't have much time to design a large, complex model, but really wanted to join the contest. Thus, I decided to build a small remote-controlled replica of a 911 Carrera Cabriolet, improving on my earlier <a href="/gallery/hondacivic">Honda Civic</a> design. I managed to get into top 20 - not enough to win a prize, but it still feels good to be recognised!</div>;
 const creationChips = ["Remote Control", "Power Functions", "Contest Submission"];
 const info = [
 	{
@@ -71,7 +71,7 @@ const info = [
 		name: "Electronics",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mB8m5e8Y1yakm3_jEteXxPihmfthMdYr5KSKUDORJT_iD2sKDbFmlT0bRtqpEHT4Mz3ZCqHQr1zEQdmRy-zdUiLRcbV31ISBULB6hK1urhs2PnCEMaZr9RXWC2TuCGbE1vbgn81aspNcmg_AtSl52EoXTm7A8CtdaJuOqss8kvXfPqwtgZMKYXgj49fEVycBJ?width=960&height=720&cropmode=none",
-		descr: <div>I placed the motors and IR receiver as low as possible, creating more space above, which was especially important as it is an open-top car. The layout of electronics here was a marked improvement over my previous <a href="#/gallery/hondacivic" target="_blank" rel="noreferrer">Honda Civic</a> design.</div>
+		descr: <div>I placed the motors and IR receiver as low as possible, creating more space above, which was especially important as it is an open-top car. The layout of electronics here was a marked improvement over my previous <a href="/gallery/hondacivic" target="_blank" rel="noreferrer">Honda Civic</a> design.</div>
 	},
 	{
 		name: "Blueprints",

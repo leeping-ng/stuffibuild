@@ -44,7 +44,7 @@ import robotankPage from '../pages/robotankPage';
 import terrexPage from '../pages/terrexPage';
 import facialRecognitionBoxPage from '../pages/facialRecognitionBoxPage';
 
-
+// 'designInfo.name' needs to match 'pageName' on the specific page for Prev and Next buttons to appear'
 const designInfo = [
     {
       id: 16,

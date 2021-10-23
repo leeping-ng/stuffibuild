@@ -122,7 +122,7 @@ function aboutMePage(props) {
     {
       type: "Photo",
       url: "https://dm2304files.storage.live.com/y4mGuUoWURyKpY-zhodNP0zV_KQfIPADvnfTv6N-xmksIuXPiQlIeDM4H7v4WcT5mCB3k-h5j2lqzlB6dLif-hJ7FwemFyKUmM6s7pcK6qadSMMC38U2VZt9NzohBPD726tR22Mc8GyzYesTnjzzcZsFWL7O_NX2UrMBIVNqLUsa3dHAFNGb-B6iN1kt_-l-Jwl?width=2815&height=1877&cropmode=none",
-      caption: <div>My first LEGO design as an adult was a <a href="#/gallery/sportscar">sports car</a></div>
+      caption: <div>My first LEGO design as an adult was a <a href="/gallery/sportscar">sports car</a></div>
     },
     {
       type: "Paragraph",
@@ -140,7 +140,7 @@ function aboutMePage(props) {
     {
       type: "Photo",
       url: "https://dm2304files.storage.live.com/y4mtWkm7Mst-cBHCG9llubs55oveO9rerEF-vQtpHDeGdel_f6BcBHBbLvWdwh9Qe4Xj8JSF5SU_HQjejlpjQGcLrgBZyRf36cJwULkbC0xMzIn2ayuOZpi0XlZ2x1Fcpv2J4prYglHUqNzqMMOjKhFTPDKSEakkoHBhzIsRmBSPsMd-GMcdWHO2iyQk__7aQ8K?width=1163&height=775&cropmode=none",
-      caption: <div>Prototype of a <a href="#/gallery/trackedvehicletransmission">tracked vehicle transmission</a></div>
+      caption: <div>Prototype of a <a href="/gallery/trackedvehicletransmission">tracked vehicle transmission</a></div>
     },
     {
       type: "Paragraph",
@@ -162,7 +162,7 @@ function aboutMePage(props) {
     },
     {
       type: "Paragraph",
-      descr: <div>In 2019, I did a career pivot from mechanical engineering to AI. Robotics, automation and AI were becoming increasingly important, and I was keen to be a part of this. When I started coding, I found that I loved it too! With this, the theme of my LEGO designs also evolved, to building <a href="#/gallery/robotank">robots</a> using LEGO Mindstorms, and even embedding a camera and tiny computer with facial recognition software in a <a href="#/gallery/facialrecognitionbox">LEGO box</a> to propose to my girlfriend!</div>
+      descr: <div>In 2019, I did a career pivot from mechanical engineering to AI. Robotics, automation and AI were becoming increasingly important, and I was keen to be a part of this. When I started coding, I found that I loved it too! With this, the theme of my LEGO designs also evolved, to building <a href="/gallery/robotank">robots</a> using LEGO Mindstorms, and even embedding a camera and tiny computer with facial recognition software in a <a href="/gallery/facialrecognitionbox">LEGO box</a> to propose to my girlfriend!</div>
     },
     {
       type: "Photo",
@@ -171,12 +171,12 @@ function aboutMePage(props) {
     },
     {
       type: "Paragraph",
-      descr: "With my new skills in software development, I decided to create my own website in 2021, using React and Material-UI, and what you see here is the result! There was also a push factor for this - I used to post my creations on MOCpages, an online community for LEGO creations. Sadly, in 2020, the plug was pulled for MOCpages, and all my posts were deleted! I had to rewrite descriptions of my LEGO creations here, and it has been a nostalgic trip down memory lane indeed…"
+      descr: <div>With my new skills in software development, I decided to create my own website in 2021, using React and Material-UI, and what you see here is the result! There was also a push factor for this - I used to post my creations on MOCpages, an online community for LEGO creations. Sadly, in 2020, the <a href="https://thelegocarblog.com/2020/06/04/the-rise-fall-of-mocpages/" target="_blank" rel="noreferrer">plug was pulled</a> for MOCpages, and all my posts were deleted! I had to rewrite descriptions of my LEGO creations here, and it has been a nostalgic trip down memory lane indeed…</div>
     },
     {
       type: "Photo",
       url: "https://dm2304files.storage.live.com/y4mxjRInx8bDtxwX93Wg107aemg-dfFQD974g3zd7K5o9RZRLjZUIqXHE9Q2ghoS96F_h1juzC-zSe8IM5Ipsws7hrakGbjIgBIjeGRjCZWK61U1WnmqlnpKUfbLsBuihJOOJEbSXFw2U0Y0morDRIn97rIsyL-_UyicM8nhjU_6JLGh6Vloz0Ol3cZvuam9sEy?width=5184&height=3456&cropmode=none",
-      caption: <div>My more recent photos such as this <a href="#/gallery/tuk-tuk">Terrex</a> look better than those before</div>
+      caption: <div>My more recent photos such as this <a href="/gallery/tuk-tuk">Terrex</a> look better than those before</div>
     },
     {
       type: "Paragraph",
@@ -185,7 +185,7 @@ function aboutMePage(props) {
     {
       type: "Photo",
       url: "https://dm2304files.storage.live.com/y4m2SOCpoaklp_LqiJGQMqCR2T2pRp2emG9owjQFuZK-iuAPsyzFlPbGfDhbJ6XsJgqcmfoG5VR-KVlsZrleRVJPsbhitLSc7Cjk8uqz8xEjuc0Q8cXA1EmdxI4mdzNC0Gv1g23Zp7WDJb6--iRPiRxH9BOLTy_9FX7npy4UJ4gj-k4Z6i61Yn857dFPV4lfaCK?width=4000&height=3000&cropmode=none",
-      caption: <div>After seeing Tuk-Tuks in Bangkok, I built a <a href="#/gallery/tuk-tuk">LEGO version</a></div>
+      caption: <div>After seeing Tuk-Tuks in Bangkok, I built a <a href="/gallery/tuk-tuk">LEGO version</a></div>
     },
     {
       type: "Paragraph",

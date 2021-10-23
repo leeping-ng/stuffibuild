@@ -23,7 +23,7 @@ export default hondaCivicPage;
 
 const pageName = "Honda Civic";
 const creationDate = "May 2012";
-const creationDescr = <div>After building the <a href="#/gallery/sportscar">sports car</a> a few months ago, I was keen to design another one – this time with remote-controlled functionality using LEGO Power Functions. I decided to model it after the Honda Civic EG6 hatchback, as I grew fond of Civics from learning to drive in one, and from playing Need For Speed Underground. I had just finished my final exams in college, and had a few weeks to spare before my grad trip, and so I started building…</div>;
+const creationDescr = <div>After building the <a href="/gallery/sportscar">sports car</a> a few months ago, I was keen to design another one – this time with remote-controlled functionality using LEGO Power Functions. I decided to model it after the Honda Civic EG6 hatchback, as I grew fond of Civics from learning to drive in one, and from playing Need For Speed Underground. I had just finished my final exams in college, and had a few weeks to spare before my grad trip, and so I started building…</div>;
 const creationChips = ["Remote Control", "Power Functions"];
 const info = [
 	{
@@ -54,7 +54,7 @@ const info = [
 		name: "Side",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mWLMnbW-LM7p5VhCNtbOjCXpEMeGaWxj6M_1uAGKksf1h44VixDunnSJzvUT6f8q531lATyTh-apuDGfTQx2lmoTa9DiWPS30aOTj663cP1MlEJXR8qobl0aJyWWPbvmIdIKrHz746Xbj1FyyhiKU7x1O92AmxJBabQeALCLsjxumPt47XVMPcBN-n4NJyHnE?width=4000&height=3000&cropmode=none",
-		descr: <div>One of the major aesthetic improvements over the previous <a href="#/gallery/sportscar">sports car</a> was to make the wheel size more proportional, by increasing the tire diameter from 30mm to 43mm. I was also pleased with the clean lines of the front wheel arches and the striking gold rims.</div>
+		descr: <div>One of the major aesthetic improvements over the previous <a href="/gallery/sportscar">sports car</a> was to make the wheel size more proportional, by increasing the tire diameter from 30mm to 43mm. I was also pleased with the clean lines of the front wheel arches and the striking gold rims.</div>
 	},
 	{
 		name: "Bottom",

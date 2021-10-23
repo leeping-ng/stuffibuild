@@ -96,7 +96,7 @@ const info = [
 		name: "Light Strike Vehicle II",
 		type: "Photo",
 		url: "https://dm2304files.storage.live.com/y4mYTjUHhH1XOW9swqMppvs6wJUfQDW6lkFtvWg5EH_6x8NIMr3SM0Q63blq2wIDMtc42URo70eEtGhmBW1jQJ6EyHX-R047T9GAW0ixD2F2-GXLpwtf79LkH1Sx96U2bVIUWTnyquu6B042eMiFQ5pGZaIQyS6q6-WmDt62saHpICTfSHDL6xoQ5i4BFkQmijc?width=4000&height=3000&cropmode=none",
-		descr: <div>UPDATE: 3 months later, I went on to design an improved Mk II. Apart from the obvious changes in styling, I completely re-designed the chassis as well. You can read more about it <a href="#/gallery/lightstrikevehicle2">here</a>!</div>
+		descr: <div>UPDATE: 3 months later, I went on to design an improved Mk II. Apart from the obvious changes in styling, I completely re-designed the chassis as well. You can read more about it <a href="/gallery/lightstrikevehicle2">here</a>!</div>
 	}
 
 ];

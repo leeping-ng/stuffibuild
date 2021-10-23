@@ -22,7 +22,7 @@ export default towerCranePage;
 
 const pageName = "Tower Crane";
 const creationDate = "Feb 2014";
-const creationDescr = <div>About 6 months ago, a like-minded colleague and myself each built LEGO weapons, and pointed them at each other's cubicle as a lark. I designed the <a href="#/gallery/twingatlingguns">twin gatling guns</a> for this, and we had a lot of fun messing with each other and showing off our creations to colleagues. We decided to do it again, but this time, the theme was: tower cranes! And therefore I started designing again...</div>;
+const creationDescr = <div>About 6 months ago, a like-minded colleague and myself each built LEGO weapons, and pointed them at each other's cubicle as a lark. I designed the <a href="/gallery/twingatlingguns">twin gatling guns</a> for this, and we had a lot of fun messing with each other and showing off our creations to colleagues. We decided to do it again, but this time, the theme was: tower cranes! And therefore I started designing again...</div>;
 const creationChips = ["Power Functions", "Gearbox"];
 const info = [
 	{

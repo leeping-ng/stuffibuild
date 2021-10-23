@@ -45,12 +45,23 @@ const styles = (theme) => ({
   oppositeContent: {
     marginBottom: theme.spacing(2)
   },
-  paper: {
+  paperImage: {
     display: 'inline-block',
     padding: '6px 10px',
     maxWidth: 300,
     textAlign: 'left',
-    marginTop: theme.spacing(0.5)
+    marginTop: theme.spacing(0.5),
+    '&:hover': {
+      backgroundColor: 'grey',
+      opacity: 0.8
+    },
+  },
+  paperDescr: {
+    display: 'inline-block',
+    padding: '6px 10px',
+    maxWidth: 300,
+    textAlign: 'left',
+    marginTop: theme.spacing(0.5),
   },
   secondaryTail: {
     backgroundColor: theme.palette.secondary.main,
@@ -114,13 +125,13 @@ function Overview(props) {
                 {design.date}
               </Typography>
               <Link to={design.path}>
-              <Paper elevation={3} className={classes.paper}>
+                <Paper elevation={3} className={classes.paperImage}>
                 
                   <Typography variant="h6" className={classes.title}>
                     {design.name}
                   </Typography>
-                
-                <img src={design.image} alt={design.name} width='100%'/>
+                  <img src={design.image} alt={design.name} width='100%'/>
+
               </Paper>
               </Link>
             </TimelineOppositeContent>
@@ -131,7 +142,7 @@ function Overview(props) {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent align='left'>
-              <Paper elevation={3} className={classes.paper}>
+              <Paper elevation={3} className={classes.paperDescr}>
 
                 <Typography className={classes.descr}>
                     {design.descr}
