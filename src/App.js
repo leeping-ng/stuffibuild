@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, useLocation } from 'react-route
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Overview from './pages/Overview';
+import Contact from './pages/Contact';
 import DesignInfo from './components/DesignInfo';
 import withRoot from './components/withRoot';
 
@@ -21,12 +22,13 @@ function App() {
         {DesignInfo.map((design) => (
           <Route exact path={ design.path } component={ design.page } />
         ))};
+        <Route exact path="/contact" component={ Contact } />
       </Switch>
     </Router>
   );
 }
 
-ReactGA.initialize('G-QDLJZWGBZS');
+ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID);
 ReactGA.send("pageview");
 
 function ScrollToTop() {

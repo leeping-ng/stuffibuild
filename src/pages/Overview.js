@@ -52,7 +52,7 @@ const styles = (theme) => ({
     textAlign: 'left',
     marginTop: theme.spacing(0.5),
     '&:hover': {
-      backgroundColor: 'grey',
+      backgroundColor: 'rgb(220,220,220)',
       opacity: 0.8
     },
   },

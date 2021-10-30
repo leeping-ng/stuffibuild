@@ -66,11 +66,15 @@ function AppBar(props) {
     {
       title: "About Me",
       url: "/about"
+    },
+    {
+      title: "Contact",
+      url: "/contact"
     }
   ];
 
   const menuClasses = { paper: classes.appBarMenuPaper };
-  const menuPozitions = { vertical: "top", horizontal: "right" };
+  const menuPositions = { vertical: "top", horizontal: "right" };
   return (
     <>
       <div className={classes.spacer} />
@@ -131,10 +135,10 @@ function AppBar(props) {
                 </IconButton>
                 <Menu
                   anchorEl={anchorEl}
-                  anchorOrigin={menuPozitions}
+                  anchorOrigin={menuPositions}
                   id={menuId}
                   keepMounted
-                  transformOrigin={menuPozitions}
+                  transformOrigin={menuPositions}
                   open={isMenuOpen}
                   onClose={handleMenuClose}
                   classes={menuClasses}
@@ -157,8 +161,8 @@ function AppBar(props) {
                     >
                       <Box
                         component={Clear}
-                        // width="2rem!important"
-                        // height="2rem!important"
+                        width="1rem!important"
+                        height="1rem!important"
                       />
                     </IconButton>
                   </Box>
