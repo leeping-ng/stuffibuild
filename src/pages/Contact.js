@@ -28,6 +28,9 @@ const styles = (theme) => ({
 	honeypot: {
     display: 'none',
   },
+  mainContent: {
+    minHeight: 'calc(100vh - 212px)',
+  },
   root: {
     display: 'block',
     overflow: 'hidden',
@@ -37,12 +40,12 @@ const styles = (theme) => ({
     justifyContent: 'center',
     position: 'relative',
     backgroundColor: 'white',
+    minHeight: 'calc(100vh - 212px)',
     [theme.breakpoints.down('xs')]: {
       marginTop: theme.spacing(6),
     },
     [theme.breakpoints.up('sm')]: {
       marginTop: theme.spacing(8),
-      height: '85vh'
     },
   },
   overlay: {
@@ -92,12 +95,9 @@ const styles = (theme) => ({
     background: "rgb(255, 255, 255)",
   },
   footer: {
-    [theme.breakpoints.up('sm')]: {
-      position: 'absolute',
-      left: 0,
-      bottom: 0,
-      right: 0
-    },
+    position: 'relative',
+    left: 0,
+    bottom: 0,
   }
 })
 
@@ -329,58 +329,60 @@ function ContactPage(props) {
   
   return (
     <React.Fragment>
-      <AppBar />
-      <section className={classes.root} >
-				<div className={classes.overlay} />
-				<Container className={classes.container}>
-          <Grid container justify="center" spacing={5}>
-            <Grid item xs={12} md={4}>
-              <Typography variant="h6" className={classes.titleText}>Send me a message</Typography>
-              <Typography variant="h6" className={classes.text}>Feedback, comments, and suggestions on what I could build next are welcome!</Typography>
-              <Typography variant="h6" className={classes.text}>You can also follow me on <a href="https://www.youtube.com/channel/UC8LFt8UC7rqnKA0NiF0IBjw/videos" target="_blank" rel="noreferrer">YouTube</a>, <a href="https://www.linkedin.com/in/lee-ping-ng/" target="_blank" rel="noreferrer">LinkedIn</a> or <a href="https://github.com/leeping-ng" target="_blank" rel="noreferrer">GitHub</a>.</Typography>
+      <div className={classes.mainContent}>
+        <AppBar />
+        <section className={classes.root} >
+          <div className={classes.overlay} />
+          <Container className={classes.container}>
+            <Grid container justify="center" spacing={5}>
+              <Grid item xs={12} md={4}>
+                <Typography variant="h6" className={classes.titleText}>Send me a message</Typography>
+                <Typography variant="h6" className={classes.text}>Feedback, comments, and suggestions on what I could build next are welcome!</Typography>
+                <Typography variant="h6" className={classes.text}>You can also follow me on <a href="https://www.youtube.com/channel/UC8LFt8UC7rqnKA0NiF0IBjw/videos" target="_blank" rel="noreferrer">YouTube</a>, <a href="https://www.linkedin.com/in/lee-ping-ng/" target="_blank" rel="noreferrer">LinkedIn</a> or <a href="https://github.com/leeping-ng" target="_blank" rel="noreferrer">GitHub</a>.</Typography>
+              </Grid>
+              <Grid item xs={12} md={8}>
+                  {formElements}
+              </Grid>
+              <Grid item>
+                <Box>
+                  {isLoading ? (
+                    <CircularProgress />
+                  ) : (
+                    <Button
+                      onClick={submitForm}
+                      disabled={!formIsValid}
+                      variant="contained"
+                      color="primary"
+                    >
+                      Send
+                    </Button>
+                  )}
+                </Box>
+              </Grid> 
             </Grid>
-            <Grid item xs={12} md={8}>
-                {formElements}
-            </Grid>
-            <Grid item>
-              <Box>
-                {isLoading ? (
-                  <CircularProgress />
-                ) : (
-                  <Button
-                    onClick={submitForm}
-                    disabled={!formIsValid}
-                    variant="contained"
-                    color="primary"
-                  >
-                    Send
-                  </Button>
-                )}
-              </Box>
-            </Grid> 
-					</Grid>
-          {error ? (
-            <Snackbar
-              open={openSnackbar}
-              onClose={closeSnackbar}
-              anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
-            >
-              <Alert onClose={closeSnackbar} severity="error">
-                Oops! Something went wrong, try again later.
-              </Alert>
-            </Snackbar>
-          ) : (
-            <Snackbar
-              open={openSnackbar}
-              autoHideDuration={2000}
-              onClose={closeSnackbar}
-              anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
-            >
-              <Alert severity="success">Message sent!</Alert>
-            </Snackbar>
-          )}
-				</Container>
-			</section>
+            {error ? (
+              <Snackbar
+                open={openSnackbar}
+                onClose={closeSnackbar}
+                anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+              >
+                <Alert onClose={closeSnackbar} severity="error">
+                  Oops! Something went wrong, try again later.
+                </Alert>
+              </Snackbar>
+            ) : (
+              <Snackbar
+                open={openSnackbar}
+                autoHideDuration={2000}
+                onClose={closeSnackbar}
+                anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+              >
+                <Alert severity="success">Message sent!</Alert>
+              </Snackbar>
+            )}
+          </Container>
+        </section>
+      </div>
       <div className={classes.footer}>
         <Footer />
       </div>

@@ -12,7 +12,6 @@ import Box from '@material-ui/core/Box';
 const styles = (theme) => ({
 	root: {
 		color: theme.palette.common.white,
-		// display: 'flex',
     alignItems: 'center',
 		position: 'relative',
 		'& video': {
@@ -22,6 +21,11 @@ const styles = (theme) => ({
 			height: '50vh',
 			},
 		[theme.breakpoints.up('sm')]: {
+			height: '60vh',
+			minHeight: 500,
+			maxHeight: 900,
+			},
+		[theme.breakpoints.up('md')]: {
 			height: '80vh',
 			minHeight: 500,
 			maxHeight: 1300,

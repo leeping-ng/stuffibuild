@@ -56,9 +56,6 @@ const styles = (theme) => ({
     [theme.breakpoints.down('xs')]: {
 			height: 150,
 			},
-    [theme.breakpoints.up('sm')]: {
-      marginRight: theme.spacing(4),
-      },
   },
 
   text: {
