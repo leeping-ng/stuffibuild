@@ -22,13 +22,13 @@ const styles = (theme) => ({
     backgroundColor: 'white',
   },
   overlay: {
-		position: 'absolute',
-		top: 0,
-		left: 0,
-		width: '100%',
-		height: '100%',
-		backgroundColor: 'rgba(255, 255, 255, 0.5)',
-	},
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+  },
   container: {
     display: 'flex',
     flexDirection: 'column',
@@ -43,7 +43,7 @@ const styles = (theme) => ({
       marginBottom: theme.spacing(6),
       fontSize: '2.0rem'
     },
-    
+
   },
   item: {
     display: 'flex',
@@ -54,8 +54,8 @@ const styles = (theme) => ({
   image: {
     height: 200,
     [theme.breakpoints.down('xs')]: {
-			height: 150,
-			},
+      height: 150,
+    },
   },
 
   text: {
@@ -75,7 +75,7 @@ const styles = (theme) => ({
     [theme.breakpoints.up('sm')]: {
       marginTop: theme.spacing(4),
     },
-    
+
   },
 });
 
@@ -83,25 +83,27 @@ function About(props) {
   const { classes } = props;
 
   return (
-    
+
     <section className={classes.root} >
       <div className={classes.overlay} />
-      
+
       <Container className={classes.container}>
         <Grid container spacing={5}>
           <Grid item xs={12} md={8}>
             <div className={classes.item}>
               <Typography variant="h6" className={classes.text}>
-                Building stuff with LEGO is my hobby. Professionally, I am currently an AI engineer
-                specialising in computer vision. I used to design vehicles, transmissions and robots 
-                as a mechanical engineer. So, I build stuff at work too!
+                I build stuff as a hobby and I also build stuff at work! <br /><br />
+                This page is pretty LEGO-centric, due to my passion in LEGO and early career as a
+                mechanical engineer designing vehicles, transmissions and robots. I've switched into
+                software and AI engineering roles since 2019, and I hope to update this website with
+                some interesting software projects that I've worked on. Stay tuned (:
               </Typography>
               <Button
                 color="primary"
                 size="large"
                 variant="contained"
                 className={classes.button}
-                component={ Link } 
+                component={Link}
                 to="/about"
               >
                 About Me

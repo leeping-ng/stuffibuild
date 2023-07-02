@@ -18,11 +18,11 @@ import DesignInfo from '../components/DesignInfo';
 import isoPaper from '../images/isometric-paper.png';
 
 const styles = (theme) => ({
-	root: {
+  root: {
     display: 'block',
     overflow: 'hidden',
-		marginTop: theme.spacing(0),
-		marginBottom: theme.spacing(0),
+    marginTop: theme.spacing(0),
+    marginBottom: theme.spacing(0),
     backgroundImage: `url(${isoPaper})`,
     alignItems: 'center',
     justifyContent: 'center',
@@ -32,16 +32,16 @@ const styles = (theme) => ({
   heading: {
     display: 'block',
     overflow: 'hidden',
-		marginTop: theme.spacing(8),
+    marginTop: theme.spacing(8),
   },
   overlay: {
-		position: 'absolute',
-		top: 0,
-		left: 0,
-		width: '100%',
-		height: '100%',
-		backgroundColor: 'rgba(255, 255, 255, 0.5)',
-	},
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+  },
   oppositeContent: {
     marginBottom: theme.spacing(2)
   },
@@ -96,63 +96,63 @@ const styles = (theme) => ({
       fontSize: '1.25rem'
     },
   },
-  
+
 
 });
 
 
 
 function Overview(props) {
-    const { classes } = props;
+  const { classes } = props;
 
   return (
     <React.Fragment>
       <AppBar />
       <Container className={classes.heading}>
-          <Typography variant="h6" className={classes.text}>
-            Many of my builds were inspired from encounters in my daily life. Here is the story of my journey since 2011.
-          </Typography>
+        <Typography variant="h6" className={classes.text}>
+          Many of my builds were inspired from encounters in my daily life. Here is the story of my journey since 2011.
+        </Typography>
       </Container>
       <section className={classes.root} >
-      <div className={classes.overlay} />
-      <Timeline >
+        <div className={classes.overlay} />
+        <Timeline >
 
 
-        {DesignInfo.map((design) => (
-          <TimelineItem>
-            <TimelineOppositeContent className={classes.oppositeContent}>
-              <Typography variant="body2" color="textSecondary">
-                {design.date}
-              </Typography>
-              <Link to={design.path}>
-                <Paper elevation={3} className={classes.paperImage}>
-                
-                  <Typography variant="h6" className={classes.title}>
-                    {design.name}
-                  </Typography>
-                  <img src={design.image} alt={design.name} width='100%'/>
-
-              </Paper>
-              </Link>
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <TimelineDot>
-                {design.icon}
-              </TimelineDot>
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent align='left'>
-              <Paper elevation={3} className={classes.paperDescr}>
-
-                <Typography className={classes.descr}>
-                    {design.descr}
+          {DesignInfo.map((design) => (
+            <TimelineItem>
+              <TimelineOppositeContent className={classes.oppositeContent}>
+                <Typography variant="body2" color="textSecondary">
+                  {design.date}
                 </Typography>
-              </Paper>
-            </TimelineContent>
-          </TimelineItem>
-        ))}
+                <Link to={design.path}>
+                  <Paper elevation={3} className={classes.paperImage}>
+
+                    <Typography variant="h6" className={classes.title}>
+                      {design.name}
+                    </Typography>
+                    <img src={design.image} alt={design.name} width='100%' />
+
+                  </Paper>
+                </Link>
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineDot>
+                  {design.icon}
+                </TimelineDot>
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent align='left'>
+                <Paper elevation={3} className={classes.paperDescr}>
+
+                  <Typography className={classes.descr}>
+                    {design.descr}
+                  </Typography>
+                </Paper>
+              </TimelineContent>
+            </TimelineItem>
+          ))}
         </Timeline>
-        </section>
+      </section>
       <Footer />
     </React.Fragment>
 

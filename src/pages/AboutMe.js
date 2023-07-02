@@ -13,11 +13,11 @@ import isoPaper from '../images/isometric-paper.png';
 
 
 const styles = (theme) => ({
-	heading: {
-		display: 'block',
+  heading: {
+    display: 'block',
     overflow: 'hidden',
-		marginTop: theme.spacing(8),
-	},
+    marginTop: theme.spacing(8),
+  },
   headingText: {
     textAlign: 'center',
     fontWeight: 400,
@@ -32,11 +32,11 @@ const styles = (theme) => ({
       fontSize: '1.25rem'
     },
   },
-	root: {
+  root: {
     display: 'block',
     overflow: 'hidden',
-		marginTop: theme.spacing(0),
-		marginBottom: theme.spacing(0),
+    marginTop: theme.spacing(0),
+    marginBottom: theme.spacing(0),
     backgroundImage: `url(${isoPaper})`,
     alignItems: 'center',
     justifyContent: 'center',
@@ -44,21 +44,21 @@ const styles = (theme) => ({
     backgroundColor: 'white',
   },
   overlay: {
-		position: 'absolute',
-		top: 0,
-		left: 0,
-		width: '100%',
-		height: '100%',
-		backgroundColor: 'rgba(255, 255, 255, 0.5)',
-	},
-	container: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+  },
+  container: {
     marginTop: theme.spacing(0),
     marginBottom: theme.spacing(4),
     display: 'flex',
     flexDirection: 'column',
     position: 'relative',
   },
-	gridElement: {
+  gridElement: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -68,12 +68,12 @@ const styles = (theme) => ({
   image: {
     marginTop: theme.spacing(2),
   },
-	card: {
+  card: {
     display: 'flex',
     flexDirection: 'column',
-		backgroundColor: 'rgba(255, 255, 255, 0.7)',
+    backgroundColor: 'rgba(255, 255, 255, 0.7)',
     padding: theme.spacing(0, 0),
-		marginBottom: theme.spacing(0),
+    marginBottom: theme.spacing(0),
   },
   text: {
     textAlign: 'center',
@@ -87,7 +87,7 @@ const styles = (theme) => ({
   },
   caption: {
     padding: theme.spacing(0, 0),
-		marginBottom: theme.spacing(0),
+    marginBottom: theme.spacing(0),
     '&:last-child': {
       paddingBottom: 0,
     },
@@ -117,7 +117,7 @@ function aboutMePage(props) {
     },
     {
       type: "Paragraph",
-      descr: "My name is Lee Ping Ng, and I live in Singapore. One of my hobbies is to design stuff using LEGO bricks. Since I was a kid, I would quickly grow bored of standard LEGO sets, and dismantle them to build my own creations. I was particularly fond of LEGO Technic, which included gears, motors and pneumatics. When I was 15, I decided that I wanted to be a mechanical engineer, and I believe that this largely stemmed from my passion in LEGO.",
+      descr: "My name is Lee Ping Ng, and I'm currently based in London, UK. One of my hobbies is to design stuff using LEGO bricks. Since I was a kid, I would quickly grow bored of standard LEGO sets, and dismantle them to build my own creations. I was particularly fond of LEGO Technic, which included gears, motors and pneumatics. When I was 15, I decided that I wanted to be a mechanical engineer, and I believe that this largely stemmed from my passion in LEGO.",
     },
     {
       type: "Photo",
@@ -192,48 +192,48 @@ function aboutMePage(props) {
       descr: "Although this website is about stuff I build, in some ways, it’s almost a blog about my personal life. Many of my designs were influenced by my travels, career, or life at that point in time. I guess this website serves as a reminder to the future me - to continue to be passionate in the things I do. Thank you for checking out my website, and I sincerely hope it inspires you to pursue your passions as well!"
     }
   ];
-  
+
   return (
     <React.Fragment>
       <AppBar />
-			<Container className={classes.heading}>
-				<Typography variant="h6" className={classes.headingText}>About a geek and his passion for LEGO, design, and engineering.</Typography>
-			</Container>
+      <Container className={classes.heading}>
+        <Typography variant="h6" className={classes.headingText}>About a geek and his passion for LEGO, design, and engineering.</Typography>
+      </Container>
       <section className={classes.root} >
-				<div className={classes.overlay} />
-				<Container className={classes.container}>
-				<Grid container>
-					{info.map((info) => (
-						<Grid item xs={12} md={6} className={classes.gridElement}>
-            {info.type==="Photo" 
-            ?
-              ( <div className={classes.image}>
-                  <Card className={classes.card}>
-                    <CardMedia component="img" image={info.url} alt={info.caption}/>
-                    <CardContent className={classes.caption}>
-                      <Typography variant="h6" className={classes.captionText}>{info.caption}</Typography>
-                    </CardContent>
-                  </Card>
-                </div>
-              )
-            :
-              ( <div>
-                  <Card className={classes.card}>
-                    <CardContent>
-                      <Typography className={classes.text}>
-                        {info.descr}
-                      </Typography>
-                
-                    </CardContent>
-                  </Card>
-                </div>
-              )
-            }
+        <div className={classes.overlay} />
+        <Container className={classes.container}>
+          <Grid container>
+            {info.map((info) => (
+              <Grid item xs={12} md={6} className={classes.gridElement}>
+                {info.type === "Photo"
+                  ?
+                  (<div className={classes.image}>
+                    <Card className={classes.card}>
+                      <CardMedia component="img" image={info.url} alt={info.caption} />
+                      <CardContent className={classes.caption}>
+                        <Typography variant="h6" className={classes.captionText}>{info.caption}</Typography>
+                      </CardContent>
+                    </Card>
+                  </div>
+                  )
+                  :
+                  (<div>
+                    <Card className={classes.card}>
+                      <CardContent>
+                        <Typography className={classes.text}>
+                          {info.descr}
+                        </Typography>
+
+                      </CardContent>
+                    </Card>
+                  </div>
+                  )
+                }
+              </Grid>
+            ))}
           </Grid>
-					))}
-					</Grid>
-				</Container>
-			</section>
+        </Container>
+      </section>
       <Footer />
     </React.Fragment>
 
