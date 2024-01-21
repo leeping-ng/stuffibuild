@@ -76,7 +76,7 @@ const styles = (theme) => ({
     marginBottom: theme.spacing(0),
   },
   text: {
-    textAlign: 'center',
+    textAlign: 'left',
     fontWeight: 400,
     [theme.breakpoints.down('xs')]: {
       fontSize: '1.0rem',
@@ -113,11 +113,11 @@ function aboutMePage(props) {
     {
       type: "Photo",
       url: "https://dm2304files.storage.live.com/y4mTeaHLutGxjmQGjGdm0Urwfd3EJTqW0pQ18PfER_fCbjLYqDDgsZWuGU2Qr3isCd-5npjYR3sOxaP8su83_YxC9sXrJHe4Ge4msHnw-S4534MeCxENW7AB4DIgckoXCLv4wECrmEzSNM-pXSfhZlXlACZIUk8Uib6myUgaCwBit4MB4JgdDCf-9uLC20s_uKa?width=2048&height=1365&cropmode=none",
-      caption: "A geek on vacation in Hobart, Tasmania"
+      caption: ""
     },
     {
       type: "Paragraph",
-      descr: "My name is Lee Ping Ng, and I'm currently based in London, UK. One of my hobbies is to design stuff using LEGO bricks. Since I was a kid, I would quickly grow bored of standard LEGO sets, and dismantle them to build my own creations. I was particularly fond of LEGO Technic, which included gears, motors and pneumatics. When I was 15, I decided that I wanted to be a mechanical engineer, and I believe that this largely stemmed from my passion in LEGO.",
+      descr: "My name is Lee Ping Ng. I'm originally from Singapore and am currently based near London, UK. Since I was a kid, I would quickly grow bored of standard LEGO sets, and dismantle them to build my own creations. I was particularly fond of LEGO Technic, which included gears, motors and pneumatics. When I was 15, I decided that I wanted to be a mechanical engineer, and I believe that this largely stemmed from my passion in LEGO.",
     },
     {
       type: "Photo",
@@ -153,7 +153,7 @@ function aboutMePage(props) {
     },
     {
       type: "Paragraph",
-      descr: "I moved to Vancouver, Canada for a job rotation from 2014 to 2017. My apartment had a small den, which I promptly converted into my version of a man cave – a LEGO room! All the LEGO Technic bricks were sorted by type and size in different plastic storage boxes, allowing me to create new designs more conveniently. Sadly, when I moved back to land-scarce Singapore, I had to keep all the boxes in an IKEA cabinet, and only take them out when needed."
+      descr: "I moved to Vancouver, Canada for a job rotation from 2014 to 2017. My apartment had a small den, which I promptly converted into my version of a man cave – a LEGO room! All the LEGO Technic bricks were sorted by type and size in different plastic storage boxes, allowing me to create new designs more conveniently."
     },
     {
       type: "Photo",
@@ -162,7 +162,7 @@ function aboutMePage(props) {
     },
     {
       type: "Paragraph",
-      descr: <div>In 2019, I did a career pivot from mechanical engineering to AI. Robotics, automation and AI were becoming increasingly important, and I was keen to be a part of this. When I started coding, I found that I loved it too! With this, the theme of my LEGO designs also evolved, to building <a href="/gallery/robotank">robots</a> using LEGO Mindstorms, and even embedding a camera and tiny computer with facial recognition software in a <a href="/gallery/facialrecognitionbox">LEGO box</a> to propose to my girlfriend!</div>
+      descr: <div>In 2019, I did a career pivot from mechanical engineering to AI. Robotics, automation and AI were becoming increasingly important, and I was keen to be a part of this. When I started coding, I found that I loved it too! With this, the theme of my LEGO designs also evolved, to building <a href="/gallery/robotank">robots</a> using LEGO Mindstorms, and even embedding a camera and tiny computer with facial recognition software in a <a href="/gallery/facialrecognitionbox">LEGO box</a> to propose to my girlfriend!<span role="img" aria-label="heart"> 💗</span></div>
     },
     {
       type: "Photo",
@@ -175,12 +175,12 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://dm2304files.storage.live.com/y4mxjRInx8bDtxwX93Wg107aemg-dfFQD974g3zd7K5o9RZRLjZUIqXHE9Q2ghoS96F_h1juzC-zSe8IM5Ipsws7hrakGbjIgBIjeGRjCZWK61U1WnmqlnpKUfbLsBuihJOOJEbSXFw2U0Y0morDRIn97rIsyL-_UyicM8nhjU_6JLGh6Vloz0Ol3cZvuam9sEy?width=5184&height=3456&cropmode=none",
-      caption: <div>My more recent photos such as this <a href="/gallery/tuk-tuk">Terrex</a> look better than those before</div>
+      url: "https://onedrive.live.com/embed?resid=88F9E5F4A517D194%2159111&authkey=%21ABkaAUJPZcur8-o&width=1512&height=1008",
+      caption: <div>Back to school, in computing lab with my classmates</div>
     },
     {
       type: "Paragraph",
-      descr: "As I looked through the photos of my LEGO creations in chronological order, I realized that things had changed over the years. The quality of photos had improved with better camera technology, and my designs became more refined as I gained experience. The one thing that hasn’t changed though, is my passion for design and engineering. Heck, I’m even using an isometric pattern (for 3D engineering drawings) as the wallpaper for this website!"
+      descr: <div>In 2022, my wife and I moved to London, and I enrolled in the MSc Computing programme at Imperial College London to strengthen my computing knowledge. It was nice but also challenging to be back to school after working for 10 years. After graduation in 2023, I started an AI engineering job in the UK, focusing on computer vision. Implications for this website - more software and AI projects! (Also, no LEGO builds for now as my LEGO is stored in Singapore <span role="img" aria-label="sad">😢</span>.)</div>
     },
     {
       type: "Photo",
@@ -189,7 +189,7 @@ function aboutMePage(props) {
     },
     {
       type: "Paragraph",
-      descr: "Although this website is about stuff I build, in some ways, it’s almost a blog about my personal life. Many of my designs were influenced by my travels, career, or life at that point in time. I guess this website serves as a reminder to the future me - to continue to be passionate in the things I do. Thank you for checking out my website, and I sincerely hope it inspires you to pursue your passions as well!"
+      descr: <div>Finally, although this website is about stuff I build, in some ways, it's almost a blog about my personal life. Many of my designs were influenced by my travels, career, or life at that point in time. I guess this website serves as a reminder to the future me - to continue to be passionate in the things I do. Thank you for checking out my website, and I sincerely hope it inspires you to pursue your passions as well!<span role="img" aria-label="smile"> 😃</span></div>
     }
   ];
 
@@ -197,7 +197,10 @@ function aboutMePage(props) {
     <React.Fragment>
       <AppBar />
       <Container className={classes.heading}>
-        <Typography variant="h6" className={classes.headingText}>About a geek and his passion for LEGO, design, and engineering.</Typography>
+        <Typography variant="h6" className={classes.headingText}>
+          This is the story of how my engineering journey began, and how my interests and career
+          trajectory influenced my builds over the years.
+        </Typography>
       </Container>
       <section className={classes.root} >
         <div className={classes.overlay} />
