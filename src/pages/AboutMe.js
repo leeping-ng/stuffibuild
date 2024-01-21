@@ -176,7 +176,7 @@ function aboutMePage(props) {
     {
       type: "Photo",
       url: "https://onedrive.live.com/embed?resid=88F9E5F4A517D194%2159111&authkey=%21ABkaAUJPZcur8-o&width=1512&height=1008",
-      caption: <div>Back to school, in computing lab with my classmates</div>
+      caption: <div>Back to school, in computing lab with classmates</div>
     },
     {
       type: "Paragraph",

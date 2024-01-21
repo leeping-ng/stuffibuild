@@ -110,7 +110,8 @@ function Overview(props) {
       <AppBar />
       <Container className={classes.heading}>
         <Typography variant="h6" className={classes.text}>
-          Many of my builds were inspired from encounters in my daily life. Here is the story of my journey since 2011.
+          Many of my builds were inspired by encounters in my daily life. This glossary gives an overview
+          and timeline of all builds since 2011.
         </Typography>
       </Container>
       <section className={classes.root} >

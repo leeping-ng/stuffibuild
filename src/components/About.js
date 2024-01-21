@@ -95,9 +95,7 @@ function About(props) {
                 I'm passionate about engineering and building stuff, both at work and as a hobby.
                 Most of my earlier designs on this website involve LEGO Technic and are of
                 vehicles, robots, and machines. In recent years, I started including my software
-                and AI projects as well.
-                <br></br>
-                Enjoy!
+                and AI projects as well. Enjoy!
                 <span role="img" aria-label="smile"> 😃</span>
               </Typography>
               <Button
