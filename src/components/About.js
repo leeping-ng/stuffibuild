@@ -92,11 +92,13 @@ function About(props) {
           <Grid item xs={12} md={8}>
             <div className={classes.item}>
               <Typography variant="h6" className={classes.text}>
-                I build stuff as a hobby and I also build stuff at work! <br /><br />
-                This page is pretty LEGO-centric, due to my passion in LEGO and early career as a
-                mechanical engineer designing vehicles, transmissions and robots. I've switched into
-                software and AI engineering roles since 2019, and I hope to update this website with
-                some interesting software projects that I've worked on. Stay tuned (:
+                I'm passionate about engineering and building stuff, both at work and as a hobby.
+                Most of my earlier designs on this website involve LEGO Technic and are of
+                vehicles, robots, and machines. In recent years, I started including my software
+                and AI projects as well.
+                <br></br>
+                Enjoy!
+                <span role="img" aria-label="smile"> 😃</span>
               </Typography>
               <Button
                 color="primary"
