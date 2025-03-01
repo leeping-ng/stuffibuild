@@ -85,9 +85,9 @@ export default function AppFooter() {
 
         </div>
         <div className={classes.copyright}>
-      <Typography className={classes.text}>
-          © 2024, Lee Ping Ng
-        </Typography>
+          <Typography className={classes.text}>
+            © 2025, Lee Ping Ng
+          </Typography>
 
         </div>
 
