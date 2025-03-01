@@ -112,7 +112,7 @@ function aboutMePage(props) {
   const info = [
     {
       type: "Photo",
-      url: "https://dm2304files.storage.live.com/y4mTeaHLutGxjmQGjGdm0Urwfd3EJTqW0pQ18PfER_fCbjLYqDDgsZWuGU2Qr3isCd-5npjYR3sOxaP8su83_YxC9sXrJHe4Ge4msHnw-S4534MeCxENW7AB4DIgckoXCLv4wECrmEzSNM-pXSfhZlXlACZIUk8Uib6myUgaCwBit4MB4JgdDCf-9uLC20s_uKa?width=2048&height=1365&cropmode=none",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIGyUAAAAAALuochTrl5vTj3s",
       caption: ""
     },
     {
@@ -121,7 +121,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://dm2304files.storage.live.com/y4mGuUoWURyKpY-zhodNP0zV_KQfIPADvnfTv6N-xmksIuXPiQlIeDM4H7v4WcT5mCB3k-h5j2lqzlB6dLif-hJ7FwemFyKUmM6s7pcK6qadSMMC38U2VZt9NzohBPD726tR22Mc8GyzYesTnjzzcZsFWL7O_NX2UrMBIVNqLUsa3dHAFNGb-B6iN1kt_-l-Jwl?width=2815&height=1877&cropmode=none",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIHCUAAAAAAPm0uUtdGZIT16M",
       caption: <div>My first LEGO design as an adult was a <a href="/gallery/sportscar">sports car</a></div>
     },
     {
@@ -130,7 +130,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://dm2304files.storage.live.com/y4m1WrYMs2us3bjoL3QGEQULKNeasjcv6M6U0z6vLF3pCeQ0U1Al0BVeYHVSr0coTovjysiy2-CnURgDVzI3iH0Zdek6EbCm2BCPd6xrbYsFis2uqwJOlABfTgDDzVQsP4D_iw1rz2C3SwYwQfAkcWTgjroi4POP7pMh3sqfFbyKBdhHuzuizxmbP4H2-XbKNXd?width=3999&height=2665&cropmode=none",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIMiUAAAAAACM8UdfNkgdqpH0",
       caption: "Working as a mechanical engineer"
     },
     {
@@ -139,7 +139,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://dm2304files.storage.live.com/y4mtWkm7Mst-cBHCG9llubs55oveO9rerEF-vQtpHDeGdel_f6BcBHBbLvWdwh9Qe4Xj8JSF5SU_HQjejlpjQGcLrgBZyRf36cJwULkbC0xMzIn2ayuOZpi0XlZ2x1Fcpv2J4prYglHUqNzqMMOjKhFTPDKSEakkoHBhzIsRmBSPsMd-GMcdWHO2iyQk__7aQ8K?width=1163&height=775&cropmode=none",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICILSUAAAAAAN4fL71VOIvyxX0",
       caption: <div>Prototype of a <a href="/gallery/trackedvehicletransmission">tracked vehicle transmission</a></div>
     },
     {
@@ -148,7 +148,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://dm2304files.storage.live.com/y4mYufleEeaklWmwQYlZ3TdEJ7bMMf_kflDqTX4pQVP2Ghs_2Rn_soZh-aFz6FqoMBvEyGDeOyXOcpETBA_Xs27WSYlZieA_yQuPmNPAIEASdLKPfaicD97ZGsXGKOV5vSMCjq0JkMREZnkJgqqnayTDO_vFzzdMcpxocg5wI7YY5j-gXHiZQ1LcPs0A6KOqSEP?width=4000&height=3000&cropmode=none",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIECUAAAAAAFNid79ADQ8tUAU",
       caption: "My LEGO room in Canada"
     },
     {
@@ -166,7 +166,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://dm2304files.storage.live.com/y4myigjWVD9FRBVc-w4oCSLyCH-mAgAcoRqUiUUzjJee5TXYEN_0NWWZq789kT2XRQV5baQR1EgV-wk7_cEwi7tPgqOIhzx_HW8OT9dhBjE33SmiQlWqqt4KoVIm2dD-pLHF-L2V1Cj1Ivb0ipxn6t9y8f_3yr9ptkkKZaXu1ieWR0-J5TGoD4TS8MH-Hfhft78?width=1028&height=680&cropmode=none",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICILiUAAAAAAEj_fYpJ-KAQRP0",
       caption: <div>Source code for this website on my <a href="https://github.com/leeping-ng?tab=repositories" target="_blank" rel="noreferrer">GitHub</a></div>
     },
     {
@@ -175,7 +175,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://onedrive.live.com/embed?resid=88F9E5F4A517D194%2159111&authkey=%21ABkaAUJPZcur8-o&width=1512&height=1008",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI5-YAAAAAABkaAUJPZcur8-o",
       caption: <div>Back to school, in computing lab with classmates</div>
     },
     {
@@ -184,7 +184,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://dm2304files.storage.live.com/y4m2SOCpoaklp_LqiJGQMqCR2T2pRp2emG9owjQFuZK-iuAPsyzFlPbGfDhbJ6XsJgqcmfoG5VR-KVlsZrleRVJPsbhitLSc7Cjk8uqz8xEjuc0Q8cXA1EmdxI4mdzNC0Gv1g23Zp7WDJb6--iRPiRxH9BOLTy_9FX7npy4UJ4gj-k4Z6i61Yn857dFPV4lfaCK?width=4000&height=3000&cropmode=none",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIMCUAAAAAABi8iFi5fdGx2z4",
       caption: <div>After seeing Tuk-Tuks in Bangkok, I built a <a href="/gallery/tuk-tuk">LEGO version</a></div>
     },
     {
