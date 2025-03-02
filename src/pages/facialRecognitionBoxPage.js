@@ -40,25 +40,25 @@ const info = [
 	{
 		name: "Display",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIBCUAAAAAAPL0QuKZNklVoxM",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIBCUAAAAAAPL0QuKZNklVoxM?width=1024",
 		descr: "I went for a red/gold/brown colour scheme for this build. I spent a lot of effort trying to make the box look attractive, and you may have noticed that this is one of the rare builds where I mostly use non-Technic LEGO bricks! On hindsight, I realised that sub-consciously, I may have used some styling cues from Iron Man's armour..."
 	},
 	{
 		name: "With ring",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIBiUAAAAAACyJeF9VFZVOGJ8",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIBiUAAAAAACyJeF9VFZVOGJ8?width=1024",
 		descr: "The ring can be seen right away when the box opens."
 	},
 	{
 		name: "Fits on my palm",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIBSUAAAAAAA1brkSeCr9Dg60",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIBSUAAAAAAA1brkSeCr9Dg60?width=1024",
 		descr: "The box is small enough to fit on the palm of my hand."
 	},
 	{
 		name: "Oriental look",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIAyUAAAAAABOYeI6nRGFY1_E",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIAyUAAAAAABOYeI6nRGFY1_E?width=1024",
 		descr: "I also gave the box a dash of oriental styling."
 	},
 	{
@@ -70,37 +70,37 @@ const info = [
 	{
 		name: "Camera Exposed",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIAiUAAAAAAO8-smQ6EebplI4",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIAiUAAAAAAO8-smQ6EebplI4?width=1024",
 		descr: "The Raspberry Pi camera used here is quite flat, which was exactly what I needed."
 	},
 	{
 		name: "Camera Hidden",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIDiUAAAAAAH2VkDn70T4U37s",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIDiUAAAAAAH2VkDn70T4U37s?width=1024",
 		descr: "The camera, carefully concealed behind LEGO tiles."
 	},
 	{
 		name: "Case removed",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIByUAAAAAAEY3RKLTSHHJG8U",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIByUAAAAAAEY3RKLTSHHJG8U?width=1024",
 		descr: "All the electronics are encased in the bottom half of the box."
 	},
 	{
 		name: "Electronics",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICICCUAAAAAAB5lR8162dECUr4",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICICCUAAAAAAB5lR8162dECUr4?width=1024",
 		descr: <div>I chose a Raspberry Pi 3A+ computer because it has a square cross-section, and designed the box around it. Other electronics include a LOBOT servomotor with a LEGO output spline, a camera, battery HAT on top of the Pi with rechargeable battery, and a USB adaptor. More details can be found on my <a href="https://github.com/leeping-ng/LEGO-Facial-Recognition-Box" target="_blank" rel="noreferrer">GitHub page</a>.</div>
 	},
 	{
 		name: "Calibration",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICICSUAAAAAAPPw7Ysl6oso6hA",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICICSUAAAAAAPPw7Ysl6oso6hA?width=1024",
 		descr: "The servomotor had to be calibrated, and I used this setup to figure out the rotation angle at different duty cycles."
 	},
 	{
 		name: "Marriage",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIDCUAAAAAACgSaESbz592n98",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIDCUAAAAAACgSaESbz592n98?width=1024",
 		descr: "She said YES! Fast forward to 2021, we are now married (: This photo with her engagement ring was taken at our solemnisation ceremony."
 	}
 ];

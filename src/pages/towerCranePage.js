@@ -34,55 +34,55 @@ const info = [
 	{
 		name: "Display",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIoCQAAAAAAN4nnB5YIGBLTQc",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIoCQAAAAAAN4nnB5YIGBLTQc?width=1024",
 		descr: "With real tower cranes in the background."
 	},
 	{
 		name: "Construction in the Background",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIoSQAAAAAAImsM8AruZaSfWk",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIoSQAAAAAAImsM8AruZaSfWk?width=1024",
 		descr: "Zoomed out - this photo was taken from the corridor outside my colleague's apartment. The crane was perched on top of a stool and storage box for this and the previous shot."
 	},
 	{
 		name: "Gearbox",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIpCQAAAAAABYNAhAvuDGXzeU",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIpCQAAAAAABYNAhAvuDGXzeU?width=1024",
 		descr: "The red selector is responsible for selecting which part of the crane is moved by the motor - the hook, trolley or jib. It took a lot of trial and error to design an arrangement where the gears and shafts fit within the 5x5 stud mast cross-section."
 	},
 	{
 		name: "Hook Displacement",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICInCQAAAAAAF4xWLDUAncvP5k",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICInCQAAAAAAF4xWLDUAncvP5k?width=1024",
 		descr: "The hook is attached to a string, and can be moved up and down."
 	},
 	{
 		name: "Trolley Displacement",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIoiQAAAAAAE6dg5jCfZN6AUc",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIoiQAAAAAAE6dg5jCfZN6AUc?width=1024",
 		descr: "The black trolley can be moved along the jib."
 	},
 	{
 		name: "Trolley Mechanism",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIoyQAAAAAAJre_0PkUCt3NIA",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIoyQAAAAAAJre_0PkUCt3NIA?width=1024",
 		descr: "Movement of the trolley is governed by a series of gears from the gearbox, and a rack and pinion gearset on the jib."
 	},
 	{
 		name: "Jib Rotation",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICImiQAAAAAAPyGSssqlq2jcUI",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICImiQAAAAAAPyGSssqlq2jcUI?width=1024",
 		descr: "The jib can also be rotated."
 	},
 	{
 		name: "Full Length Shot",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICInSQAAAAAAOaVFONYlLkNgPw",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICInSQAAAAAAOaVFONYlLkNgPw?width=1024",
 		descr: "The full length of the tower crane. The heavy battery pack is placed at the bottom for stability, and the driving motor at the bottom of the mast."
 	},
 	{
 		name: "Disassembled",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIpSQAAAAAAEov1P_9uoUQIz8",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIpSQAAAAAAEov1P_9uoUQIz8?width=1024",
 		descr: "The tower crane can be easily disassembled (this was how I managed to bring it to work)."
 	},
 
