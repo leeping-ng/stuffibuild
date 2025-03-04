@@ -4,19 +4,19 @@ import TemplatePage from './templatePage';
 import Icon from '@material-ui/icons/Pets';
 
 function walkingCrabPage() {
-	
+
 	return (
 		<React.Fragment>
-			<TemplatePage 
-				pageName={pageName} 
-				creationDate={creationDate} 
-				creationDescr={creationDescr} 
-				creationChips={creationChips} 
-				info={info} 
-				icon={<Icon fontSize="large"/>} />
+			<TemplatePage
+				pageName={pageName}
+				creationDate={creationDate}
+				creationDescr={creationDescr}
+				creationChips={creationChips}
+				info={info}
+				icon={<Icon fontSize="large" />} />
 		</React.Fragment>
 	);
-	}
+}
 
 export default walkingCrabPage;
 
@@ -42,49 +42,49 @@ const info = [
 	{
 		name: "Front",
 		type: "Photo",
-		url: "https://dm2304files.storage.live.com/y4m8VWGQ95AtuTJ-dY67dXEX2ZD48jQj_JoBLAXqasjol14YL_iiVUsTZYSMfdu6yPN-42AnlRsFcV2XePgd_s-ejPMdKAIlYZUHFViBH3FHEH2GdhkSvWdsHCsy6Dd2DmldqzE4xB99fO6rfQllOf73mwmXcUaso5gwJTlKclbgpnXYyawFLZdpsp3evK-CC6v?width=4000&height=3000&cropmode=none",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIQCQAAAAAAKZGk2WOxGJm-zs?width=660",
 		descr: "The crab is rather long, and the outermost legs were heavily cantilevered, requiring stiffeners to be added at strategic places."
 	},
 	{
 		name: "Face",
 		type: "Photo",
-		url: "https://dm2304files.storage.live.com/y4m7kTcj1Ppa0_oDSC82VvYw1xDSD5DTQikk9WOPb-ALTzeo0WWJ1rs2RUg-f7qsGtXy0gjvWEORscV6xJzeCILTXx4LxiZqFI3ScgsXt7_qYDCx6wmPv8aX5oNRj7g5PUsMi9pEb59kYxiSs9StCVRoZQSh-3DvcvuPBKjoYi_U_L8JqssjUbM5I4bGTB6jH13?width=4000&height=3000&cropmode=none",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIQSQAAAAAAKNxSyyoNlbV2zY?width=660",
 		descr: "This was the first time I attempted to design something with a face!"
 	},
 	{
 		name: "LEGO Linkage",
 		type: "Photo",
-		url: "https://dm2304files.storage.live.com/y4mCts_o4tdYWGI1nZWZ3s9XZj9zILYptVTKQDtfGvJ4MYhkF9_4bofPab5bU4jKap02y7w-upRYcMO4rxpWlpWH0Vyezr0KfHLtCr75ARoE7QkNANe90rG2AX23zndxlDjPoe-k8DBJCZGszdgnrYOlkAnLrMUbTZhnZrfGrWLV9T3ggBqlqLGYOH6jyOv7SX8?width=4000&height=3000&cropmode=none",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIQiQAAAAAAOSLcZRuIS_E0QE?width=660",
 		descr: "Side view of the legs' linkage mechanism. The nice thing about this mechanism is that it has 1 DOF (Degree of Freedom), and rotation from a single source (e.g. motor) is sufficient to drive the entire leg."
 	},
 	{
 		name: "Actual Linkage",
 		type: "Photo",
-		url: "https://dm2304files.storage.live.com/y4m4cRZTSKEdqpWL9EJyO_9Mn5_1ZCClVnkIVPzhFZrK1qHhdn5oUwbeELwKTND51qnE45Da5yhvGu3wyzaxOKs_9cUaEupgWyejWglnAuQ9LZm85CuHI2ulxvbf_kF26KIy9XNpy5ud0u0ORNVO_Wd_xIJjfjDzMji04M6mNvgFtLzcvEVZQE5RHAb_ckkFcDD?width=4000&height=3000&cropmode=none",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIRSQAAAAAANELHIRZRP0lylk?width=660",
 		descr: "This picture of the linkage mechanism was taken at the Strandbeest exhibition. I tried to follow the ratios of lengths as closely as I could, within LEGO limitations."
 	},
 	{
 		name: "Driving Mechanism",
 		type: "Photo",
-		url: "https://dm2304files.storage.live.com/y4m3CiO_nTlSvzPpkWja1Ev0STFXbjRd7E2DRpMZ6PKMEPIsGCAO1QMczJ8RDN3nc9-BWGpDFLKLRXJyPMp-Sy3DVKEuHGjFQIxxNchoyYb6noLjZ-PVCHeKohj3lAeBvHuzw___kpeA-ERnQN5tu2VPYDtAja7kYzYQWnA5jdzoHFToKd3X0wcxjefV_jStqmj?width=4000&height=3000&cropmode=none",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIQyQAAAAAAGPDEW3nxSABobg?width=660",
 		descr: "I used one motor for each set of 6 legs on each side. This allowed me to both move and steer the crab by changing the motor rotation directions."
 	},
 	{
 		name: "Battery Box",
 		type: "Photo",
-		url: "https://dm2304files.storage.live.com/y4mtn1Er8df1wZIQ2hzomNfzsjui3ulXlnTpVmXWeJURIOwJEaveNVquTxwDEeF78gROBr5G1rqoeIl31JP1vSRrsHukjHUon6AwKYRWoSS5rAby28hpfdp2k6YX2UVd8WM_oMn5du2D2BR798NOPk9BfuoFUNvshHpD-V-2ETphsQTSvSSVjN3JEzj-7y7FB9v?width=4000&height=3000&cropmode=none",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIRyQAAAAAALFu5P-ccbS6VI0?width=660",
 		descr: "You may have noticed the crab pitching back and forth as it moves in the video - this was a design flaw because I placed the heavy battery box too low, instead of at the centre of rotation of the legs."
 	},
 	{
 		name: "Rear",
 		type: "Photo",
-		url: "https://dm2304files.storage.live.com/y4mkJUIAc2em_-fCrTwoG4nNbLIiagp93sE7ZuBcq-v0svIIfVSbgjkynEkco0yzzLhUjrW_Q3IFYNJhGjaMXJM-u9QodcNuWIZAYfeXvbnxechaWcnBgfjo_XDWo3LjZSRWWVyuc8tjRL4gDN_psvC5oEP96X-xbJVVw9GhyB85l9Z6j09UgT_iWcOcVK8Hp9o?width=4000&height=3000&cropmode=none",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIRiQAAAAAALDpCDiIiQRWZ8g?width=660",
 		descr: "Rear view of the crab."
 	},
 	{
 		name: "Final",
 		type: "Photo",
-		url: "https://dm2304files.storage.live.com/y4mIyobhWlL2T3qfUyu4ZTIKSySNz7VDLTGHJ07Rqg81bQ6GB0l3wf-hDFgvjdtMYhReV1UW3Zwq65TkGNeUSBOyG-nnl31mI6xhniMXHpcvi_eMZFV9IjOvv7BN6-NPN4vh5NE-vFjEZqPtIyRA3HxJa_CnHiztVTerwrDSahUKYJHjU01x8ZtipLbQHegMa8j?width=4000&height=3000&cropmode=none",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIRCQAAAAAAMhF62f1m0D24Lo?width=660",
 		descr: "My buddies and I at the exhibition with a Strandbeest behind us."
 	}
 
