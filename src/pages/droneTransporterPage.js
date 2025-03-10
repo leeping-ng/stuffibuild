@@ -34,91 +34,91 @@ const info = [
 	{
 		name: "Display",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIqSQAAAAAAMY5cvIfsQa3_Tw?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIqSQAAAAAAMY5cvIfsQa3_Tw?width=660",
 		descr: "The drone is ready to be launched!"
 	},
 	{
 		name: "Front View",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIqCQAAAAAAGt4YBXLU4nGQuY?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIqCQAAAAAAGt4YBXLU4nGQuY?width=660",
 		descr: "I fitted a huge silver Mercedes-Benz three-pointed star in the front of the truck. I used a rather unconventional approach - this part is actually a wheel rim with tire removed."
 	},
 	{
 		name: "Rims",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICItSQAAAAAAFrXeXsSLaNYNbc?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICItSQAAAAAAFrXeXsSLaNYNbc?width=660",
 		descr: "The same rim was used for all 4 wheels."
 	},
 	{
 		name: "Headlights",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIqiQAAAAAAJ4NGTcRqSYqXCY?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIqiQAAAAAAJ4NGTcRqSYqXCY?width=660",
 		descr: "Head lights."
 	},
 	{
 		name: "Tail Light",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIrCQAAAAAAKWmTbAJ8wblPbk?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIrCQAAAAAAKWmTbAJ8wblPbk?width=660",
 		descr: "Tail lights."
 	},
 	{
 		name: "Side View",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIqyQAAAAAAHryS-QNxz1vpGg?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIqyQAAAAAAHryS-QNxz1vpGg?width=660",
 		descr: "Side view, with the drone stowed."
 	},
 	{
 		name: "Top View",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIrSQAAAAAAPfwWin2ClNfsZE?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIrSQAAAAAAPfwWin2ClNfsZE?width=660",
 		descr: "Drone ready for launch."
 	},
 	{
 		name: "Hidden Controls",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIriQAAAAAALzzQCpcQoL8Abc?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIriQAAAAAALzzQCpcQoL8Abc?width=660",
 		descr: "The on/off switch for the battery box and the 4 levers for the gearbox are all hidden from plain sight by default."
 	},
 	{
 		name: "Drone Deployment",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIryQAAAAAANALgH95A9XQ7tg?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIryQAAAAAANALgH95A9XQ7tg?width=660",
 		descr: "It takes 4 steps to un-stow the drone and prepare it for launch. 1) Deploy outriggers; 2) Raise the launcher; 3) Open drone wings; 4) Rotate launcher."
 	},
 	{
 		name: "Drone Take-off",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIsCQAAAAAANRK5cd_XlJ21jQ?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIsCQAAAAAANRK5cd_XlJ21jQ?width=660",
 		descr: "The drone can be detached from the truck when launched."
 	},
 	{
 		name: "Drone Mechanism",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIsiQAAAAAACj8V8sDdmoAgko?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIsiQAAAAAACj8V8sDdmoAgko?width=660",
 		descr: "The stowed drone extends its wings for deployment. I used 4-bar linkage mechanisms on both wings."
 	},
 	{
 		name: "Launcher Mechanism",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIsSQAAAAAAMP9YqpU2uq7g6M?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIsSQAAAAAAMP9YqpU2uq7g6M?width=660",
 		descr: "Mechanism of the launcher that is responsible for raising the drone, rotating it, and extending its wings."
 	},
 	{
 		name: "Gearbox",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICItCQAAAAAACn_fMwLU26X90o?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICItCQAAAAAACn_fMwLU26X90o?width=660",
 		descr: "The gearbox that uses the output of a single motor to perform 4 different tasks."
 	},
 	{
 		name: "Driver",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICItiQAAAAAAPK-iWsGg5S1DNA?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICItiQAAAAAAPK-iWsGg5S1DNA?width=660",
 		descr: "I assume that a truck in 2045 would be autonomous, and the driver can just chill in his seat except for emergency situations."
 	},
 	{
 		name: "Final",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIuCQAAAAAAN50ez87MHuWYtM?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIuCQAAAAAAN50ez87MHuWYtM?width=660",
 		descr: "Final view of the truck, with the drone and launcher platform removed."
 	},
 

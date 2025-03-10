@@ -112,7 +112,7 @@ function aboutMePage(props) {
   const info = [
     {
       type: "Photo",
-      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIGyUAAAAAALuochTrl5vTj3s?width=1024",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIGyUAAAAAALuochTrl5vTj3s?width=660",
       caption: ""
     },
     {
@@ -121,7 +121,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIHCUAAAAAAPm0uUtdGZIT16M?width=1024",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIHCUAAAAAAPm0uUtdGZIT16M?width=660",
       caption: <div>My first LEGO design as an adult was a <a href="/gallery/sportscar">sports car</a></div>
     },
     {
@@ -130,7 +130,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIMiUAAAAAACM8UdfNkgdqpH0?width=1024",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIMiUAAAAAACM8UdfNkgdqpH0?width=660",
       caption: "Working as a mechanical engineer"
     },
     {
@@ -139,7 +139,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICILSUAAAAAAN4fL71VOIvyxX0?width=1024",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICILSUAAAAAAN4fL71VOIvyxX0?width=660",
       caption: <div>Prototype of a <a href="/gallery/trackedvehicletransmission">tracked vehicle transmission</a></div>
     },
     {
@@ -148,7 +148,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIECUAAAAAAFNid79ADQ8tUAU?width=1024",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIECUAAAAAAFNid79ADQ8tUAU?width=660",
       caption: "My LEGO room in Canada"
     },
     {
@@ -166,7 +166,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICILiUAAAAAAEj_fYpJ-KAQRP0?width=1024",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICILiUAAAAAAEj_fYpJ-KAQRP0?width=660",
       caption: <div>Source code for this website on my <a href="https://github.com/leeping-ng?tab=repositories" target="_blank" rel="noreferrer">GitHub</a></div>
     },
     {
@@ -175,7 +175,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI5-YAAAAAABkaAUJPZcur8-o?width=1024",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI5-YAAAAAABkaAUJPZcur8-o?width=660",
       caption: <div>Back to school, in computing lab with classmates</div>
     },
     {
@@ -184,7 +184,7 @@ function aboutMePage(props) {
     },
     {
       type: "Photo",
-      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIMCUAAAAAABi8iFi5fdGx2z4?width=1024",
+      url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIMCUAAAAAABi8iFi5fdGx2z4?width=660",
       caption: <div>After seeing Tuk-Tuks in Bangkok, I built a <a href="/gallery/tuk-tuk">LEGO version</a></div>
     },
     {

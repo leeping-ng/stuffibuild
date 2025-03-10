@@ -34,55 +34,55 @@ const info = [
 	{
 		name: "Display",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI2SQAAAAAAO5dX9lys-c1pWw?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI2SQAAAAAAO5dX9lys-c1pWw?width=660",
 		descr: "Porsches have a very distinct look - I tried to capture this with LEGO bricks as much as possible."
 	},
 	{
 		name: "Front",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI2iQAAAAAAGzo75TLwuflofs?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI2iQAAAAAAGzo75TLwuflofs?width=660",
 		descr: "Front view."
 	},
 	{
 		name: "Rear",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI0iQAAAAAAPlWQN5GZpMxeW8?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI0iQAAAAAAPlWQN5GZpMxeW8?width=660",
 		descr: "Most Porsches are rear-engined, and the grill in front of the tail lights is for cooling the engine."
 	},
 	{
 		name: "Foldable Top",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIziQAAAAAANCkPcywKP6YEVc?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIziQAAAAAANCkPcywKP6YEVc?width=660",
 		descr: "This Porsche is a 'cabriolet', which can be driven with or without a roof. I created a mechanism that allows the roof to be retracted, which was quite challenging due to the small scale of the car."
 	},
 	{
 		name: "Top View",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI1CQAAAAAAA5MBK808r_4B84?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI1CQAAAAAAA5MBK808r_4B84?width=660",
 		descr: "Top view of the Porsche, with roof stowed."
 	},
 	{
 		name: "Top View 2",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI0SQAAAAAANZf0nvTXauH91Q?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI0SQAAAAAANZf0nvTXauH91Q?width=660",
 		descr: "Top view of the Porsche, with roof up."
 	},
 	{
 		name: "Electronics",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI0yQAAAAAAFVpDgwikBZonc0?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI0yQAAAAAAFVpDgwikBZonc0?width=660",
 		descr: <div>I placed the motors and IR receiver as low as possible, creating more space above, which was especially important as it is an open-top car. The layout of electronics here was a marked improvement over my previous <a href="/gallery/hondacivic" target="_blank" rel="noreferrer">Honda Civic</a> design.</div>
 	},
 	{
 		name: "Blueprints",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI1SQAAAAAANQt8qVuUPvhhP0?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI1SQAAAAAANQt8qVuUPvhhP0?width=660",
 		descr: "My source of inspiration as I designed the LEGO version."
 	},
 	{
 		name: "Top 20",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI1iQAAAAAAM2pbH_0_pVoLUg?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICI1iQAAAAAAM2pbH_0_pVoLUg?width=660",
 		descr: "Very happy with this outcome!"
 	},
 ];

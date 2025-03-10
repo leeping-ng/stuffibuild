@@ -29,85 +29,85 @@ const info = [
 	{
 		name: "LEGO LSV II",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIfSQAAAAAAOdJad5qUOiua0c?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIfSQAAAAAAOdJad5qUOiua0c?width=660",
 		descr: "I enjoyed weaving green and black body panels into this build, attempting to replicate the original look as much as possible."
 	},
 	{
 		name: "Actual LSV II",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIeyQAAAAAABN_ZPB0uRBnzhI?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIeyQAAAAAABN_ZPB0uRBnzhI?width=660",
 		descr: <div>An actual Light Strike Vehicle II (photo credits <a href="https://defense-studies.blogspot.com/2013/06/the-saf-newcomer-will-make-its-public.html?m=1" target="_blank" rel="noreferrer">Defense Studies</a>). I think it looks amazing!</div>
 	},
 	{
 		name: "Actual LSV I versus LSV II",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIiCQAAAAAANKaVoGgjyD4Vcw?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIiCQAAAAAANKaVoGgjyD4Vcw?width=660",
 		descr: <div>The original Light Strike Vehicle Mk I on the left, with the new Mk II on the right (photo credits <a href="https://www.flickr.com/photos/xtemujin/9224140004" target="_blank" rel="noreferrer">Flickr</a>).</div>
 	},
 	{
 		name: "LEGO LSV I versus LSV II",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIiyQAAAAAAKs9gplUYf53GSQ?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIiyQAAAAAAKs9gplUYf53GSQ?width=660",
 		descr: <div>A comparison of my Mk I (left) and Mk II (right) designs. Check out more details of my LEGO Mk I <a href="/gallery/lightstrikevehicle1">here</a>.</div>
 	},
 	{
 		name: "Front",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgSQAAAAAAHRMdu3_b4cU9mo?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgSQAAAAAAHRMdu3_b4cU9mo?width=660",
 		descr: "Close-up of the front end."
 	},
 	{
 		name: "Close-Up of Tail Light",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgCQAAAAAAHNV92rKOQU8BJU?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgCQAAAAAAHNV92rKOQU8BJU?width=660",
 		descr: "Close-up of a tail light."
 	},
 	{
 		name: "Rear",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIfCQAAAAAAEl2SYApVRe2bSg?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIfCQAAAAAAEl2SYApVRe2bSg?width=660",
 		descr: "The spare tire is mounted between the tail lights."
 	},
 	{
 		name: "Seats 6",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIfyQAAAAAAGMmO8fvRd9Ki6Q?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIfyQAAAAAAGMmO8fvRd9Ki6Q?width=660",
 		descr: "It can seat 6, and front seats have a layout that's similar to a McLaren F1 - with a central steering wheel and driver seat positioned more forward."
 	},
 	{
 		name: "Bottom",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgyQAAAAAAK1AhUwwS2ZY8ik?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgyQAAAAAAK1AhUwwS2ZY8ik?width=660",
 		descr: "The grey Power Functions battery box is mounted right in the middle of the chassis, and the servomotor used for steering is right in front of the box."
 	},
 	{
 		name: "Chassis",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIhCQAAAAAAD8ekvSorHmdF7A?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIhCQAAAAAAD8ekvSorHmdF7A?width=660",
 		descr: "The chassis on its own."
 	},
 	{
 		name: "Front Suspension",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIhSQAAAAAAPGImaZjOdJIAPI?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIhSQAAAAAAPGImaZjOdJIAPI?width=660",
 		descr: "Double wishbones for front suspension."
 	},
 	{
 		name: "Rear Suspension",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIhiQAAAAAAHERU8hKax2ulCc?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIhiQAAAAAAHERU8hKax2ulCc?width=660",
 		descr: "Trailing arm suspension for rear wheels. A XL-motor is used to drive the rear wheels."
 	},
 	{
 		name: "Remote",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgiQAAAAAANSSshizjBlyPJk?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgiQAAAAAANSSshizjBlyPJk?width=660",
 		descr: "With the remote control - the stick on the left is for drive, while the large gear on the right is for steering."
 	},
 	{
 		name: "Driver",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIhyQAAAAAAKTtv-a03xmrDj0?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIhyQAAAAAAKTtv-a03xmrDj0?width=660",
 		descr: "One last look."
 	},
 ];

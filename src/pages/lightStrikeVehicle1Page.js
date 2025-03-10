@@ -29,73 +29,73 @@ const info = [
 	{
 		name: "Front",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIZSQAAAAAABpqo1oiV_bmrGQ?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIZSQAAAAAABpqo1oiV_bmrGQ?width=660",
 		descr: "Front of the vehicle. A grey machine gun is mounted on the bonnet, while the cannons on the roof are anti-tank missile launchers."
 	},
 	{
 		name: "Actual LSV 1",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIZCQAAAAAAL7dF4fPg9JASxU?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIZCQAAAAAAL7dF4fPg9JASxU?width=660",
 		descr: <div>An actual Light Strike Vehicle I, also known as the Spider LSV (photo credits <a href="https://www.army-technology.com/projects/spider_light_strike/" target="_blank" rel="noreferrer">Army Technology</a>).</div>
 	},
 	{
 		name: "Rear",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIZiQAAAAAAGJKCwzkiSvp87o?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIZiQAAAAAAGJKCwzkiSvp87o?width=660",
 		descr: "Rear view, with spare tire."
 	},
 	{
 		name: "Top",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIZyQAAAAAAHJAli5-hp_auIY?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIZyQAAAAAAHJAli5-hp_auIY?width=660",
 		descr: "Top view."
 	},
 	{
 		name: "Suspension Movement",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIaCQAAAAAAOjAs8jOVzwxXV8?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIaCQAAAAAAOjAs8jOVzwxXV8?width=660",
 		descr: "Suspension travel is quite significant for this build, to tackle rough terrain."
 	},
 	{
 		name: "Suspension Details",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIaSQAAAAAAEAurdi62VQOSQg?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIaSQAAAAAAEAurdi62VQOSQg?width=660",
 		descr: "I used double wishbone suspension for the front wheels, and trailing arm suspension for the rear wheels. To my knowledge, this is a faithful representation of the actual vehicle."
 	},
 	{
 		name: "Gearbox",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIbSQAAAAAAFY5zFpfgmEqtkk?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIbSQAAAAAAFY5zFpfgmEqtkk?width=660",
 		descr: "I also squeezed in a 2 speed gearbox for high-low range. One limitation, however, is that the gear change has to be manually actuated by the red lever instead of via remote."
 	},
 	{
 		name: "Bottom",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIbyQAAAAAAIVfDMBGGh4lLlc?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIbyQAAAAAAIVfDMBGGh4lLlc?width=660",
 		descr: "Bottom of the vehicle - the grey servomotor used for steering is mounted longitudinally, while the motor for driving the rear axle is mounted transversely."
 	},
 	{
 		name: "Chassis",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIbiQAAAAAAN-Ka0Ep3sVfgpg?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIbiQAAAAAAN-Ka0Ep3sVfgpg?width=660",
 		descr: "Vehicle chassis - the battery pack is mounted upright behind the blue seats, while the IR receiver is mounted in front beside the steering wheel."
 	},
 	{
 		name: "Space Frame",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIbCQAAAAAAJpsdHO8SLOLk-Q?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIbCQAAAAAAJpsdHO8SLOLk-Q?width=660",
 		descr: "One of the distinguishing features of this vehicle is the tubular space frame, which provides rigidity while keeping the weight low."
 	},
 	{
 		name: "Remote",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIayQAAAAAAMGafFQcFjSM_CU?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIayQAAAAAAMGafFQcFjSM_CU?width=660",
 		descr: "With the remote control - the stick on the left is for drive, while the large gear on the right is for steering."
 	},
 	{
 		name: "Light Strike Vehicle II",
 		type: "Photo",
-		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgiQAAAAAANSSshizjBlyPJk?width=1024",
+		url: "https://1drv.ms/i/c/88f9e5f4a517d194/UQSU0Rel9OX5IICIgiQAAAAAANSSshizjBlyPJk?width=660",
 		descr: <div>UPDATE: 3 months later, I went on to design an improved Mk II. Apart from the obvious changes in styling, I completely re-designed the chassis as well. You can read more about it <a href="/gallery/lightstrikevehicle2">here</a>!</div>
 	}
 
