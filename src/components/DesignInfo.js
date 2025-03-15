@@ -55,7 +55,7 @@ const designInfo = [
     page: peekingDuckPage,
     name: 'PeekingDuck',
     image: peekingDuckImg,
-    date: 'Aug 2021',
+    date: 'Jun 2021',
     descr: 'Led the development of an open-source computer vision software while working at AI Singapore.',
     icon: <CameraAltIcon />
   },
